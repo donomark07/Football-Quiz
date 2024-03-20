@@ -17,6 +17,30 @@ namespace Football_Quiz
             InitializeComponent();
         }
 
-        
+        private void pb_squadre_Click(object sender, EventArgs e)
+        {
+            panel_squadre.Visible = true;
+        }
+
+        private void pb_magliette_Click(object sender, EventArgs e)
+        {
+            panel_magliette.Visible = true;
+        }
+
+        private void pb_exit_Click(object sender, EventArgs e)
+        {
+
+
+            DialogResult dialogResult = MessageBox.Show("Sei sicuro di voler uscire?", "EXIT", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+               
+            }
+
+        }
     }
 }

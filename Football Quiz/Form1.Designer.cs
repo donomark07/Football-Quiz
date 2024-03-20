@@ -32,6 +32,8 @@
             this.pb_magliette = new System.Windows.Forms.PictureBox();
             this.pb_squadre = new System.Windows.Forms.PictureBox();
             this.pb_sfondo = new System.Windows.Forms.PictureBox();
+            this.panel_squadre = new System.Windows.Forms.Panel();
+            this.panel_magliette = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pb_exit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_magliette)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_squadre)).BeginInit();
@@ -46,6 +48,7 @@
             this.pb_exit.Size = new System.Drawing.Size(185, 89);
             this.pb_exit.TabIndex = 3;
             this.pb_exit.TabStop = false;
+            this.pb_exit.Click += new System.EventHandler(this.pb_exit_Click);
             // 
             // pb_magliette
             // 
@@ -55,6 +58,7 @@
             this.pb_magliette.Size = new System.Drawing.Size(180, 98);
             this.pb_magliette.TabIndex = 2;
             this.pb_magliette.TabStop = false;
+            this.pb_magliette.Click += new System.EventHandler(this.pb_magliette_Click);
             // 
             // pb_squadre
             // 
@@ -64,6 +68,7 @@
             this.pb_squadre.Size = new System.Drawing.Size(194, 98);
             this.pb_squadre.TabIndex = 1;
             this.pb_squadre.TabStop = false;
+            this.pb_squadre.Click += new System.EventHandler(this.pb_squadre_Click);
             // 
             // pb_sfondo
             // 
@@ -74,11 +79,30 @@
             this.pb_sfondo.TabIndex = 0;
             this.pb_sfondo.TabStop = false;
             // 
+            // panel_squadre
+            // 
+            this.panel_squadre.Location = new System.Drawing.Point(33, 26);
+            this.panel_squadre.Name = "panel_squadre";
+            this.panel_squadre.Size = new System.Drawing.Size(650, 264);
+            this.panel_squadre.TabIndex = 4;
+            this.panel_squadre.Visible = false;
+            // 
+            // panel_magliette
+            // 
+            this.panel_magliette.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.panel_magliette.Location = new System.Drawing.Point(265, 349);
+            this.panel_magliette.Name = "panel_magliette";
+            this.panel_magliette.Size = new System.Drawing.Size(650, 264);
+            this.panel_magliette.TabIndex = 5;
+            this.panel_magliette.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1020, 702);
+            this.Controls.Add(this.panel_magliette);
+            this.Controls.Add(this.panel_squadre);
             this.Controls.Add(this.pb_exit);
             this.Controls.Add(this.pb_magliette);
             this.Controls.Add(this.pb_squadre);
@@ -99,6 +123,8 @@
         private System.Windows.Forms.PictureBox pb_squadre;
         private System.Windows.Forms.PictureBox pb_magliette;
         private System.Windows.Forms.PictureBox pb_exit;
+        private System.Windows.Forms.Panel panel_squadre;
+        private System.Windows.Forms.Panel panel_magliette;
     }
 }
 
