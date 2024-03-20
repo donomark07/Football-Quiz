@@ -28,35 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pb_magliette = new System.Windows.Forms.PictureBox();
+            this.pb_squadre = new System.Windows.Forms.PictureBox();
+            this.pb_exit = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_magliette)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_squadre)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_exit)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pictureBox2
             // 
-            this.pictureBox1.Image = global::Football_Quiz.Properties.Resources.sfondo;
-            this.pictureBox1.Location = new System.Drawing.Point(-2, 1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(900, 602);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox2.Image = global::Football_Quiz.Properties.Resources.sfondo_exit;
+            this.pictureBox2.Location = new System.Drawing.Point(823, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(185, 89);
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pb_magliette
+            // 
+            this.pb_magliette.Image = global::Football_Quiz.Properties.Resources.play_2;
+            this.pb_magliette.Location = new System.Drawing.Point(757, 569);
+            this.pb_magliette.Name = "pb_magliette";
+            this.pb_magliette.Size = new System.Drawing.Size(180, 98);
+            this.pb_magliette.TabIndex = 2;
+            this.pb_magliette.TabStop = false;
+            // 
+            // pb_squadre
+            // 
+            this.pb_squadre.Image = global::Football_Quiz.Properties.Resources.play_1;
+            this.pb_squadre.Location = new System.Drawing.Point(157, 559);
+            this.pb_squadre.Name = "pb_squadre";
+            this.pb_squadre.Size = new System.Drawing.Size(194, 98);
+            this.pb_squadre.TabIndex = 1;
+            this.pb_squadre.TabStop = false;
+            // 
+            // pb_exit
+            // 
+            this.pb_exit.Image = global::Football_Quiz.Properties.Resources.sfondo_completo;
+            this.pb_exit.Location = new System.Drawing.Point(-2, 1);
+            this.pb_exit.Name = "pb_exit";
+            this.pb_exit.Size = new System.Drawing.Size(1022, 703);
+            this.pb_exit.TabIndex = 0;
+            this.pb_exit.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(897, 601);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(1020, 702);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pb_magliette);
+            this.Controls.Add(this.pb_squadre);
+            this.Controls.Add(this.pb_exit);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_magliette)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_squadre)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_exit)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pb_exit;
+        private System.Windows.Forms.PictureBox pb_squadre;
+        private System.Windows.Forms.PictureBox pb_magliette;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
