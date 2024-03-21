@@ -101,5 +101,8 @@
   <ItemGroup>
     <None Include="Resources\sfondo exit.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %2814%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

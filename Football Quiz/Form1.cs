@@ -34,13 +34,12 @@ namespace Football_Quiz
             DialogResult dialogResult = MessageBox.Show("Sei sicuro di voler uscire?", "EXIT", MessageBoxButtons.YesNo);
             if (dialogResult == DialogResult.Yes)
             {
-                
+                this.Close();
             }
-            else if (dialogResult == DialogResult.No)
-            {
-               
-            }
+            
 
         }
+
+       
     }
 }

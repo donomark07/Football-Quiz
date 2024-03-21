@@ -83,6 +83,16 @@ namespace Football_Quiz.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Screenshot__14_ {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot (14)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sfondo {
             get {
                 object obj = ResourceManager.GetObject("sfondo", resourceCulture);

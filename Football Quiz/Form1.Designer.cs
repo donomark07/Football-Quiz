@@ -28,17 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.panel_squadre = new System.Windows.Forms.Panel();
+            this.panel_magliette = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pb_exit = new System.Windows.Forms.PictureBox();
             this.pb_magliette = new System.Windows.Forms.PictureBox();
             this.pb_squadre = new System.Windows.Forms.PictureBox();
             this.pb_sfondo = new System.Windows.Forms.PictureBox();
-            this.panel_squadre = new System.Windows.Forms.Panel();
-            this.panel_magliette = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel_squadre.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_exit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_magliette)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_squadre)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_sfondo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
+            // 
+            // panel_squadre
+            // 
+            this.panel_squadre.Controls.Add(this.pictureBox2);
+            this.panel_squadre.Controls.Add(this.comboBox1);
+            this.panel_squadre.Controls.Add(this.button1);
+            this.panel_squadre.Controls.Add(this.pictureBox1);
+            this.panel_squadre.Location = new System.Drawing.Point(12, 40);
+            this.panel_squadre.Name = "panel_squadre";
+            this.panel_squadre.Size = new System.Drawing.Size(816, 617);
+            this.panel_squadre.TabIndex = 4;
+            this.panel_squadre.Visible = false;
+            // 
+            // panel_magliette
+            // 
+            this.panel_magliette.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.panel_magliette.Location = new System.Drawing.Point(850, 119);
+            this.panel_magliette.Name = "panel_magliette";
+            this.panel_magliette.Size = new System.Drawing.Size(158, 165);
+            this.panel_magliette.TabIndex = 5;
+            this.panel_magliette.Visible = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Football_Quiz.Properties.Resources.Screenshot__14_;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(289, 617);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // pb_exit
             // 
@@ -79,22 +116,30 @@
             this.pb_sfondo.TabIndex = 0;
             this.pb_sfondo.TabStop = false;
             // 
-            // panel_squadre
+            // button1
             // 
-            this.panel_squadre.Location = new System.Drawing.Point(33, 26);
-            this.panel_squadre.Name = "panel_squadre";
-            this.panel_squadre.Size = new System.Drawing.Size(650, 264);
-            this.panel_squadre.TabIndex = 4;
-            this.panel_squadre.Visible = false;
+            this.button1.Location = new System.Drawing.Point(44, 305);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(202, 48);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // panel_magliette
+            // comboBox1
             // 
-            this.panel_magliette.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.panel_magliette.Location = new System.Drawing.Point(265, 349);
-            this.panel_magliette.Name = "panel_magliette";
-            this.panel_magliette.Size = new System.Drawing.Size(650, 264);
-            this.panel_magliette.TabIndex = 5;
-            this.panel_magliette.Visible = false;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(174, 237);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(94, 21);
+            this.comboBox1.TabIndex = 2;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(44, 223);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
             // 
             // Form1
             // 
@@ -109,10 +154,13 @@
             this.Controls.Add(this.pb_sfondo);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.panel_squadre.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_magliette)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_squadre)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_sfondo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -125,6 +173,10 @@
         private System.Windows.Forms.PictureBox pb_exit;
         private System.Windows.Forms.Panel panel_squadre;
         private System.Windows.Forms.Panel panel_magliette;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
