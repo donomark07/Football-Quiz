@@ -29,22 +29,23 @@
         private void InitializeComponent()
         {
             this.panel_squadre = new System.Windows.Forms.Panel();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tbp_gioco = new System.Windows.Forms.TabPage();
+            this.tbp_giocatore = new System.Windows.Forms.TabPage();
             this.panel_magliette = new System.Windows.Forms.Panel();
-            this.cbo_livello = new System.Windows.Forms.ComboBox();
-            this.cbo_giocatore = new System.Windows.Forms.ComboBox();
             this.pb_back = new System.Windows.Forms.PictureBox();
             this.pb_nuovogiocatore = new System.Windows.Forms.PictureBox();
             this.pb_gioca = new System.Windows.Forms.PictureBox();
             this.pb_info = new System.Windows.Forms.PictureBox();
+            this.cbo_giocatore = new System.Windows.Forms.ComboBox();
+            this.cbo_livello = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pb_exit = new System.Windows.Forms.PictureBox();
             this.pb_magliette = new System.Windows.Forms.PictureBox();
             this.pb_squadre = new System.Windows.Forms.PictureBox();
             this.pb_sfondo = new System.Windows.Forms.PictureBox();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tbp_gioco = new System.Windows.Forms.TabPage();
-            this.tbp_giocatore = new System.Windows.Forms.TabPage();
             this.panel_squadre.SuspendLayout();
+            this.tabControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_nuovogiocatore)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_gioca)).BeginInit();
@@ -54,7 +55,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb_magliette)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_squadre)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_sfondo)).BeginInit();
-            this.tabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel_squadre
@@ -74,6 +74,36 @@
             this.panel_squadre.TabIndex = 4;
             this.panel_squadre.Visible = false;
             // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tbp_gioco);
+            this.tabControl1.Controls.Add(this.tbp_giocatore);
+            this.tabControl1.Location = new System.Drawing.Point(329, 11);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(680, 715);
+            this.tabControl1.TabIndex = 7;
+            // 
+            // tbp_gioco
+            // 
+            this.tbp_gioco.Location = new System.Drawing.Point(4, 22);
+            this.tbp_gioco.Name = "tbp_gioco";
+            this.tbp_gioco.Padding = new System.Windows.Forms.Padding(3);
+            this.tbp_gioco.Size = new System.Drawing.Size(672, 689);
+            this.tbp_gioco.TabIndex = 0;
+            this.tbp_gioco.Text = "gioco";
+            this.tbp_gioco.UseVisualStyleBackColor = true;
+            // 
+            // tbp_giocatore
+            // 
+            this.tbp_giocatore.Location = new System.Drawing.Point(4, 22);
+            this.tbp_giocatore.Name = "tbp_giocatore";
+            this.tbp_giocatore.Padding = new System.Windows.Forms.Padding(3);
+            this.tbp_giocatore.Size = new System.Drawing.Size(672, 689);
+            this.tbp_giocatore.TabIndex = 1;
+            this.tbp_giocatore.Text = "giocatore";
+            this.tbp_giocatore.UseVisualStyleBackColor = true;
+            // 
             // panel_magliette
             // 
             this.panel_magliette.BackColor = System.Drawing.SystemColors.MenuHighlight;
@@ -82,29 +112,6 @@
             this.panel_magliette.Size = new System.Drawing.Size(158, 165);
             this.panel_magliette.TabIndex = 5;
             this.panel_magliette.Visible = false;
-            // 
-            // cbo_livello
-            // 
-            this.cbo_livello.FormattingEnabled = true;
-            this.cbo_livello.Items.AddRange(new object[] {
-            "Facile",
-            "Medio",
-            "Difficile"});
-            this.cbo_livello.Location = new System.Drawing.Point(189, 257);
-            this.cbo_livello.Name = "cbo_livello";
-            this.cbo_livello.Size = new System.Drawing.Size(122, 21);
-            this.cbo_livello.TabIndex = 1;
-            // 
-            // cbo_giocatore
-            // 
-            this.cbo_giocatore.FormattingEnabled = true;
-            this.cbo_giocatore.Items.AddRange(new object[] {
-            "Alessio",
-            "Marco"});
-            this.cbo_giocatore.Location = new System.Drawing.Point(206, 522);
-            this.cbo_giocatore.Name = "cbo_giocatore";
-            this.cbo_giocatore.Size = new System.Drawing.Size(105, 21);
-            this.cbo_giocatore.TabIndex = 2;
             // 
             // pb_back
             // 
@@ -141,6 +148,29 @@
             this.pb_info.Size = new System.Drawing.Size(54, 52);
             this.pb_info.TabIndex = 3;
             this.pb_info.TabStop = false;
+            // 
+            // cbo_giocatore
+            // 
+            this.cbo_giocatore.FormattingEnabled = true;
+            this.cbo_giocatore.Items.AddRange(new object[] {
+            "Alessio",
+            "Marco"});
+            this.cbo_giocatore.Location = new System.Drawing.Point(206, 522);
+            this.cbo_giocatore.Name = "cbo_giocatore";
+            this.cbo_giocatore.Size = new System.Drawing.Size(105, 21);
+            this.cbo_giocatore.TabIndex = 2;
+            // 
+            // cbo_livello
+            // 
+            this.cbo_livello.FormattingEnabled = true;
+            this.cbo_livello.Items.AddRange(new object[] {
+            "Facile",
+            "Medio",
+            "Difficile"});
+            this.cbo_livello.Location = new System.Drawing.Point(189, 257);
+            this.cbo_livello.Name = "cbo_livello";
+            this.cbo_livello.Size = new System.Drawing.Size(122, 21);
+            this.cbo_livello.TabIndex = 1;
             // 
             // pictureBox1
             // 
@@ -190,42 +220,11 @@
             this.pb_sfondo.TabIndex = 0;
             this.pb_sfondo.TabStop = false;
             // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tbp_gioco);
-            this.tabControl1.Controls.Add(this.tbp_giocatore);
-            this.tabControl1.Location = new System.Drawing.Point(329, 11);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(680, 715);
-            this.tabControl1.TabIndex = 7;
-            //this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
-            // 
-            // tbp_gioco
-            // 
-            this.tbp_gioco.Location = new System.Drawing.Point(4, 22);
-            this.tbp_gioco.Name = "tbp_gioco";
-            this.tbp_gioco.Padding = new System.Windows.Forms.Padding(3);
-            this.tbp_gioco.Size = new System.Drawing.Size(672, 689);
-            this.tbp_gioco.TabIndex = 0;
-            this.tbp_gioco.Text = "gioco";
-            this.tbp_gioco.UseVisualStyleBackColor = true;
-            // 
-            // tbp_giocatore
-            // 
-            this.tbp_giocatore.Location = new System.Drawing.Point(4, 22);
-            this.tbp_giocatore.Name = "tbp_giocatore";
-            this.tbp_giocatore.Padding = new System.Windows.Forms.Padding(3);
-            this.tbp_giocatore.Size = new System.Drawing.Size(672, 689);
-            this.tbp_giocatore.TabIndex = 1;
-            this.tbp_giocatore.Text = "giocatore";
-            this.tbp_giocatore.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1020, 941);
+            this.ClientSize = new System.Drawing.Size(1020, 740);
             this.Controls.Add(this.panel_squadre);
             this.Controls.Add(this.pb_exit);
             this.Controls.Add(this.pb_magliette);
@@ -234,6 +233,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel_squadre.ResumeLayout(false);
+            this.tabControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_nuovogiocatore)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_gioca)).EndInit();
@@ -243,7 +243,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb_magliette)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_squadre)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_sfondo)).EndInit();
-            this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
