@@ -122,5 +122,23 @@
   <ItemGroup>
     <None Include="Resources\Screenshot %2821%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1200181982-612x612-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1200181982-612x612-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\podio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\podio1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coppa-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coppa.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

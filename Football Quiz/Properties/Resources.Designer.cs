@@ -63,6 +63,46 @@ namespace Football_Quiz.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap coppa {
+            get {
+                object obj = ResourceManager.GetObject("coppa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap coppa_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("coppa-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1200181982_612x612_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1200181982-612x612-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1200181982_612x612_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1200181982-612x612-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap play_1 {
             get {
                 object obj = ResourceManager.GetObject("play 1", resourceCulture);
@@ -76,6 +116,26 @@ namespace Football_Quiz.Properties {
         internal static System.Drawing.Bitmap play_2 {
             get {
                 object obj = ResourceManager.GetObject("play 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap podio {
+            get {
+                object obj = ResourceManager.GetObject("podio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap podio1 {
+            get {
+                object obj = ResourceManager.GetObject("podio1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
