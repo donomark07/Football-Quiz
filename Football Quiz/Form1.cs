@@ -40,6 +40,9 @@ namespace Football_Quiz
 
         }
 
-        
+        private void pb_back_Click(object sender, EventArgs e)
+        {
+            panel_squadre.Visible=false;
+        }
     }
 }
