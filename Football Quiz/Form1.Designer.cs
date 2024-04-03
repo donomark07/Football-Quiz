@@ -121,6 +121,7 @@
             this.pb_back.Size = new System.Drawing.Size(157, 52);
             this.pb_back.TabIndex = 6;
             this.pb_back.TabStop = false;
+            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
             // 
             // pb_nuovogiocatore
             // 
