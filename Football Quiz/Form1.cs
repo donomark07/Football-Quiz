@@ -45,9 +45,11 @@ namespace Football_Quiz
             panel_squadre.Visible=false;
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
+       
 
+        private void pb_info_Click(object sender, EventArgs e)
+        {
+            panel_informazioni.Visible=true;
         }
     }
 }
