@@ -83,6 +83,86 @@ namespace Football_Quiz.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap freccia_avanti_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("freccia_avanti-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap freccia_avanti_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("freccia_avanti-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap freccia_avanti_removebg_preview2 {
+            get {
+                object obj = ResourceManager.GetObject("freccia_avanti-removebg-preview2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap freccia_avanti_removebg_preview3 {
+            get {
+                object obj = ResourceManager.GetObject("freccia_avanti-removebg-preview3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap freccia_indietro_removebg_preview2 {
+            get {
+                object obj = ResourceManager.GetObject("freccia_indietro-removebg-preview2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap indizi {
+            get {
+                object obj = ResourceManager.GetObject("indizi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap indizi1 {
+            get {
+                object obj = ResourceManager.GetObject("indizi1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap indizi2 {
+            get {
+                object obj = ResourceManager.GetObject("indizi2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_1200181982_612x612_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1200181982-612x612-removebg-preview", resourceCulture);
@@ -326,6 +406,26 @@ namespace Football_Quiz.Properties {
         internal static System.Drawing.Bitmap Screenshot__32__removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("Screenshot__32_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scritta_livello_1 {
+            get {
+                object obj = ResourceManager.GetObject("scritta livello 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scritta_livello_1_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("scritta_livello_1-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

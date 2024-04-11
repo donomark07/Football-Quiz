@@ -50,7 +50,8 @@ namespace Football_Quiz
 
         private void pb_info_Click(object sender, EventArgs e)
         {
-            
+            Form2 form2 = new Form2();
+            form2.Show();
         }
 
         private void pb_magliette_Click(object sender, EventArgs e)
@@ -81,5 +82,9 @@ namespace Football_Quiz
             tbc_squadre.Visible = true;
             tbc_squadre.SelectTab(0);
         }
+
+        
+
+        
     }
 }

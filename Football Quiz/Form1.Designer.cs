@@ -30,7 +30,6 @@
         {
             this.panel_squadre = new System.Windows.Forms.Panel();
             this.tbc_squadre = new System.Windows.Forms.TabControl();
-            this.tbp_giocofacile = new System.Windows.Forms.TabPage();
             this.tbp_giocatore = new System.Windows.Forms.TabPage();
             this.grb_record = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -44,47 +43,28 @@
             this.btn_inserisci = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txb_inserisci = new System.Windows.Forms.TextBox();
-            this.panel_magliette = new System.Windows.Forms.Panel();
+            this.tbp_giocofacile = new System.Windows.Forms.TabPage();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.tbp_giocomedio = new System.Windows.Forms.TabPage();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.tbp_giocodifficile = new System.Windows.Forms.TabPage();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.tbp_1facile = new System.Windows.Forms.TabPage();
             this.cbo_giocatore = new System.Windows.Forms.ComboBox();
             this.cbo_livello = new System.Windows.Forms.ComboBox();
+            this.panel_magliette = new System.Windows.Forms.Panel();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.tbp_2facile = new System.Windows.Forms.TabPage();
+            this.tbp_3facile = new System.Windows.Forms.TabPage();
+            this.tbp_4facile = new System.Windows.Forms.TabPage();
+            this.tbp_5facile = new System.Windows.Forms.TabPage();
+            this.tbp_6facile = new System.Windows.Forms.TabPage();
+            this.tbp_7facile = new System.Windows.Forms.TabPage();
+            this.tbp_8facile = new System.Windows.Forms.TabPage();
+            this.tbp_9facile = new System.Windows.Forms.TabPage();
+            this.tbp_10facile = new System.Windows.Forms.TabPage();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pb_back = new System.Windows.Forms.PictureBox();
-            this.pb_nuovogiocatore = new System.Windows.Forms.PictureBox();
-            this.pb_gioca = new System.Windows.Forms.PictureBox();
-            this.pb_info = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pb_exit = new System.Windows.Forms.PictureBox();
-            this.pb_magliette = new System.Windows.Forms.PictureBox();
-            this.pb_squadre = new System.Windows.Forms.PictureBox();
-            this.pb_sfondo = new System.Windows.Forms.PictureBox();
-            this.tbp_giocomedio = new System.Windows.Forms.TabPage();
-            this.tbp_giocodifficile = new System.Windows.Forms.TabPage();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
-            this.pictureBox28 = new System.Windows.Forms.PictureBox();
-            this.pictureBox29 = new System.Windows.Forms.PictureBox();
-            this.pictureBox30 = new System.Windows.Forms.PictureBox();
-            this.pictureBox31 = new System.Windows.Forms.PictureBox();
-            this.pictureBox32 = new System.Windows.Forms.PictureBox();
-            this.pictureBox33 = new System.Windows.Forms.PictureBox();
-            this.pictureBox34 = new System.Windows.Forms.PictureBox();
-            this.pictureBox35 = new System.Windows.Forms.PictureBox();
-            this.pictureBox36 = new System.Windows.Forms.PictureBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -96,52 +76,59 @@
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.tbp_1facile = new System.Windows.Forms.TabPage();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.pictureBox29 = new System.Windows.Forms.PictureBox();
+            this.pictureBox30 = new System.Windows.Forms.PictureBox();
+            this.pictureBox31 = new System.Windows.Forms.PictureBox();
+            this.pictureBox32 = new System.Windows.Forms.PictureBox();
+            this.pictureBox33 = new System.Windows.Forms.PictureBox();
+            this.pictureBox34 = new System.Windows.Forms.PictureBox();
+            this.pictureBox35 = new System.Windows.Forms.PictureBox();
+            this.pictureBox36 = new System.Windows.Forms.PictureBox();
+            this.pictureBox39 = new System.Windows.Forms.PictureBox();
+            this.pictureBox38 = new System.Windows.Forms.PictureBox();
+            this.pictureBox37 = new System.Windows.Forms.PictureBox();
+            this.pictureBox47 = new System.Windows.Forms.PictureBox();
+            this.pb_back = new System.Windows.Forms.PictureBox();
+            this.pb_nuovogiocatore = new System.Windows.Forms.PictureBox();
+            this.pb_gioca = new System.Windows.Forms.PictureBox();
+            this.pb_info = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pb_exit = new System.Windows.Forms.PictureBox();
+            this.pb_magliette = new System.Windows.Forms.PictureBox();
+            this.pb_squadre = new System.Windows.Forms.PictureBox();
+            this.pb_sfondo = new System.Windows.Forms.PictureBox();
+            this.pictureBox40 = new System.Windows.Forms.PictureBox();
+            this.pictureBox41 = new System.Windows.Forms.PictureBox();
             this.panel_squadre.SuspendLayout();
             this.tbc_squadre.SuspendLayout();
-            this.tbp_giocofacile.SuspendLayout();
             this.tbp_giocatore.SuspendLayout();
             this.grb_record.SuspendLayout();
             this.grb_cancella.SuspendLayout();
             this.grb_inserisci.SuspendLayout();
+            this.tbp_giocofacile.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.tbp_giocomedio.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.tbp_giocodifficile.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.tbp_1facile.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_nuovogiocatore)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_gioca)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_info)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_exit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_magliette)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_squadre)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_sfondo)).BeginInit();
-            this.tbp_giocomedio.SuspendLayout();
-            this.tbp_giocodifficile.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
-            this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
-            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -153,6 +140,43 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_nuovogiocatore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_gioca)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_info)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_exit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_magliette)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_squadre)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_sfondo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_squadre
@@ -178,24 +202,21 @@
             this.tbc_squadre.Controls.Add(this.tbp_giocomedio);
             this.tbc_squadre.Controls.Add(this.tbp_giocodifficile);
             this.tbc_squadre.Controls.Add(this.tbp_1facile);
+            this.tbc_squadre.Controls.Add(this.tbp_2facile);
+            this.tbc_squadre.Controls.Add(this.tbp_3facile);
+            this.tbc_squadre.Controls.Add(this.tbp_4facile);
+            this.tbc_squadre.Controls.Add(this.tbp_5facile);
+            this.tbc_squadre.Controls.Add(this.tbp_6facile);
+            this.tbc_squadre.Controls.Add(this.tbp_7facile);
+            this.tbc_squadre.Controls.Add(this.tbp_8facile);
+            this.tbc_squadre.Controls.Add(this.tbp_9facile);
+            this.tbc_squadre.Controls.Add(this.tbp_10facile);
             this.tbc_squadre.Location = new System.Drawing.Point(329, 3);
             this.tbc_squadre.Name = "tbc_squadre";
             this.tbc_squadre.SelectedIndex = 0;
             this.tbc_squadre.Size = new System.Drawing.Size(680, 723);
             this.tbc_squadre.TabIndex = 7;
             this.tbc_squadre.Visible = false;
-            // 
-            // tbp_giocofacile
-            // 
-            this.tbp_giocofacile.BackColor = System.Drawing.Color.Transparent;
-            this.tbp_giocofacile.Controls.Add(this.groupBox1);
-            this.tbp_giocofacile.Controls.Add(this.pictureBox14);
-            this.tbp_giocofacile.Location = new System.Drawing.Point(4, 22);
-            this.tbp_giocofacile.Name = "tbp_giocofacile";
-            this.tbp_giocofacile.Padding = new System.Windows.Forms.Padding(3);
-            this.tbp_giocofacile.Size = new System.Drawing.Size(672, 697);
-            this.tbp_giocofacile.TabIndex = 0;
-            this.tbp_giocofacile.Text = "gioco facile";
             // 
             // tbp_giocatore
             // 
@@ -325,14 +346,107 @@
             this.txb_inserisci.Size = new System.Drawing.Size(217, 20);
             this.txb_inserisci.TabIndex = 0;
             // 
-            // panel_magliette
+            // tbp_giocofacile
             // 
-            this.panel_magliette.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.panel_magliette.Location = new System.Drawing.Point(779, 157);
-            this.panel_magliette.Name = "panel_magliette";
-            this.panel_magliette.Size = new System.Drawing.Size(158, 165);
-            this.panel_magliette.TabIndex = 5;
-            this.panel_magliette.Visible = false;
+            this.tbp_giocofacile.BackColor = System.Drawing.Color.Transparent;
+            this.tbp_giocofacile.Controls.Add(this.groupBox1);
+            this.tbp_giocofacile.Controls.Add(this.pictureBox14);
+            this.tbp_giocofacile.Location = new System.Drawing.Point(4, 22);
+            this.tbp_giocofacile.Name = "tbp_giocofacile";
+            this.tbp_giocofacile.Padding = new System.Windows.Forms.Padding(3);
+            this.tbp_giocofacile.Size = new System.Drawing.Size(672, 697);
+            this.tbp_giocofacile.TabIndex = 0;
+            this.tbp_giocofacile.Text = "gioco facile";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.pictureBox4);
+            this.groupBox1.Controls.Add(this.pictureBox5);
+            this.groupBox1.Controls.Add(this.pictureBox6);
+            this.groupBox1.Controls.Add(this.pictureBox7);
+            this.groupBox1.Controls.Add(this.pictureBox8);
+            this.groupBox1.Controls.Add(this.pictureBox9);
+            this.groupBox1.Controls.Add(this.pictureBox10);
+            this.groupBox1.Controls.Add(this.pictureBox11);
+            this.groupBox1.Controls.Add(this.pictureBox12);
+            this.groupBox1.Controls.Add(this.pictureBox13);
+            this.groupBox1.Location = new System.Drawing.Point(6, 107);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(660, 569);
+            this.groupBox1.TabIndex = 16;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Facile";
+            // 
+            // tbp_giocomedio
+            // 
+            this.tbp_giocomedio.Controls.Add(this.groupBox2);
+            this.tbp_giocomedio.Controls.Add(this.pictureBox25);
+            this.tbp_giocomedio.Location = new System.Drawing.Point(4, 22);
+            this.tbp_giocomedio.Name = "tbp_giocomedio";
+            this.tbp_giocomedio.Size = new System.Drawing.Size(672, 697);
+            this.tbp_giocomedio.TabIndex = 2;
+            this.tbp_giocomedio.Text = "gioco medio";
+            this.tbp_giocomedio.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.pictureBox15);
+            this.groupBox2.Controls.Add(this.pictureBox16);
+            this.groupBox2.Controls.Add(this.pictureBox17);
+            this.groupBox2.Controls.Add(this.pictureBox18);
+            this.groupBox2.Controls.Add(this.pictureBox19);
+            this.groupBox2.Controls.Add(this.pictureBox20);
+            this.groupBox2.Controls.Add(this.pictureBox21);
+            this.groupBox2.Controls.Add(this.pictureBox22);
+            this.groupBox2.Controls.Add(this.pictureBox23);
+            this.groupBox2.Controls.Add(this.pictureBox24);
+            this.groupBox2.Location = new System.Drawing.Point(6, 107);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(660, 569);
+            this.groupBox2.TabIndex = 14;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Medio";
+            // 
+            // tbp_giocodifficile
+            // 
+            this.tbp_giocodifficile.Controls.Add(this.groupBox3);
+            this.tbp_giocodifficile.Controls.Add(this.pictureBox36);
+            this.tbp_giocodifficile.Location = new System.Drawing.Point(4, 22);
+            this.tbp_giocodifficile.Name = "tbp_giocodifficile";
+            this.tbp_giocodifficile.Size = new System.Drawing.Size(672, 697);
+            this.tbp_giocodifficile.TabIndex = 3;
+            this.tbp_giocodifficile.Text = "gioco difficile";
+            this.tbp_giocodifficile.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.pictureBox26);
+            this.groupBox3.Controls.Add(this.pictureBox27);
+            this.groupBox3.Controls.Add(this.pictureBox28);
+            this.groupBox3.Controls.Add(this.pictureBox29);
+            this.groupBox3.Controls.Add(this.pictureBox30);
+            this.groupBox3.Controls.Add(this.pictureBox31);
+            this.groupBox3.Controls.Add(this.pictureBox32);
+            this.groupBox3.Controls.Add(this.pictureBox33);
+            this.groupBox3.Controls.Add(this.pictureBox34);
+            this.groupBox3.Controls.Add(this.pictureBox35);
+            this.groupBox3.Location = new System.Drawing.Point(6, 107);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(660, 569);
+            this.groupBox3.TabIndex = 14;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Difficile";
+            // 
+            // tbp_1facile
+            // 
+            this.tbp_1facile.Controls.Add(this.groupBox4);
+            this.tbp_1facile.Controls.Add(this.pictureBox47);
+            this.tbp_1facile.Location = new System.Drawing.Point(4, 22);
+            this.tbp_1facile.Name = "tbp_1facile";
+            this.tbp_1facile.Size = new System.Drawing.Size(672, 697);
+            this.tbp_1facile.TabIndex = 4;
+            this.tbp_1facile.Text = "livello 1 facile";
+            this.tbp_1facile.UseVisualStyleBackColor = true;
             // 
             // cbo_giocatore
             // 
@@ -359,6 +473,110 @@
             this.cbo_livello.Size = new System.Drawing.Size(122, 21);
             this.cbo_livello.TabIndex = 1;
             // 
+            // panel_magliette
+            // 
+            this.panel_magliette.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.panel_magliette.Location = new System.Drawing.Point(779, 157);
+            this.panel_magliette.Name = "panel_magliette";
+            this.panel_magliette.Size = new System.Drawing.Size(158, 165);
+            this.panel_magliette.TabIndex = 5;
+            this.panel_magliette.Visible = false;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.pictureBox41);
+            this.groupBox4.Controls.Add(this.pictureBox40);
+            this.groupBox4.Controls.Add(this.pictureBox39);
+            this.groupBox4.Controls.Add(this.pictureBox38);
+            this.groupBox4.Controls.Add(this.pictureBox37);
+            this.groupBox4.Location = new System.Drawing.Point(6, 107);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(660, 569);
+            this.groupBox4.TabIndex = 16;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Facile";
+            // 
+            // tbp_2facile
+            // 
+            this.tbp_2facile.Location = new System.Drawing.Point(4, 22);
+            this.tbp_2facile.Name = "tbp_2facile";
+            this.tbp_2facile.Size = new System.Drawing.Size(672, 697);
+            this.tbp_2facile.TabIndex = 5;
+            this.tbp_2facile.Text = "livello 2 facile";
+            this.tbp_2facile.UseVisualStyleBackColor = true;
+            // 
+            // tbp_3facile
+            // 
+            this.tbp_3facile.Location = new System.Drawing.Point(4, 22);
+            this.tbp_3facile.Name = "tbp_3facile";
+            this.tbp_3facile.Size = new System.Drawing.Size(672, 697);
+            this.tbp_3facile.TabIndex = 6;
+            this.tbp_3facile.Text = "livello 3 facile";
+            this.tbp_3facile.UseVisualStyleBackColor = true;
+            // 
+            // tbp_4facile
+            // 
+            this.tbp_4facile.Location = new System.Drawing.Point(4, 22);
+            this.tbp_4facile.Name = "tbp_4facile";
+            this.tbp_4facile.Size = new System.Drawing.Size(672, 697);
+            this.tbp_4facile.TabIndex = 7;
+            this.tbp_4facile.Text = "livello 4 facile";
+            this.tbp_4facile.UseVisualStyleBackColor = true;
+            // 
+            // tbp_5facile
+            // 
+            this.tbp_5facile.Location = new System.Drawing.Point(4, 22);
+            this.tbp_5facile.Name = "tbp_5facile";
+            this.tbp_5facile.Size = new System.Drawing.Size(672, 697);
+            this.tbp_5facile.TabIndex = 8;
+            this.tbp_5facile.Text = "livello 5 facile";
+            this.tbp_5facile.UseVisualStyleBackColor = true;
+            // 
+            // tbp_6facile
+            // 
+            this.tbp_6facile.Location = new System.Drawing.Point(4, 22);
+            this.tbp_6facile.Name = "tbp_6facile";
+            this.tbp_6facile.Size = new System.Drawing.Size(672, 697);
+            this.tbp_6facile.TabIndex = 9;
+            this.tbp_6facile.Text = "livello 6 facile";
+            this.tbp_6facile.UseVisualStyleBackColor = true;
+            // 
+            // tbp_7facile
+            // 
+            this.tbp_7facile.Location = new System.Drawing.Point(4, 22);
+            this.tbp_7facile.Name = "tbp_7facile";
+            this.tbp_7facile.Size = new System.Drawing.Size(672, 697);
+            this.tbp_7facile.TabIndex = 10;
+            this.tbp_7facile.Text = "livello 7 facile";
+            this.tbp_7facile.UseVisualStyleBackColor = true;
+            // 
+            // tbp_8facile
+            // 
+            this.tbp_8facile.Location = new System.Drawing.Point(4, 22);
+            this.tbp_8facile.Name = "tbp_8facile";
+            this.tbp_8facile.Size = new System.Drawing.Size(672, 697);
+            this.tbp_8facile.TabIndex = 11;
+            this.tbp_8facile.Text = "livello 8 facile";
+            this.tbp_8facile.UseVisualStyleBackColor = true;
+            // 
+            // tbp_9facile
+            // 
+            this.tbp_9facile.Location = new System.Drawing.Point(4, 22);
+            this.tbp_9facile.Name = "tbp_9facile";
+            this.tbp_9facile.Size = new System.Drawing.Size(672, 697);
+            this.tbp_9facile.TabIndex = 12;
+            this.tbp_9facile.Text = "livello 9 facile";
+            this.tbp_9facile.UseVisualStyleBackColor = true;
+            // 
+            // tbp_10facile
+            // 
+            this.tbp_10facile.Location = new System.Drawing.Point(4, 22);
+            this.tbp_10facile.Name = "tbp_10facile";
+            this.tbp_10facile.Size = new System.Drawing.Size(672, 697);
+            this.tbp_10facile.TabIndex = 13;
+            this.tbp_10facile.Text = "livello 10 facile";
+            this.tbp_10facile.UseVisualStyleBackColor = true;
+            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Football_Quiz.Properties.Resources.coppa;
@@ -376,373 +594,6 @@
             this.pictureBox2.Size = new System.Drawing.Size(372, 156);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
-            // 
-            // pb_back
-            // 
-            this.pb_back.Image = global::Football_Quiz.Properties.Resources.Screenshot__21_;
-            this.pb_back.Location = new System.Drawing.Point(79, 674);
-            this.pb_back.Name = "pb_back";
-            this.pb_back.Size = new System.Drawing.Size(157, 52);
-            this.pb_back.TabIndex = 6;
-            this.pb_back.TabStop = false;
-            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
-            // 
-            // pb_nuovogiocatore
-            // 
-            this.pb_nuovogiocatore.Image = global::Football_Quiz.Properties.Resources.Screenshot__20_;
-            this.pb_nuovogiocatore.Location = new System.Drawing.Point(87, 559);
-            this.pb_nuovogiocatore.Name = "pb_nuovogiocatore";
-            this.pb_nuovogiocatore.Size = new System.Drawing.Size(147, 98);
-            this.pb_nuovogiocatore.TabIndex = 5;
-            this.pb_nuovogiocatore.TabStop = false;
-            this.pb_nuovogiocatore.Click += new System.EventHandler(this.pb_nuovogiocatore_Click);
-            // 
-            // pb_gioca
-            // 
-            this.pb_gioca.Image = global::Football_Quiz.Properties.Resources.Screenshot__18_;
-            this.pb_gioca.Location = new System.Drawing.Point(51, 308);
-            this.pb_gioca.Name = "pb_gioca";
-            this.pb_gioca.Size = new System.Drawing.Size(206, 164);
-            this.pb_gioca.TabIndex = 4;
-            this.pb_gioca.TabStop = false;
-            this.pb_gioca.Click += new System.EventHandler(this.pb_gioca_Click);
-            // 
-            // pb_info
-            // 
-            this.pb_info.Image = global::Football_Quiz.Properties.Resources.Screenshot__17_1;
-            this.pb_info.Location = new System.Drawing.Point(14, 0);
-            this.pb_info.Name = "pb_info";
-            this.pb_info.Size = new System.Drawing.Size(54, 52);
-            this.pb_info.TabIndex = 3;
-            this.pb_info.TabStop = false;
-            this.pb_info.Click += new System.EventHandler(this.pb_info_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Football_Quiz.Properties.Resources.Screenshot__16_;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(318, 739);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pb_exit
-            // 
-            this.pb_exit.Image = global::Football_Quiz.Properties.Resources.sfondo_exit;
-            this.pb_exit.Location = new System.Drawing.Point(823, 12);
-            this.pb_exit.Name = "pb_exit";
-            this.pb_exit.Size = new System.Drawing.Size(185, 89);
-            this.pb_exit.TabIndex = 3;
-            this.pb_exit.TabStop = false;
-            this.pb_exit.Click += new System.EventHandler(this.pb_exit_Click);
-            // 
-            // pb_magliette
-            // 
-            this.pb_magliette.Image = global::Football_Quiz.Properties.Resources.play_2;
-            this.pb_magliette.Location = new System.Drawing.Point(757, 569);
-            this.pb_magliette.Name = "pb_magliette";
-            this.pb_magliette.Size = new System.Drawing.Size(180, 98);
-            this.pb_magliette.TabIndex = 2;
-            this.pb_magliette.TabStop = false;
-            this.pb_magliette.Click += new System.EventHandler(this.pb_magliette_Click);
-            // 
-            // pb_squadre
-            // 
-            this.pb_squadre.Image = global::Football_Quiz.Properties.Resources.play_1;
-            this.pb_squadre.Location = new System.Drawing.Point(157, 559);
-            this.pb_squadre.Name = "pb_squadre";
-            this.pb_squadre.Size = new System.Drawing.Size(194, 98);
-            this.pb_squadre.TabIndex = 1;
-            this.pb_squadre.TabStop = false;
-            this.pb_squadre.Click += new System.EventHandler(this.pb_squadre_Click);
-            // 
-            // pb_sfondo
-            // 
-            this.pb_sfondo.Image = global::Football_Quiz.Properties.Resources.sfondo_completo;
-            this.pb_sfondo.Location = new System.Drawing.Point(-2, 1);
-            this.pb_sfondo.Name = "pb_sfondo";
-            this.pb_sfondo.Size = new System.Drawing.Size(1022, 703);
-            this.pb_sfondo.TabIndex = 0;
-            this.pb_sfondo.TabStop = false;
-            // 
-            // tbp_giocomedio
-            // 
-            this.tbp_giocomedio.Controls.Add(this.groupBox2);
-            this.tbp_giocomedio.Controls.Add(this.pictureBox25);
-            this.tbp_giocomedio.Location = new System.Drawing.Point(4, 22);
-            this.tbp_giocomedio.Name = "tbp_giocomedio";
-            this.tbp_giocomedio.Size = new System.Drawing.Size(672, 697);
-            this.tbp_giocomedio.TabIndex = 2;
-            this.tbp_giocomedio.Text = "gioco medio";
-            this.tbp_giocomedio.UseVisualStyleBackColor = true;
-            // 
-            // tbp_giocodifficile
-            // 
-            this.tbp_giocodifficile.Controls.Add(this.groupBox3);
-            this.tbp_giocodifficile.Controls.Add(this.pictureBox36);
-            this.tbp_giocodifficile.Location = new System.Drawing.Point(4, 22);
-            this.tbp_giocodifficile.Name = "tbp_giocodifficile";
-            this.tbp_giocodifficile.Size = new System.Drawing.Size(672, 697);
-            this.tbp_giocodifficile.TabIndex = 3;
-            this.tbp_giocodifficile.Text = "gioco difficile";
-            this.tbp_giocodifficile.UseVisualStyleBackColor = true;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.pictureBox15);
-            this.groupBox2.Controls.Add(this.pictureBox16);
-            this.groupBox2.Controls.Add(this.pictureBox17);
-            this.groupBox2.Controls.Add(this.pictureBox18);
-            this.groupBox2.Controls.Add(this.pictureBox19);
-            this.groupBox2.Controls.Add(this.pictureBox20);
-            this.groupBox2.Controls.Add(this.pictureBox21);
-            this.groupBox2.Controls.Add(this.pictureBox22);
-            this.groupBox2.Controls.Add(this.pictureBox23);
-            this.groupBox2.Controls.Add(this.pictureBox24);
-            this.groupBox2.Location = new System.Drawing.Point(6, 107);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(660, 569);
-            this.groupBox2.TabIndex = 14;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Medio";
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Image = global::Football_Quiz.Properties.Resources.LIVELLO_10_removebg_preview;
-            this.pictureBox15.Location = new System.Drawing.Point(267, 421);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox15.TabIndex = 31;
-            this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Image = global::Football_Quiz.Properties.Resources.LIVELLO_9_removebg_preview;
-            this.pictureBox16.Location = new System.Drawing.Point(482, 287);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox16.TabIndex = 30;
-            this.pictureBox16.TabStop = false;
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Image = global::Football_Quiz.Properties.Resources.LIVELLO_8_removebg_preview;
-            this.pictureBox17.Location = new System.Drawing.Point(267, 287);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox17.TabIndex = 29;
-            this.pictureBox17.TabStop = false;
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Image = global::Football_Quiz.Properties.Resources.LIVELLO_7_removebg_preview;
-            this.pictureBox18.Location = new System.Drawing.Point(48, 287);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox18.TabIndex = 28;
-            this.pictureBox18.TabStop = false;
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Image = global::Football_Quiz.Properties.Resources.LIVELLO_4_removebg_preview;
-            this.pictureBox19.Location = new System.Drawing.Point(48, 153);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox19.TabIndex = 27;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Image = global::Football_Quiz.Properties.Resources.LIVELLO_3_removebg_preview;
-            this.pictureBox20.Location = new System.Drawing.Point(482, 19);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox20.TabIndex = 26;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.Image = global::Football_Quiz.Properties.Resources.LIVELLO_1_removebg_preview;
-            this.pictureBox21.Location = new System.Drawing.Point(48, 19);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox21.TabIndex = 25;
-            this.pictureBox21.TabStop = false;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.Image = global::Football_Quiz.Properties.Resources.LIVELLO_2_removebg_preview;
-            this.pictureBox22.Location = new System.Drawing.Point(267, 19);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox22.TabIndex = 24;
-            this.pictureBox22.TabStop = false;
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.Image = global::Football_Quiz.Properties.Resources.LIVELLO_6_removebg_preview;
-            this.pictureBox23.Location = new System.Drawing.Point(482, 153);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox23.TabIndex = 23;
-            this.pictureBox23.TabStop = false;
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.Image = global::Football_Quiz.Properties.Resources.LIVELLO_5_removebg_preview;
-            this.pictureBox24.Location = new System.Drawing.Point(267, 153);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox24.TabIndex = 22;
-            this.pictureBox24.TabStop = false;
-            // 
-            // pictureBox25
-            // 
-            this.pictureBox25.Image = global::Football_Quiz.Properties.Resources.Screenshot__32__removebg_preview;
-            this.pictureBox25.Location = new System.Drawing.Point(197, 21);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(272, 80);
-            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox25.TabIndex = 13;
-            this.pictureBox25.TabStop = false;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.pictureBox26);
-            this.groupBox3.Controls.Add(this.pictureBox27);
-            this.groupBox3.Controls.Add(this.pictureBox28);
-            this.groupBox3.Controls.Add(this.pictureBox29);
-            this.groupBox3.Controls.Add(this.pictureBox30);
-            this.groupBox3.Controls.Add(this.pictureBox31);
-            this.groupBox3.Controls.Add(this.pictureBox32);
-            this.groupBox3.Controls.Add(this.pictureBox33);
-            this.groupBox3.Controls.Add(this.pictureBox34);
-            this.groupBox3.Controls.Add(this.pictureBox35);
-            this.groupBox3.Location = new System.Drawing.Point(6, 107);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(660, 569);
-            this.groupBox3.TabIndex = 14;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Difficile";
-            // 
-            // pictureBox26
-            // 
-            this.pictureBox26.Image = global::Football_Quiz.Properties.Resources.LIVELLO_10_removebg_preview;
-            this.pictureBox26.Location = new System.Drawing.Point(267, 421);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox26.TabIndex = 31;
-            this.pictureBox26.TabStop = false;
-            // 
-            // pictureBox27
-            // 
-            this.pictureBox27.Image = global::Football_Quiz.Properties.Resources.LIVELLO_9_removebg_preview;
-            this.pictureBox27.Location = new System.Drawing.Point(482, 287);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox27.TabIndex = 30;
-            this.pictureBox27.TabStop = false;
-            // 
-            // pictureBox28
-            // 
-            this.pictureBox28.Image = global::Football_Quiz.Properties.Resources.LIVELLO_8_removebg_preview;
-            this.pictureBox28.Location = new System.Drawing.Point(267, 287);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox28.TabIndex = 29;
-            this.pictureBox28.TabStop = false;
-            // 
-            // pictureBox29
-            // 
-            this.pictureBox29.Image = global::Football_Quiz.Properties.Resources.LIVELLO_7_removebg_preview;
-            this.pictureBox29.Location = new System.Drawing.Point(48, 287);
-            this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox29.TabIndex = 28;
-            this.pictureBox29.TabStop = false;
-            // 
-            // pictureBox30
-            // 
-            this.pictureBox30.Image = global::Football_Quiz.Properties.Resources.LIVELLO_4_removebg_preview;
-            this.pictureBox30.Location = new System.Drawing.Point(48, 153);
-            this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox30.TabIndex = 27;
-            this.pictureBox30.TabStop = false;
-            // 
-            // pictureBox31
-            // 
-            this.pictureBox31.Image = global::Football_Quiz.Properties.Resources.LIVELLO_3_removebg_preview;
-            this.pictureBox31.Location = new System.Drawing.Point(482, 19);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox31.TabIndex = 26;
-            this.pictureBox31.TabStop = false;
-            // 
-            // pictureBox32
-            // 
-            this.pictureBox32.Image = global::Football_Quiz.Properties.Resources.LIVELLO_1_removebg_preview;
-            this.pictureBox32.Location = new System.Drawing.Point(48, 19);
-            this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox32.TabIndex = 25;
-            this.pictureBox32.TabStop = false;
-            // 
-            // pictureBox33
-            // 
-            this.pictureBox33.Image = global::Football_Quiz.Properties.Resources.LIVELLO_2_removebg_preview;
-            this.pictureBox33.Location = new System.Drawing.Point(267, 19);
-            this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox33.TabIndex = 24;
-            this.pictureBox33.TabStop = false;
-            // 
-            // pictureBox34
-            // 
-            this.pictureBox34.Image = global::Football_Quiz.Properties.Resources.LIVELLO_6_removebg_preview;
-            this.pictureBox34.Location = new System.Drawing.Point(482, 153);
-            this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox34.TabIndex = 23;
-            this.pictureBox34.TabStop = false;
-            // 
-            // pictureBox35
-            // 
-            this.pictureBox35.Image = global::Football_Quiz.Properties.Resources.LIVELLO_5_removebg_preview;
-            this.pictureBox35.Location = new System.Drawing.Point(267, 153);
-            this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(131, 128);
-            this.pictureBox35.TabIndex = 22;
-            this.pictureBox35.TabStop = false;
-            // 
-            // pictureBox36
-            // 
-            this.pictureBox36.Image = global::Football_Quiz.Properties.Resources.Screenshot__32__removebg_preview;
-            this.pictureBox36.Location = new System.Drawing.Point(197, 21);
-            this.pictureBox36.Name = "pictureBox36";
-            this.pictureBox36.Size = new System.Drawing.Size(272, 80);
-            this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox36.TabIndex = 13;
-            this.pictureBox36.TabStop = false;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.pictureBox4);
-            this.groupBox1.Controls.Add(this.pictureBox5);
-            this.groupBox1.Controls.Add(this.pictureBox6);
-            this.groupBox1.Controls.Add(this.pictureBox7);
-            this.groupBox1.Controls.Add(this.pictureBox8);
-            this.groupBox1.Controls.Add(this.pictureBox9);
-            this.groupBox1.Controls.Add(this.pictureBox10);
-            this.groupBox1.Controls.Add(this.pictureBox11);
-            this.groupBox1.Controls.Add(this.pictureBox12);
-            this.groupBox1.Controls.Add(this.pictureBox13);
-            this.groupBox1.Location = new System.Drawing.Point(6, 107);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(660, 569);
-            this.groupBox1.TabIndex = 16;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Facile";
             // 
             // pictureBox4
             // 
@@ -837,21 +688,358 @@
             // pictureBox14
             // 
             this.pictureBox14.Image = global::Football_Quiz.Properties.Resources.Screenshot__32__removebg_preview;
-            this.pictureBox14.Location = new System.Drawing.Point(197, 21);
+            this.pictureBox14.Location = new System.Drawing.Point(214, 21);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(272, 80);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox14.TabIndex = 15;
             this.pictureBox14.TabStop = false;
             // 
-            // tbp_1facile
+            // pictureBox15
             // 
-            this.tbp_1facile.Location = new System.Drawing.Point(4, 22);
-            this.tbp_1facile.Name = "tbp_1facile";
-            this.tbp_1facile.Size = new System.Drawing.Size(672, 697);
-            this.tbp_1facile.TabIndex = 4;
-            this.tbp_1facile.Text = "livello 1 facile";
-            this.tbp_1facile.UseVisualStyleBackColor = true;
+            this.pictureBox15.Image = global::Football_Quiz.Properties.Resources.LIVELLO_10_removebg_preview;
+            this.pictureBox15.Location = new System.Drawing.Point(267, 421);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox15.TabIndex = 31;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Image = global::Football_Quiz.Properties.Resources.LIVELLO_9_removebg_preview;
+            this.pictureBox16.Location = new System.Drawing.Point(482, 287);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox16.TabIndex = 30;
+            this.pictureBox16.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Image = global::Football_Quiz.Properties.Resources.LIVELLO_8_removebg_preview;
+            this.pictureBox17.Location = new System.Drawing.Point(267, 287);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox17.TabIndex = 29;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Image = global::Football_Quiz.Properties.Resources.LIVELLO_7_removebg_preview;
+            this.pictureBox18.Location = new System.Drawing.Point(48, 287);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox18.TabIndex = 28;
+            this.pictureBox18.TabStop = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Image = global::Football_Quiz.Properties.Resources.LIVELLO_4_removebg_preview;
+            this.pictureBox19.Location = new System.Drawing.Point(48, 153);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox19.TabIndex = 27;
+            this.pictureBox19.TabStop = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Image = global::Football_Quiz.Properties.Resources.LIVELLO_3_removebg_preview;
+            this.pictureBox20.Location = new System.Drawing.Point(482, 19);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox20.TabIndex = 26;
+            this.pictureBox20.TabStop = false;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Image = global::Football_Quiz.Properties.Resources.LIVELLO_1_removebg_preview;
+            this.pictureBox21.Location = new System.Drawing.Point(48, 19);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox21.TabIndex = 25;
+            this.pictureBox21.TabStop = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Image = global::Football_Quiz.Properties.Resources.LIVELLO_2_removebg_preview;
+            this.pictureBox22.Location = new System.Drawing.Point(267, 19);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox22.TabIndex = 24;
+            this.pictureBox22.TabStop = false;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Image = global::Football_Quiz.Properties.Resources.LIVELLO_6_removebg_preview;
+            this.pictureBox23.Location = new System.Drawing.Point(482, 153);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox23.TabIndex = 23;
+            this.pictureBox23.TabStop = false;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.Image = global::Football_Quiz.Properties.Resources.LIVELLO_5_removebg_preview;
+            this.pictureBox24.Location = new System.Drawing.Point(267, 153);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox24.TabIndex = 22;
+            this.pictureBox24.TabStop = false;
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.Image = global::Football_Quiz.Properties.Resources.Screenshot__32__removebg_preview;
+            this.pictureBox25.Location = new System.Drawing.Point(214, 21);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(272, 80);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox25.TabIndex = 13;
+            this.pictureBox25.TabStop = false;
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.Image = global::Football_Quiz.Properties.Resources.LIVELLO_10_removebg_preview;
+            this.pictureBox26.Location = new System.Drawing.Point(267, 421);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox26.TabIndex = 31;
+            this.pictureBox26.TabStop = false;
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.Image = global::Football_Quiz.Properties.Resources.LIVELLO_9_removebg_preview;
+            this.pictureBox27.Location = new System.Drawing.Point(482, 287);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox27.TabIndex = 30;
+            this.pictureBox27.TabStop = false;
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.Image = global::Football_Quiz.Properties.Resources.LIVELLO_8_removebg_preview;
+            this.pictureBox28.Location = new System.Drawing.Point(267, 287);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox28.TabIndex = 29;
+            this.pictureBox28.TabStop = false;
+            // 
+            // pictureBox29
+            // 
+            this.pictureBox29.Image = global::Football_Quiz.Properties.Resources.LIVELLO_7_removebg_preview;
+            this.pictureBox29.Location = new System.Drawing.Point(48, 287);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox29.TabIndex = 28;
+            this.pictureBox29.TabStop = false;
+            // 
+            // pictureBox30
+            // 
+            this.pictureBox30.Image = global::Football_Quiz.Properties.Resources.LIVELLO_4_removebg_preview;
+            this.pictureBox30.Location = new System.Drawing.Point(48, 153);
+            this.pictureBox30.Name = "pictureBox30";
+            this.pictureBox30.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox30.TabIndex = 27;
+            this.pictureBox30.TabStop = false;
+            // 
+            // pictureBox31
+            // 
+            this.pictureBox31.Image = global::Football_Quiz.Properties.Resources.LIVELLO_3_removebg_preview;
+            this.pictureBox31.Location = new System.Drawing.Point(482, 19);
+            this.pictureBox31.Name = "pictureBox31";
+            this.pictureBox31.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox31.TabIndex = 26;
+            this.pictureBox31.TabStop = false;
+            // 
+            // pictureBox32
+            // 
+            this.pictureBox32.Image = global::Football_Quiz.Properties.Resources.LIVELLO_1_removebg_preview;
+            this.pictureBox32.Location = new System.Drawing.Point(48, 19);
+            this.pictureBox32.Name = "pictureBox32";
+            this.pictureBox32.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox32.TabIndex = 25;
+            this.pictureBox32.TabStop = false;
+            // 
+            // pictureBox33
+            // 
+            this.pictureBox33.Image = global::Football_Quiz.Properties.Resources.LIVELLO_2_removebg_preview;
+            this.pictureBox33.Location = new System.Drawing.Point(267, 19);
+            this.pictureBox33.Name = "pictureBox33";
+            this.pictureBox33.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox33.TabIndex = 24;
+            this.pictureBox33.TabStop = false;
+            // 
+            // pictureBox34
+            // 
+            this.pictureBox34.Image = global::Football_Quiz.Properties.Resources.LIVELLO_6_removebg_preview;
+            this.pictureBox34.Location = new System.Drawing.Point(482, 153);
+            this.pictureBox34.Name = "pictureBox34";
+            this.pictureBox34.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox34.TabIndex = 23;
+            this.pictureBox34.TabStop = false;
+            // 
+            // pictureBox35
+            // 
+            this.pictureBox35.Image = global::Football_Quiz.Properties.Resources.LIVELLO_5_removebg_preview;
+            this.pictureBox35.Location = new System.Drawing.Point(267, 153);
+            this.pictureBox35.Name = "pictureBox35";
+            this.pictureBox35.Size = new System.Drawing.Size(131, 128);
+            this.pictureBox35.TabIndex = 22;
+            this.pictureBox35.TabStop = false;
+            // 
+            // pictureBox36
+            // 
+            this.pictureBox36.Image = global::Football_Quiz.Properties.Resources.Screenshot__32__removebg_preview;
+            this.pictureBox36.Location = new System.Drawing.Point(214, 21);
+            this.pictureBox36.Name = "pictureBox36";
+            this.pictureBox36.Size = new System.Drawing.Size(272, 80);
+            this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox36.TabIndex = 13;
+            this.pictureBox36.TabStop = false;
+            // 
+            // pictureBox39
+            // 
+            this.pictureBox39.Image = global::Football_Quiz.Properties.Resources.indizi1;
+            this.pictureBox39.Location = new System.Drawing.Point(307, 509);
+            this.pictureBox39.Name = "pictureBox39";
+            this.pictureBox39.Size = new System.Drawing.Size(52, 54);
+            this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox39.TabIndex = 2;
+            this.pictureBox39.TabStop = false;
+            // 
+            // pictureBox38
+            // 
+            this.pictureBox38.Image = global::Football_Quiz.Properties.Resources.freccia_indietro_removebg_preview2;
+            this.pictureBox38.Location = new System.Drawing.Point(6, 493);
+            this.pictureBox38.Name = "pictureBox38";
+            this.pictureBox38.Size = new System.Drawing.Size(75, 78);
+            this.pictureBox38.TabIndex = 1;
+            this.pictureBox38.TabStop = false;
+            // 
+            // pictureBox37
+            // 
+            this.pictureBox37.Image = global::Football_Quiz.Properties.Resources.freccia_avanti_removebg_preview3;
+            this.pictureBox37.Location = new System.Drawing.Point(585, 493);
+            this.pictureBox37.Name = "pictureBox37";
+            this.pictureBox37.Size = new System.Drawing.Size(75, 78);
+            this.pictureBox37.TabIndex = 0;
+            this.pictureBox37.TabStop = false;
+            // 
+            // pictureBox47
+            // 
+            this.pictureBox47.Image = global::Football_Quiz.Properties.Resources.scritta_livello_1_removebg_preview;
+            this.pictureBox47.Location = new System.Drawing.Point(186, 21);
+            this.pictureBox47.Name = "pictureBox47";
+            this.pictureBox47.Size = new System.Drawing.Size(318, 80);
+            this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox47.TabIndex = 15;
+            this.pictureBox47.TabStop = false;
+            // 
+            // pb_back
+            // 
+            this.pb_back.Image = global::Football_Quiz.Properties.Resources.Screenshot__21_;
+            this.pb_back.Location = new System.Drawing.Point(79, 674);
+            this.pb_back.Name = "pb_back";
+            this.pb_back.Size = new System.Drawing.Size(157, 52);
+            this.pb_back.TabIndex = 6;
+            this.pb_back.TabStop = false;
+            this.pb_back.Click += new System.EventHandler(this.pb_back_Click);
+            // 
+            // pb_nuovogiocatore
+            // 
+            this.pb_nuovogiocatore.Image = global::Football_Quiz.Properties.Resources.Screenshot__20_;
+            this.pb_nuovogiocatore.Location = new System.Drawing.Point(87, 559);
+            this.pb_nuovogiocatore.Name = "pb_nuovogiocatore";
+            this.pb_nuovogiocatore.Size = new System.Drawing.Size(147, 98);
+            this.pb_nuovogiocatore.TabIndex = 5;
+            this.pb_nuovogiocatore.TabStop = false;
+            this.pb_nuovogiocatore.Click += new System.EventHandler(this.pb_nuovogiocatore_Click);
+            // 
+            // pb_gioca
+            // 
+            this.pb_gioca.Image = global::Football_Quiz.Properties.Resources.Screenshot__18_;
+            this.pb_gioca.Location = new System.Drawing.Point(51, 308);
+            this.pb_gioca.Name = "pb_gioca";
+            this.pb_gioca.Size = new System.Drawing.Size(206, 164);
+            this.pb_gioca.TabIndex = 4;
+            this.pb_gioca.TabStop = false;
+            this.pb_gioca.Click += new System.EventHandler(this.pb_gioca_Click);
+            // 
+            // pb_info
+            // 
+            this.pb_info.Image = global::Football_Quiz.Properties.Resources.Screenshot__17_1;
+            this.pb_info.Location = new System.Drawing.Point(14, 0);
+            this.pb_info.Name = "pb_info";
+            this.pb_info.Size = new System.Drawing.Size(54, 52);
+            this.pb_info.TabIndex = 3;
+            this.pb_info.TabStop = false;
+            this.pb_info.Click += new System.EventHandler(this.pb_info_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Football_Quiz.Properties.Resources.Screenshot__16_;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(318, 739);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pb_exit
+            // 
+            this.pb_exit.Image = global::Football_Quiz.Properties.Resources.sfondo_exit;
+            this.pb_exit.Location = new System.Drawing.Point(823, 12);
+            this.pb_exit.Name = "pb_exit";
+            this.pb_exit.Size = new System.Drawing.Size(185, 89);
+            this.pb_exit.TabIndex = 3;
+            this.pb_exit.TabStop = false;
+            this.pb_exit.Click += new System.EventHandler(this.pb_exit_Click);
+            // 
+            // pb_magliette
+            // 
+            this.pb_magliette.Image = global::Football_Quiz.Properties.Resources.play_2;
+            this.pb_magliette.Location = new System.Drawing.Point(757, 569);
+            this.pb_magliette.Name = "pb_magliette";
+            this.pb_magliette.Size = new System.Drawing.Size(180, 98);
+            this.pb_magliette.TabIndex = 2;
+            this.pb_magliette.TabStop = false;
+            this.pb_magliette.Click += new System.EventHandler(this.pb_magliette_Click);
+            // 
+            // pb_squadre
+            // 
+            this.pb_squadre.Image = global::Football_Quiz.Properties.Resources.play_1;
+            this.pb_squadre.Location = new System.Drawing.Point(157, 559);
+            this.pb_squadre.Name = "pb_squadre";
+            this.pb_squadre.Size = new System.Drawing.Size(194, 98);
+            this.pb_squadre.TabIndex = 1;
+            this.pb_squadre.TabStop = false;
+            this.pb_squadre.Click += new System.EventHandler(this.pb_squadre_Click);
+            // 
+            // pb_sfondo
+            // 
+            this.pb_sfondo.Image = global::Football_Quiz.Properties.Resources.sfondo_completo;
+            this.pb_sfondo.Location = new System.Drawing.Point(-2, 1);
+            this.pb_sfondo.Name = "pb_sfondo";
+            this.pb_sfondo.Size = new System.Drawing.Size(1022, 703);
+            this.pb_sfondo.TabIndex = 0;
+            this.pb_sfondo.TabStop = false;
+            // 
+            // pictureBox40
+            // 
+            this.pictureBox40.Image = global::Football_Quiz.Properties.Resources.indizi1;
+            this.pictureBox40.Location = new System.Drawing.Point(365, 509);
+            this.pictureBox40.Name = "pictureBox40";
+            this.pictureBox40.Size = new System.Drawing.Size(52, 54);
+            this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox40.TabIndex = 3;
+            this.pictureBox40.TabStop = false;
+            // 
+            // pictureBox41
+            // 
+            this.pictureBox41.Image = global::Football_Quiz.Properties.Resources.indizi1;
+            this.pictureBox41.Location = new System.Drawing.Point(249, 509);
+            this.pictureBox41.Name = "pictureBox41";
+            this.pictureBox41.Size = new System.Drawing.Size(52, 54);
+            this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox41.TabIndex = 4;
+            this.pictureBox41.TabStop = false;
             // 
             // Form1
             // 
@@ -864,11 +1052,12 @@
             this.Controls.Add(this.pb_magliette);
             this.Controls.Add(this.pb_squadre);
             this.Controls.Add(this.pb_sfondo);
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panel_squadre.ResumeLayout(false);
             this.tbc_squadre.ResumeLayout(false);
-            this.tbp_giocofacile.ResumeLayout(false);
             this.tbp_giocatore.ResumeLayout(false);
             this.grb_record.ResumeLayout(false);
             this.grb_record.PerformLayout();
@@ -876,44 +1065,16 @@
             this.grb_cancella.PerformLayout();
             this.grb_inserisci.ResumeLayout(false);
             this.grb_inserisci.PerformLayout();
+            this.tbp_giocofacile.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.tbp_giocomedio.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.tbp_giocodifficile.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.tbp_1facile.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_nuovogiocatore)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_gioca)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_info)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_exit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_magliette)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_squadre)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_sfondo)).EndInit();
-            this.tbp_giocomedio.ResumeLayout(false);
-            this.tbp_giocodifficile.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
-            this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
-            this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -925,6 +1086,43 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_nuovogiocatore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_gioca)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_info)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_exit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_magliette)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_squadre)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_sfondo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1000,6 +1198,22 @@
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.TabPage tbp_1facile;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.PictureBox pictureBox47;
+        private System.Windows.Forms.TabPage tbp_2facile;
+        private System.Windows.Forms.TabPage tbp_3facile;
+        private System.Windows.Forms.TabPage tbp_4facile;
+        private System.Windows.Forms.TabPage tbp_5facile;
+        private System.Windows.Forms.TabPage tbp_6facile;
+        private System.Windows.Forms.TabPage tbp_7facile;
+        private System.Windows.Forms.TabPage tbp_8facile;
+        private System.Windows.Forms.TabPage tbp_9facile;
+        private System.Windows.Forms.TabPage tbp_10facile;
+        private System.Windows.Forms.PictureBox pictureBox37;
+        private System.Windows.Forms.PictureBox pictureBox38;
+        private System.Windows.Forms.PictureBox pictureBox39;
+        private System.Windows.Forms.PictureBox pictureBox41;
+        private System.Windows.Forms.PictureBox pictureBox40;
     }
 }
 
