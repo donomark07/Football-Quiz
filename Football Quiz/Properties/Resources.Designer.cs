@@ -103,6 +103,26 @@ namespace Football_Quiz.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap freccia_avanti_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("freccia_avanti-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap freccia_avanti_removebg_preview11 {
+            get {
+                object obj = ResourceManager.GetObject("freccia_avanti-removebg-preview11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_1200181982_612x612_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1200181982-612x612-removebg-preview", resourceCulture);
@@ -116,6 +136,16 @@ namespace Football_Quiz.Properties {
         internal static System.Drawing.Bitmap istockphoto_1200181982_612x612_removebg_preview1 {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1200181982-612x612-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lampadina_indizi_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("lampadina_indizi-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

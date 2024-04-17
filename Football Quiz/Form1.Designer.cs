@@ -101,6 +101,8 @@ namespace Football_Quiz
             this.pictureBox34 = new System.Windows.Forms.PictureBox();
             this.pictureBox35 = new System.Windows.Forms.PictureBox();
             this.pictureBox36 = new System.Windows.Forms.PictureBox();
+            this.pictureBox38 = new System.Windows.Forms.PictureBox();
+            this.pictureBox37 = new System.Windows.Forms.PictureBox();
             this.pictureBox47 = new System.Windows.Forms.PictureBox();
             this.pb_back = new System.Windows.Forms.PictureBox();
             this.pb_nuovogiocatore = new System.Windows.Forms.PictureBox();
@@ -111,6 +113,9 @@ namespace Football_Quiz
             this.pb_magliette = new System.Windows.Forms.PictureBox();
             this.pb_squadre = new System.Windows.Forms.PictureBox();
             this.pb_sfondo = new System.Windows.Forms.PictureBox();
+            this.pictureBox39 = new System.Windows.Forms.PictureBox();
+            this.pictureBox40 = new System.Windows.Forms.PictureBox();
+            this.pictureBox41 = new System.Windows.Forms.PictureBox();
             this.panel_squadre.SuspendLayout();
             this.tbc_squadre.SuspendLayout();
             this.tbp_giocatore.SuspendLayout();
@@ -124,6 +129,7 @@ namespace Football_Quiz
             this.tbp_giocodifficile.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.tbp_1facile.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -159,6 +165,8 @@ namespace Football_Quiz
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_nuovogiocatore)).BeginInit();
@@ -169,6 +177,9 @@ namespace Football_Quiz
             ((System.ComponentModel.ISupportInitialize)(this.pb_magliette)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_squadre)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_sfondo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_squadre
@@ -442,6 +453,11 @@ namespace Football_Quiz
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.pictureBox41);
+            this.groupBox4.Controls.Add(this.pictureBox40);
+            this.groupBox4.Controls.Add(this.pictureBox39);
+            this.groupBox4.Controls.Add(this.pictureBox38);
+            this.groupBox4.Controls.Add(this.pictureBox37);
             this.groupBox4.Location = new System.Drawing.Point(6, 107);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(660, 569);
@@ -884,10 +900,28 @@ namespace Football_Quiz
             this.pictureBox36.TabIndex = 13;
             this.pictureBox36.TabStop = false;
             // 
+            // pictureBox38
+            // 
+            this.pictureBox38.Image = global::Football_Quiz.Properties.Resources.lampadina_indizi_removebg_preview;
+            this.pictureBox38.Location = new System.Drawing.Point(359, 507);
+            this.pictureBox38.Name = "pictureBox38";
+            this.pictureBox38.Size = new System.Drawing.Size(48, 53);
+            this.pictureBox38.TabIndex = 1;
+            this.pictureBox38.TabStop = false;
+            // 
+            // pictureBox37
+            // 
+            this.pictureBox37.Image = global::Football_Quiz.Properties.Resources.freccia_avanti_removebg_preview11;
+            this.pictureBox37.Location = new System.Drawing.Point(594, 501);
+            this.pictureBox37.Name = "pictureBox37";
+            this.pictureBox37.Size = new System.Drawing.Size(60, 62);
+            this.pictureBox37.TabIndex = 0;
+            this.pictureBox37.TabStop = false;
+            // 
             // pictureBox47
             // 
             this.pictureBox47.Image = global::Football_Quiz.Properties.Resources.scritta_livello_1_removebg_preview;
-            this.pictureBox47.Location = new System.Drawing.Point(186, 21);
+            this.pictureBox47.Location = new System.Drawing.Point(179, 21);
             this.pictureBox47.Name = "pictureBox47";
             this.pictureBox47.Size = new System.Drawing.Size(318, 80);
             this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -982,6 +1016,33 @@ namespace Football_Quiz
             this.pb_sfondo.TabIndex = 0;
             this.pb_sfondo.TabStop = false;
             // 
+            // pictureBox39
+            // 
+            this.pictureBox39.Image = global::Football_Quiz.Properties.Resources.lampadina_indizi_removebg_preview;
+            this.pictureBox39.Location = new System.Drawing.Point(251, 507);
+            this.pictureBox39.Name = "pictureBox39";
+            this.pictureBox39.Size = new System.Drawing.Size(48, 53);
+            this.pictureBox39.TabIndex = 2;
+            this.pictureBox39.TabStop = false;
+            // 
+            // pictureBox40
+            // 
+            this.pictureBox40.Image = global::Football_Quiz.Properties.Resources.lampadina_indizi_removebg_preview;
+            this.pictureBox40.Location = new System.Drawing.Point(305, 507);
+            this.pictureBox40.Name = "pictureBox40";
+            this.pictureBox40.Size = new System.Drawing.Size(48, 53);
+            this.pictureBox40.TabIndex = 3;
+            this.pictureBox40.TabStop = false;
+            // 
+            // pictureBox41
+            // 
+            this.pictureBox41.Image = global::Football_Quiz.Properties.Resources.freccia_avanti_removebg_preview11;
+            this.pictureBox41.Location = new System.Drawing.Point(6, 501);
+            this.pictureBox41.Name = "pictureBox41";
+            this.pictureBox41.Size = new System.Drawing.Size(60, 62);
+            this.pictureBox41.TabIndex = 4;
+            this.pictureBox41.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1013,6 +1074,7 @@ namespace Football_Quiz
             this.tbp_giocodifficile.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.tbp_1facile.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -1048,6 +1110,8 @@ namespace Football_Quiz
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox47)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_back)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_nuovogiocatore)).EndInit();
@@ -1058,6 +1122,9 @@ namespace Football_Quiz
             ((System.ComponentModel.ISupportInitialize)(this.pb_magliette)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_squadre)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_sfondo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1144,6 +1211,11 @@ namespace Football_Quiz
         private System.Windows.Forms.TabPage tbp_9facile;
         private System.Windows.Forms.TabPage tbp_10facile;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox37;
+        private System.Windows.Forms.PictureBox pictureBox38;
+        private System.Windows.Forms.PictureBox pictureBox41;
+        private System.Windows.Forms.PictureBox pictureBox40;
+        private System.Windows.Forms.PictureBox pictureBox39;
     }
 }
 

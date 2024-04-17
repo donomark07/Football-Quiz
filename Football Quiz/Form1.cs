@@ -88,5 +88,7 @@ namespace Football_Quiz
             tbc_squadre.Visible = true;
             tbc_squadre.SelectTab(4);
         }
+
+        
     }
 }

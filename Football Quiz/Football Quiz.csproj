@@ -218,5 +218,11 @@
   <ItemGroup>
     <None Include="Resources\coppa-removebg-preview1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\freccia_avanti-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lampadina_indizi-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
