@@ -83,8 +83,10 @@ namespace Football_Quiz
             tbc_squadre.SelectTab(0);
         }
 
-        
-
-        
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(4);
+        }
     }
 }
