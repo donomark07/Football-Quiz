@@ -123,6 +123,16 @@ namespace Football_Quiz.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap freccia_indietro_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("freccia_indietro-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_1200181982_612x612_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1200181982-612x612-removebg-preview", resourceCulture);
