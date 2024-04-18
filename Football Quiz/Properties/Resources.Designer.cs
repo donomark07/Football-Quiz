@@ -133,6 +133,16 @@ namespace Football_Quiz.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap home_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("home-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_1200181982_612x612_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1200181982-612x612-removebg-preview", resourceCulture);
@@ -406,6 +416,116 @@ namespace Football_Quiz.Properties {
         internal static System.Drawing.Bitmap scritta_livello_1_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("scritta_livello_1-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scritta_livello_10_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("scritta_livello_10-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scritta_livello_2 {
+            get {
+                object obj = ResourceManager.GetObject("scritta livello 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scritta_livello_2_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("scritta_livello_2-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scritta_livello_3_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("scritta_livello_3-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scritta_livello_4_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("scritta_livello_4-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scritta_livello_5_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("scritta_livello_5-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scritta_livello_6_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("scritta_livello_6-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scritta_livello_6_removebg_preview__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("scritta_livello_6-removebg-preview (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scritta_livello_7_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("scritta_livello_7-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scritta_livello_8_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("scritta_livello_8-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scritta_livello_9_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("scritta_livello_9-removebg-preview (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

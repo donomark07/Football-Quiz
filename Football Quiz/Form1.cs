@@ -61,6 +61,12 @@ namespace Football_Quiz
 
         private void pb_gioca_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(cbo_giocatore.Text))
+            {
+                MessageBox.Show("Selezionare il giocatore");
+                return;
+            }
+            
             tbc_squadre.Visible = true;
             string dato = cbo_livello.Text;
             if (dato == "Facile")
@@ -89,6 +95,136 @@ namespace Football_Quiz
             tbc_squadre.SelectTab(4);
         }
 
-        
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(5);
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(6);
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(7);
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(8);
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(9);
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(10);
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(11);
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(12);
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(13);
+        }
+
+        private void pictureBox97_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(1);
+        }
+
+        private void pictureBox98_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(1);
+        }
+
+        private void pictureBox41_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(1);
+        }
+
+        private void pictureBox99_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(1);
+        }
+
+        private void pictureBox100_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(1);
+        }
+
+        private void pictureBox101_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(1);
+        }
+
+        private void pictureBox102_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(1);
+        }
+
+        private void pictureBox103_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(1);
+        }
+
+        private void pictureBox104_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(1);
+        }
+
+        private void pictureBox105_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(1);
+        }
+
+        private void pb_frecciaind2_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(4);
+        }
+
+        private void pb_frecciaind3_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(5);
+        }
+
+        private void pb_frecciaind4_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(6);
+        }
     }
 }
