@@ -226,5 +226,95 @@ namespace Football_Quiz
             tbc_squadre.Visible = true;
             tbc_squadre.SelectTab(6);
         }
+
+        private void pb_frecciaind5_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(7);
+        }
+
+        private void pb_frecciaind6_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(8);
+        }
+
+        private void pb_frecciaind7_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(9);
+        }
+
+        private void pb_frecciaind8_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(10);
+        }
+
+        private void pb_frecciaind9_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(11);
+        }
+
+        private void pb_frecciaind10_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(12);
+        }
+
+        private void pb_frecciavanti1facile_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(5);
+        }
+
+        private void pb_frecciavanti2facile_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(6);
+        }
+
+        private void pb_frecciavanti3facile_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(7);
+        }
+
+        private void pb_frecciavanti4facile_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(8);
+        }
+
+        private void pb_frecciavanti5facile_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(9);
+        }
+
+        private void pb_frecciavanti6facile_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(10);
+        }
+
+        private void pb_frecciavanti7facile_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(11);
+        }
+
+        private void pb_frecciavanti8facile_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(12);
+        }
+
+        private void pb_frecciavanti9facile_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(13);
+        }
     }
 }
