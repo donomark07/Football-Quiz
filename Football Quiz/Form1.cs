@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Football_Quiz.bin;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,12 +13,26 @@ namespace Football_Quiz
 {
     public partial class Form1 : Form
     {
+        private giocatori[] elegiocatori = new giocatori[50];
+        private int num = 0;
         public Form1()
         {
             InitializeComponent();
+
             tbc_squadre.Appearance = TabAppearance.FlatButtons;
             tbc_squadre.ItemSize = new Size(0, 1);
             tbc_squadre.SizeMode = TabSizeMode.Fixed;
+
+            #region giocatori preinseriti
+
+            elegiocatori[num].giocatore = "Marco";
+            num++;
+            elegiocatori[num].giocatore = "Alessio";
+            num++;
+            elegiocatori[num].giocatore = txb_inserisci.Text;
+            num++;
+
+            #endregion giocatori preinseriti
         }
 
         private void pb_squadre_Click(object sender, EventArgs e)
@@ -69,15 +84,15 @@ namespace Football_Quiz
             
             tbc_squadre.Visible = true;
             string dato = cbo_livello.Text;
-            if (dato == "Facile")
+            if (dato == "Principiante")
             {
                 tbc_squadre.SelectTab(1);
             }
-            if (dato == "Medio")
+            if (dato == "Esperto")
             {
                 tbc_squadre.SelectTab(2);
             }
-            if (dato == "Difficile")
+            if (dato == "Campione")
             {
                 tbc_squadre.SelectTab(3);
             }
@@ -315,6 +330,63 @@ namespace Football_Quiz
         {
             tbc_squadre.Visible = true;
             tbc_squadre.SelectTab(13);
+        }
+
+        private void btn_inserisci_Click(object sender, EventArgs e)
+        {
+            if(num > 49)
+            {
+                MessageBox.Show("Errore del vettore");
+                return;
+            }
+
+            if (string.IsNullOrEmpty(txb_inserisci.Text))
+            {
+                MessageBox.Show("Inserire nuovo giocatore");
+                return;
+            }
+
+            giocatori nuovogiocatore = default;
+
+            int gioc = Mylib.cercainserisci(elegiocatori, num, txb_inserisci.Text);
+            if (gioc >= 0)
+            {
+                MessageBox.Show("È già presente un giocatore con questo nome");
+                return;
+            }
+
+            nuovogiocatore.giocatore = txb_inserisci.Text;
+
+            elegiocatori[num] = nuovogiocatore;
+
+            txb_inserisci.Clear();
+
+            num++;
+
+            cbo_giocatore.Items.Add(nuovogiocatore.giocatore);
+        }
+
+        private void btn_cancella_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txb_cancella.Text))
+            {
+                MessageBox.Show("Inserire giocatore da cancellare");
+                return;
+            }
+
+            int cancdati = Mylib.cancella(elegiocatori, ref num , txb_cancella.Text);
+            if (cancdati == 0)
+            {
+                MessageBox.Show("Giocatore non cancellato o inesistente");
+            }
+            else
+            {
+                MessageBox.Show("Giocatore cancellato con successo");
+            }
+
+            cbo_giocatore.Items.Remove(txb_cancella.Text);
+
+            txb_cancella.Clear();
         }
     }
 }
