@@ -82,22 +82,27 @@ namespace Football_Quiz
                 MessageBox.Show("Selezionare il giocatore");
                 return;
             }
-            
+
             tbc_squadre.Visible = true;
             string dato = cbo_livello.Text;
             if (dato == "Principiante")
             {
                 tbc_squadre.SelectTab(1);
             }
-            if (dato == "Esperto")
+
+            if (dato == "Esperto ")
             {
                 tbc_squadre.SelectTab(2);
             }
-            if (dato == "Campione")
+
+            if (dato == "Campione ")
             {
                 tbc_squadre.SelectTab(3);
             }
+
         }
+
+       
 
         private void pb_nuovogiocatore_Click(object sender, EventArgs e)
         {
