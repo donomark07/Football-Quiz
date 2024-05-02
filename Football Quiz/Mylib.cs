@@ -9,6 +9,8 @@ namespace Football_Quiz
     public struct giocatori
     {
         public string giocatore;
+        public int punteggio;
+        public int punteggiomax;
     }
     public partial class Mylib
     {
