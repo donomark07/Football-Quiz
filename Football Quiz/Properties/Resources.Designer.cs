@@ -63,6 +63,36 @@ namespace Football_Quiz.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap barcellona {
+            get {
+                object obj = ResourceManager.GetObject("barcellona", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bayern_monaco {
+            get {
+                object obj = ResourceManager.GetObject("bayern monaco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap borussia_dortmund {
+            get {
+                object obj = ResourceManager.GetObject("borussia dortmund", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap coppa {
             get {
                 object obj = ResourceManager.GetObject("coppa", resourceCulture);
@@ -143,6 +173,16 @@ namespace Football_Quiz.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap inter {
+            get {
+                object obj = ResourceManager.GetObject("inter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_1200181982_612x612_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1200181982-612x612-removebg-preview", resourceCulture);
@@ -156,6 +196,16 @@ namespace Football_Quiz.Properties {
         internal static System.Drawing.Bitmap istockphoto_1200181982_612x612_removebg_preview1 {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1200181982-612x612-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap juventus {
+            get {
+                object obj = ResourceManager.GetObject("juventus", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,6 +323,36 @@ namespace Football_Quiz.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap liverpool {
+            get {
+                object obj = ResourceManager.GetObject("liverpool", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap manchester_city {
+            get {
+                object obj = ResourceManager.GetObject("manchester city", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap milan {
+            get {
+                object obj = ResourceManager.GetObject("milan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap play_1 {
             get {
                 object obj = ResourceManager.GetObject("play 1", resourceCulture);
@@ -306,6 +386,26 @@ namespace Football_Quiz.Properties {
         internal static System.Drawing.Bitmap podio1 {
             get {
                 object obj = ResourceManager.GetObject("podio1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap psg {
+            get {
+                object obj = ResourceManager.GetObject("psg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap real_madrid {
+            get {
+                object obj = ResourceManager.GetObject("real madrid", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

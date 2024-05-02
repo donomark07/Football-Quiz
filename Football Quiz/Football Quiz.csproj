@@ -261,5 +261,35 @@
   <ItemGroup>
     <None Include="Resources\home-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\real madrid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manchester city.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\psg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bayern monaco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barcellona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\liverpool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juventus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\milan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borussia dortmund.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

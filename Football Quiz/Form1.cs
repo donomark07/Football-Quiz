@@ -394,5 +394,10 @@ namespace Football_Quiz
 
             txb_cancella.Clear();
         }
+
+        private void pictureBox37_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
