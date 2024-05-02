@@ -12,7 +12,7 @@ namespace Football_Quiz
     }
     public partial class Mylib
     {
-       
+
 
         public static int cercainserisci(giocatori[] ele, int n, string dato)
         {
@@ -48,4 +48,5 @@ namespace Football_Quiz
             return c;
         }
     }
+
 }
