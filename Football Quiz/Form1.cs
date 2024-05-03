@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -17,6 +18,11 @@ namespace Football_Quiz
     {
         private giocatori[] elegiocatori = new giocatori[50];
         private int num = 0;
+        private int punteggioIniziale = 100;
+        private int punteggioLivello = 100;
+        private int punteggioParzialeLivello = default(int);
+        
+        
         public Form1()
         {
             InitializeComponent();
@@ -36,6 +42,7 @@ namespace Football_Quiz
             elegiocatori[num].punteggio = 870;
             num++;
             elegiocatori[num].giocatore = txb_inserisci.Text;
+            elegiocatori[num].punteggio = default(int);
             num++;
 
             #endregion giocatori preinseriti
@@ -119,6 +126,8 @@ namespace Football_Quiz
         {
             tbc_squadre.Visible = true;
             tbc_squadre.SelectTab(4);
+
+            
         }
 
         private void pictureBox11_Click(object sender, EventArgs e)
@@ -407,12 +416,28 @@ namespace Football_Quiz
         private void btn_opzione1facile1_Click(object sender, EventArgs e)
         {
             btn_opzione1facile1.BackColor = Color.Red;
+
+            punteggioIniziale = punteggioLivello;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            punteggioParzialeLivello = punteggioIniziale + punteggioLivello;
+
+            lbl_punteggio1facile.Text = $"{punteggioParzialeLivello}";
             
         }
 
         private void btn_opzione3facile1_Click(object sender, EventArgs e)
         {
             btn_opzione3facile1.BackColor = Color.Red;
+
+            punteggioIniziale = punteggioLivello;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            punteggioParzialeLivello = punteggioIniziale + punteggioLivello;
+
+            lbl_punteggio1facile.Text = $"{punteggioParzialeLivello}";
         }
 
         private void btn_opzione2facile1_Click(object sender, EventArgs e)
@@ -430,21 +455,53 @@ namespace Football_Quiz
         private void btn_opzione4facile1_Click(object sender, EventArgs e)
         {
             btn_opzione4facile1.BackColor = Color.Red;
+
+            punteggioIniziale = punteggioLivello;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            punteggioParzialeLivello = punteggioIniziale + punteggioLivello;
+
+            lbl_punteggio1facile.Text = $"{punteggioParzialeLivello}";
         }
 
         private void pb_inzidiofacile1_Click(object sender, EventArgs e)
         {
             lbl_indiziofacile1_1.Visible = true;
+
+            punteggioIniziale = punteggioLivello;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            punteggioParzialeLivello = punteggioIniziale + punteggioLivello;
+
+            lbl_punteggio1facile.Text = $"{punteggioParzialeLivello}";
         }
 
         private void pb_indiziofacile1_2_Click(object sender, EventArgs e)
         {
             lbl_indiziofacile1_2.Visible = true;
+
+            punteggioIniziale = punteggioLivello;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            punteggioParzialeLivello = punteggioIniziale + punteggioLivello;
+
+            lbl_punteggio1facile.Text = $"{punteggioParzialeLivello}";
         }
 
         private void pb_indiziofacile1_3_Click(object sender, EventArgs e)
         {
             lbl_indiziofacile1_3.Visible = true;
+
+            punteggioIniziale = punteggioLivello;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            punteggioParzialeLivello = punteggioIniziale + punteggioLivello;
+
+            lbl_punteggio1facile.Text = $"{punteggioParzialeLivello}";
         }
 
         private void btn_opzione1facile2_Click(object sender, EventArgs e)
@@ -552,6 +609,234 @@ namespace Football_Quiz
 
             tbc_squadre.Visible = true;
             tbc_squadre.SelectTab(8);
+        }
+
+        private void btn_opzione3facile5_Click(object sender, EventArgs e)
+        {
+            btn_opzione3facile5.BackColor = Color.Red;
+        }
+
+        private void btn_opzione4facile5_Click(object sender, EventArgs e)
+        {
+            btn_opzione4facile5.BackColor = Color.Red;
+        }
+
+        private void btn_opzione2facile5_Click(object sender, EventArgs e)
+        {
+            btn_opzione2facile5.BackColor= Color.Red;
+        }
+
+        private void btn_opzione1facile5_Click(object sender, EventArgs e)
+        {
+            btn_opzione1facile5.BackColor = Color.Green;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(9);
+        }
+
+        private void pb_indiziofacile5_1_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile5_1.Visible = true;
+        }
+
+        private void pb_indiziofacile5_2_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile5_2.Visible = true;
+        }
+
+        private void pb_indiziofacile5_3_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile5_3.Visible = true;
+        }
+
+        private void btn_opzione1facile6_Click(object sender, EventArgs e)
+        {
+            btn_opzione1facile6.BackColor = Color.Red;
+        }
+
+        private void btn_opzione2facile6_Click(object sender, EventArgs e)
+        {
+            btn_opzione2facile6.BackColor = Color.Red;
+        }
+
+        private void btn_opzione4facile6_Click(object sender, EventArgs e)
+        {
+            btn_opzione4facile6.BackColor = Color.Red;
+        }
+
+        private void btn_opzione3facile6_Click(object sender, EventArgs e)
+        {
+            btn_opzione3facile6.BackColor = Color.Green;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(10);
+        }
+
+        private void pb_indiziofacile6_1_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile6_1.Visible = true;
+        }
+
+        private void pb_indiziofacile6_2_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile6_2.Visible = true;
+        }
+
+        private void pb_indiziofacile6_3_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile6_3.Visible = true;
+        }
+
+        private void btn_opzione1facile7_Click(object sender, EventArgs e)
+        {
+            btn_opzione1facile7.BackColor = Color.Red;
+        }
+
+        private void btn_opzione2facile7_Click(object sender, EventArgs e)
+        {
+            btn_opzione2facile7.BackColor = Color.Red;
+        }
+
+        private void btn_opzione4facile7_Click(object sender, EventArgs e)
+        {
+            btn_opzione4facile7.BackColor = Color.Red;
+        }
+
+        private void btn_opzione3facile7_Click(object sender, EventArgs e)
+        {
+            btn_opzione3facile7.BackColor = Color.Green;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(11);
+        }
+
+        private void pb_indizifacile7_1_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile7_1.Visible = true;
+        }
+
+        private void pb_indiziofacile7_2_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile7_2.Visible = true;
+        }
+
+        private void pb_indiziofacile7_3_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile7_3.Visible = true;
+        }
+
+        private void btn_opzione1facile8_Click(object sender, EventArgs e)
+        {
+            btn_opzione1facile8.BackColor = Color.Red;
+        }
+
+        private void btn_opzione3facile8_Click(object sender, EventArgs e)
+        {
+            btn_opzione3facile8.BackColor = Color.Red;
+        }
+
+        private void btn_opzione2facile8_Click(object sender, EventArgs e)
+        {
+            btn_opzione2facile8.BackColor= Color.Red;
+        }
+
+        private void btn_opzione4facile8_Click(object sender, EventArgs e)
+        {
+            btn_opzione4facile8.BackColor = Color.Green;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(12);
+        }
+
+        private void pb_indiziofacile8_1_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile8_1.Visible = true;
+        }
+
+        private void pb_indiziofacile8_2_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile8_2.Visible = true;
+        }
+
+        private void pb_indiziofacile8_3_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile8_3.Visible = true;
+        }
+
+        private void btn_opzione3facile9_Click(object sender, EventArgs e)
+        {
+            btn_opzione3facile9.BackColor = Color.Red;
+        }
+
+        private void btn_opzione4facile9_Click(object sender, EventArgs e)
+        {
+            btn_opzione4facile9.BackColor = Color.Red;
+        }
+
+        private void btn_opzione2facile9_Click(object sender, EventArgs e)
+        {
+            btn_opzione2facile9.BackColor = Color.Red;
+        }
+
+        private void btn_opzione1facile9_Click(object sender, EventArgs e)
+        {
+            btn_opzione1facile9.BackColor = Color.Green;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(13);
+        }
+
+        private void pb_indiziofacile9_1_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile9_1.Visible = true;
+        }
+
+        private void pb_indiziofacile9_2_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile9_2.Visible = true;
+        }
+
+        private void pb_indiziofacile9_3_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile9_3.Visible = true;
+        }
+
+        private void btn_opzione1facile10_Click(object sender, EventArgs e)
+        {
+            btn_opzione1facile10.BackColor = Color.Red;
+        }
+
+        private void btn_opzione3facile10_Click(object sender, EventArgs e)
+        {
+            btn_opzione3facile10.BackColor = Color.Red;
+        }
+
+        private void btn_opzione4facile10_Click(object sender, EventArgs e)
+        {
+            btn_opzione4facile10.BackColor = Color.Red;
+        }
+
+        private void btn_opzione2facile10_Click(object sender, EventArgs e)
+        {
+            btn_opzione2facile10.BackColor = Color.Green;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(14);
+        }
+
+        private void pb_indiziofacile10_1_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile10_1.Visible = true;
+        }
+
+        private void pb_livellofacile10_2_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile10_2.Visible = true;
+        }
+
+        private void pb_livellofacile10_3_Click(object sender, EventArgs e)
+        {
+            lbl_indizifacile10_3.Visible = true;
         }
     }
 }
