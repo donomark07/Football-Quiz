@@ -838,5 +838,10 @@ namespace Football_Quiz
         {
             lbl_indizifacile10_3.Visible = true;
         }
+
+        private void pictureBox38_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
