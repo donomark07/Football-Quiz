@@ -286,65 +286,65 @@ namespace Football_Quiz
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lbl_punteggiofinale = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.tbp_1medio = new System.Windows.Forms.TabPage();
             this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
+            this.lbl_punteggio1medio = new System.Windows.Forms.Label();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
+            this.lbl_indiziomedio1_3 = new System.Windows.Forms.Label();
+            this.lbl_indiziomedio1_1 = new System.Windows.Forms.Label();
+            this.lbl_indiziomedio1_2 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btn_opzione4medio1 = new System.Windows.Forms.Button();
+            this.btn_opzione3medio1 = new System.Windows.Forms.Button();
+            this.btn_opzione2medio1 = new System.Windows.Forms.Button();
+            this.btn_opzione1medio1 = new System.Windows.Forms.Button();
             this.pictureBox45 = new System.Windows.Forms.PictureBox();
-            this.pictureBox50 = new System.Windows.Forms.PictureBox();
-            this.pictureBox51 = new System.Windows.Forms.PictureBox();
-            this.pictureBox52 = new System.Windows.Forms.PictureBox();
-            this.pictureBox56 = new System.Windows.Forms.PictureBox();
+            this.pb_indiziomedio1_2 = new System.Windows.Forms.PictureBox();
+            this.pb_indiziomedio1_1 = new System.Windows.Forms.PictureBox();
+            this.pb_indiziomedio1_3 = new System.Windows.Forms.PictureBox();
+            this.pb_frecciavantimedio1 = new System.Windows.Forms.PictureBox();
             this.pb_homelivello1medio = new System.Windows.Forms.PictureBox();
             this.pictureBox58 = new System.Windows.Forms.PictureBox();
             this.tbp_2medio = new System.Windows.Forms.TabPage();
             this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
+            this.lbl_punteggio2medio = new System.Windows.Forms.Label();
             this.groupBox15 = new System.Windows.Forms.GroupBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.lbl_indiziomedio2_1 = new System.Windows.Forms.Label();
+            this.lbl_indiziomedio2_2 = new System.Windows.Forms.Label();
+            this.lbl_indiziomedio2_3 = new System.Windows.Forms.Label();
+            this.btn_opzione4medio2 = new System.Windows.Forms.Button();
+            this.btn_opzione3medio2 = new System.Windows.Forms.Button();
+            this.btn_opzione2medio2 = new System.Windows.Forms.Button();
+            this.btn_opzione1medio2 = new System.Windows.Forms.Button();
             this.pictureBox57 = new System.Windows.Forms.PictureBox();
-            this.pictureBox62 = new System.Windows.Forms.PictureBox();
-            this.pictureBox63 = new System.Windows.Forms.PictureBox();
-            this.pictureBox64 = new System.Windows.Forms.PictureBox();
-            this.pictureBox68 = new System.Windows.Forms.PictureBox();
-            this.pictureBox69 = new System.Windows.Forms.PictureBox();
-            this.pictureBox70 = new System.Windows.Forms.PictureBox();
+            this.pb_frecciaindietromedio2 = new System.Windows.Forms.PictureBox();
+            this.pb_indiziomedio2_2 = new System.Windows.Forms.PictureBox();
+            this.pb_indiziomedio2_1 = new System.Windows.Forms.PictureBox();
+            this.pb_indiziomedio2_3 = new System.Windows.Forms.PictureBox();
+            this.pb_frecciavantimedio2 = new System.Windows.Forms.PictureBox();
+            this.pb_homemedio2 = new System.Windows.Forms.PictureBox();
             this.pictureBox71 = new System.Windows.Forms.PictureBox();
             this.tbp_3medio = new System.Windows.Forms.TabPage();
             this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
+            this.lbl_punteggio3medio = new System.Windows.Forms.Label();
             this.groupBox16 = new System.Windows.Forms.GroupBox();
-            this.pictureBox222 = new System.Windows.Forms.PictureBox();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
+            this.pb_frecciaindietromedio3 = new System.Windows.Forms.PictureBox();
+            this.lbl_indiziomedio3_3 = new System.Windows.Forms.Label();
+            this.lbl_indiziomedio3_1 = new System.Windows.Forms.Label();
+            this.lbl_indiziomedio3_2 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.btn_opzione4medio3 = new System.Windows.Forms.Button();
+            this.btn_opzione3medio3 = new System.Windows.Forms.Button();
+            this.btn_opzione2medio3 = new System.Windows.Forms.Button();
+            this.btn_opzione1medio3 = new System.Windows.Forms.Button();
             this.pictureBox73 = new System.Windows.Forms.PictureBox();
-            this.pictureBox74 = new System.Windows.Forms.PictureBox();
-            this.pictureBox75 = new System.Windows.Forms.PictureBox();
-            this.pictureBox76 = new System.Windows.Forms.PictureBox();
-            this.pictureBox77 = new System.Windows.Forms.PictureBox();
-            this.pictureBox79 = new System.Windows.Forms.PictureBox();
+            this.pb_indiziomedio3_2 = new System.Windows.Forms.PictureBox();
+            this.pb_indiziomedio3_1 = new System.Windows.Forms.PictureBox();
+            this.pb_indiziomedio3_3 = new System.Windows.Forms.PictureBox();
+            this.pb_frecciavantimedio3 = new System.Windows.Forms.PictureBox();
+            this.pb_homemedio3 = new System.Windows.Forms.PictureBox();
             this.pictureBox80 = new System.Windows.Forms.PictureBox();
             this.tbp_4medio = new System.Windows.Forms.TabPage();
             this.label40 = new System.Windows.Forms.Label();
@@ -873,31 +873,31 @@ namespace Football_Quiz
             this.tbp_1medio.SuspendLayout();
             this.groupBox14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio1_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio1_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio1_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_frecciavantimedio1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_homelivello1medio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).BeginInit();
             this.tbp_2medio.SuspendLayout();
             this.groupBox15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox69)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox70)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_frecciaindietromedio2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio2_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio2_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio2_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_frecciavantimedio2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_homemedio2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox71)).BeginInit();
             this.tbp_3medio.SuspendLayout();
             this.groupBox16.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox222)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_frecciaindietromedio3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox73)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox74)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox75)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox76)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox77)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox79)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio3_2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio3_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio3_3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_frecciavantimedio3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_homemedio3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox80)).BeginInit();
             this.tbp_4medio.SuspendLayout();
             this.groupBox17.SuspendLayout();
@@ -1099,10 +1099,11 @@ namespace Football_Quiz
             this.panel_squadre.Controls.Add(this.cbo_giocatore);
             this.panel_squadre.Controls.Add(this.cbo_livello);
             this.panel_squadre.Controls.Add(this.pictureBox1);
-            this.panel_squadre.Location = new System.Drawing.Point(127, 69);
+            this.panel_squadre.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.panel_squadre.Location = new System.Drawing.Point(-3, 1);
             this.panel_squadre.Margin = new System.Windows.Forms.Padding(4);
             this.panel_squadre.Name = "panel_squadre";
-            this.panel_squadre.Size = new System.Drawing.Size(1069, 691);
+            this.panel_squadre.Size = new System.Drawing.Size(1363, 903);
             this.panel_squadre.TabIndex = 4;
             this.panel_squadre.Visible = false;
             // 
@@ -1354,6 +1355,7 @@ namespace Football_Quiz
             // 
             // pictureBox4
             // 
+            this.pictureBox4.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_10_removebg_preview;
             this.pictureBox4.Location = new System.Drawing.Point(356, 518);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
@@ -1364,6 +1366,7 @@ namespace Football_Quiz
             // 
             // pictureBox5
             // 
+            this.pictureBox5.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_9_removebg_preview;
             this.pictureBox5.Location = new System.Drawing.Point(643, 353);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
@@ -1374,6 +1377,7 @@ namespace Football_Quiz
             // 
             // pictureBox6
             // 
+            this.pictureBox6.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_8_removebg_preview;
             this.pictureBox6.Location = new System.Drawing.Point(356, 353);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
@@ -1384,6 +1388,7 @@ namespace Football_Quiz
             // 
             // pictureBox7
             // 
+            this.pictureBox7.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_7_removebg_preview;
             this.pictureBox7.Location = new System.Drawing.Point(64, 353);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox7.Name = "pictureBox7";
@@ -1394,6 +1399,7 @@ namespace Football_Quiz
             // 
             // pictureBox8
             // 
+            this.pictureBox8.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_4_removebg_preview;
             this.pictureBox8.Location = new System.Drawing.Point(64, 188);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox8.Name = "pictureBox8";
@@ -1404,6 +1410,7 @@ namespace Football_Quiz
             // 
             // pictureBox9
             // 
+            this.pictureBox9.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_3_removebg_preview;
             this.pictureBox9.Location = new System.Drawing.Point(643, 23);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox9.Name = "pictureBox9";
@@ -1414,6 +1421,7 @@ namespace Football_Quiz
             // 
             // pictureBox10
             // 
+            this.pictureBox10.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_1_removebg_preview;
             this.pictureBox10.Location = new System.Drawing.Point(64, 23);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox10.Name = "pictureBox10";
@@ -1424,6 +1432,7 @@ namespace Football_Quiz
             // 
             // pictureBox11
             // 
+            this.pictureBox11.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_2_removebg_preview;
             this.pictureBox11.Location = new System.Drawing.Point(356, 23);
             this.pictureBox11.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox11.Name = "pictureBox11";
@@ -1434,6 +1443,7 @@ namespace Football_Quiz
             // 
             // pictureBox12
             // 
+            this.pictureBox12.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_6_removebg_preview;
             this.pictureBox12.Location = new System.Drawing.Point(643, 188);
             this.pictureBox12.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox12.Name = "pictureBox12";
@@ -1444,6 +1454,7 @@ namespace Football_Quiz
             // 
             // pictureBox13
             // 
+            this.pictureBox13.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_5_removebg_preview;
             this.pictureBox13.Location = new System.Drawing.Point(356, 188);
             this.pictureBox13.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox13.Name = "pictureBox13";
@@ -1454,6 +1465,7 @@ namespace Football_Quiz
             // 
             // pictureBox14
             // 
+            this.pictureBox14.BackgroundImage = global::Football_Quiz.Properties.Resources.Screenshot__32_;
             this.pictureBox14.Location = new System.Drawing.Point(285, 26);
             this.pictureBox14.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox14.Name = "pictureBox14";
@@ -1497,6 +1509,7 @@ namespace Football_Quiz
             // 
             // pictureBox15
             // 
+            this.pictureBox15.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_10_removebg_preview;
             this.pictureBox15.Location = new System.Drawing.Point(356, 518);
             this.pictureBox15.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox15.Name = "pictureBox15";
@@ -1506,6 +1519,7 @@ namespace Football_Quiz
             // 
             // pictureBox16
             // 
+            this.pictureBox16.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_9_removebg_preview;
             this.pictureBox16.Location = new System.Drawing.Point(643, 353);
             this.pictureBox16.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox16.Name = "pictureBox16";
@@ -1515,6 +1529,7 @@ namespace Football_Quiz
             // 
             // pictureBox17
             // 
+            this.pictureBox17.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_8_removebg_preview;
             this.pictureBox17.Location = new System.Drawing.Point(356, 353);
             this.pictureBox17.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox17.Name = "pictureBox17";
@@ -1524,6 +1539,7 @@ namespace Football_Quiz
             // 
             // pictureBox18
             // 
+            this.pictureBox18.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_7_removebg_preview;
             this.pictureBox18.Location = new System.Drawing.Point(64, 353);
             this.pictureBox18.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox18.Name = "pictureBox18";
@@ -1533,6 +1549,7 @@ namespace Football_Quiz
             // 
             // pictureBox19
             // 
+            this.pictureBox19.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_4_removebg_preview;
             this.pictureBox19.Location = new System.Drawing.Point(64, 188);
             this.pictureBox19.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox19.Name = "pictureBox19";
@@ -1542,6 +1559,7 @@ namespace Football_Quiz
             // 
             // pictureBox20
             // 
+            this.pictureBox20.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_3_removebg_preview;
             this.pictureBox20.Location = new System.Drawing.Point(643, 23);
             this.pictureBox20.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox20.Name = "pictureBox20";
@@ -1551,6 +1569,7 @@ namespace Football_Quiz
             // 
             // pictureBox21
             // 
+            this.pictureBox21.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_1_removebg_preview;
             this.pictureBox21.Location = new System.Drawing.Point(64, 23);
             this.pictureBox21.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox21.Name = "pictureBox21";
@@ -1560,6 +1579,7 @@ namespace Football_Quiz
             // 
             // pictureBox22
             // 
+            this.pictureBox22.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_2_removebg_preview;
             this.pictureBox22.Location = new System.Drawing.Point(356, 23);
             this.pictureBox22.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox22.Name = "pictureBox22";
@@ -1569,6 +1589,7 @@ namespace Football_Quiz
             // 
             // pictureBox23
             // 
+            this.pictureBox23.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_6_removebg_preview;
             this.pictureBox23.Location = new System.Drawing.Point(643, 188);
             this.pictureBox23.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox23.Name = "pictureBox23";
@@ -1578,6 +1599,7 @@ namespace Football_Quiz
             // 
             // pictureBox24
             // 
+            this.pictureBox24.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_5_removebg_preview;
             this.pictureBox24.Location = new System.Drawing.Point(356, 188);
             this.pictureBox24.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox24.Name = "pictureBox24";
@@ -1587,6 +1609,7 @@ namespace Football_Quiz
             // 
             // pictureBox25
             // 
+            this.pictureBox25.BackgroundImage = global::Football_Quiz.Properties.Resources.Screenshot__32__removebg_preview;
             this.pictureBox25.Location = new System.Drawing.Point(285, 26);
             this.pictureBox25.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox25.Name = "pictureBox25";
@@ -1630,6 +1653,7 @@ namespace Football_Quiz
             // 
             // pictureBox26
             // 
+            this.pictureBox26.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_10_removebg_preview;
             this.pictureBox26.Location = new System.Drawing.Point(356, 518);
             this.pictureBox26.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox26.Name = "pictureBox26";
@@ -1639,6 +1663,7 @@ namespace Football_Quiz
             // 
             // pictureBox27
             // 
+            this.pictureBox27.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_9_removebg_preview;
             this.pictureBox27.Location = new System.Drawing.Point(643, 353);
             this.pictureBox27.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox27.Name = "pictureBox27";
@@ -1648,6 +1673,7 @@ namespace Football_Quiz
             // 
             // pictureBox28
             // 
+            this.pictureBox28.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_8_removebg_preview;
             this.pictureBox28.Location = new System.Drawing.Point(356, 353);
             this.pictureBox28.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox28.Name = "pictureBox28";
@@ -1657,6 +1683,7 @@ namespace Football_Quiz
             // 
             // pictureBox29
             // 
+            this.pictureBox29.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_7_removebg_preview;
             this.pictureBox29.Location = new System.Drawing.Point(64, 353);
             this.pictureBox29.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox29.Name = "pictureBox29";
@@ -1666,6 +1693,7 @@ namespace Football_Quiz
             // 
             // pictureBox30
             // 
+            this.pictureBox30.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_4_removebg_preview;
             this.pictureBox30.Location = new System.Drawing.Point(64, 188);
             this.pictureBox30.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox30.Name = "pictureBox30";
@@ -1675,6 +1703,7 @@ namespace Football_Quiz
             // 
             // pictureBox31
             // 
+            this.pictureBox31.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_3_removebg_preview;
             this.pictureBox31.Location = new System.Drawing.Point(643, 23);
             this.pictureBox31.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox31.Name = "pictureBox31";
@@ -1684,6 +1713,7 @@ namespace Football_Quiz
             // 
             // pictureBox32
             // 
+            this.pictureBox32.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_1_removebg_preview;
             this.pictureBox32.Location = new System.Drawing.Point(64, 23);
             this.pictureBox32.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox32.Name = "pictureBox32";
@@ -1693,6 +1723,7 @@ namespace Football_Quiz
             // 
             // pictureBox33
             // 
+            this.pictureBox33.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_2_removebg_preview;
             this.pictureBox33.Location = new System.Drawing.Point(356, 23);
             this.pictureBox33.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox33.Name = "pictureBox33";
@@ -1702,6 +1733,7 @@ namespace Football_Quiz
             // 
             // pictureBox34
             // 
+            this.pictureBox34.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_6_removebg_preview;
             this.pictureBox34.Location = new System.Drawing.Point(643, 188);
             this.pictureBox34.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox34.Name = "pictureBox34";
@@ -1711,6 +1743,7 @@ namespace Football_Quiz
             // 
             // pictureBox35
             // 
+            this.pictureBox35.BackgroundImage = global::Football_Quiz.Properties.Resources.LIVELLO_5_removebg_preview;
             this.pictureBox35.Location = new System.Drawing.Point(356, 188);
             this.pictureBox35.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox35.Name = "pictureBox35";
@@ -1720,6 +1753,7 @@ namespace Football_Quiz
             // 
             // pictureBox36
             // 
+            this.pictureBox36.BackgroundImage = global::Football_Quiz.Properties.Resources.Screenshot__32__removebg_preview;
             this.pictureBox36.Location = new System.Drawing.Point(285, 26);
             this.pictureBox36.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox36.Name = "pictureBox36";
@@ -1874,6 +1908,7 @@ namespace Football_Quiz
             // 
             // pictureBox37
             // 
+            this.pictureBox37.BackgroundImage = global::Football_Quiz.Properties.Resources.real_madrid;
             this.pictureBox37.Location = new System.Drawing.Point(145, 30);
             this.pictureBox37.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox37.Name = "pictureBox37";
@@ -1884,6 +1919,7 @@ namespace Football_Quiz
             // 
             // pb_indiziofacile1_2
             // 
+            this.pb_indiziofacile1_2.BackgroundImage = global::Football_Quiz.Properties.Resources.lampadina_indizi_removebg_preview;
             this.pb_indiziofacile1_2.Location = new System.Drawing.Point(808, 430);
             this.pb_indiziofacile1_2.Margin = new System.Windows.Forms.Padding(4);
             this.pb_indiziofacile1_2.Name = "pb_indiziofacile1_2";
@@ -1894,6 +1930,7 @@ namespace Football_Quiz
             // 
             // pb_inzidiofacile1
             // 
+            this.pb_inzidiofacile1.BackgroundImage = global::Football_Quiz.Properties.Resources.lampadina_indizi_removebg_preview;
             this.pb_inzidiofacile1.Location = new System.Drawing.Point(808, 357);
             this.pb_inzidiofacile1.Margin = new System.Windows.Forms.Padding(4);
             this.pb_inzidiofacile1.Name = "pb_inzidiofacile1";
@@ -1904,6 +1941,7 @@ namespace Football_Quiz
             // 
             // pb_indiziofacile1_3
             // 
+            this.pb_indiziofacile1_3.BackgroundImage = global::Football_Quiz.Properties.Resources.lampadina_indizi_removebg_preview;
             this.pb_indiziofacile1_3.Location = new System.Drawing.Point(808, 502);
             this.pb_indiziofacile1_3.Margin = new System.Windows.Forms.Padding(4);
             this.pb_indiziofacile1_3.Name = "pb_indiziofacile1_3";
@@ -1914,6 +1952,7 @@ namespace Football_Quiz
             // 
             // pb_frecciavanti1facile
             // 
+            this.pb_frecciavanti1facile.BackgroundImage = global::Football_Quiz.Properties.Resources.freccia_avanti_removebg_preview;
             this.pb_frecciavanti1facile.Location = new System.Drawing.Point(792, 617);
             this.pb_frecciavanti1facile.Margin = new System.Windows.Forms.Padding(4);
             this.pb_frecciavanti1facile.Name = "pb_frecciavanti1facile";
@@ -1924,6 +1963,7 @@ namespace Football_Quiz
             // 
             // pictureBox97
             // 
+            this.pictureBox97.BackgroundImage = global::Football_Quiz.Properties.Resources.home_removebg_preview;
             this.pictureBox97.Location = new System.Drawing.Point(16, 26);
             this.pictureBox97.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox97.Name = "pictureBox97";
@@ -1934,6 +1974,7 @@ namespace Football_Quiz
             // 
             // pictureBox47
             // 
+            this.pictureBox47.BackgroundImage = global::Football_Quiz.Properties.Resources.scritta_livello_1_removebg_preview;
             this.pictureBox47.Location = new System.Drawing.Point(239, 26);
             this.pictureBox47.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox47.Name = "pictureBox47";
@@ -2538,6 +2579,7 @@ namespace Football_Quiz
             this.pb_indiziofacile4_2.Size = new System.Drawing.Size(64, 65);
             this.pb_indiziofacile4_2.TabIndex = 3;
             this.pb_indiziofacile4_2.TabStop = false;
+            this.pb_indiziofacile4_2.Click += new System.EventHandler(this.pb_indiziofacile4_2_Click);
             // 
             // pb_indiziofacile4_1
             // 
@@ -2547,6 +2589,7 @@ namespace Football_Quiz
             this.pb_indiziofacile4_1.Size = new System.Drawing.Size(64, 65);
             this.pb_indiziofacile4_1.TabIndex = 2;
             this.pb_indiziofacile4_1.TabStop = false;
+            this.pb_indiziofacile4_1.Click += new System.EventHandler(this.pb_indiziofacile4_1_Click);
             // 
             // pb_indiziofacile4_3
             // 
@@ -2556,6 +2599,7 @@ namespace Football_Quiz
             this.pb_indiziofacile4_3.Size = new System.Drawing.Size(64, 65);
             this.pb_indiziofacile4_3.TabIndex = 1;
             this.pb_indiziofacile4_3.TabStop = false;
+            this.pb_indiziofacile4_3.Click += new System.EventHandler(this.pb_indiziofacile4_3_Click);
             // 
             // pb_frecciavanti4facile
             // 
@@ -3883,7 +3927,7 @@ namespace Football_Quiz
             this.tbp_finefacile.Controls.Add(this.label10);
             this.tbp_finefacile.Controls.Add(this.label9);
             this.tbp_finefacile.Controls.Add(this.label8);
-            this.tbp_finefacile.Controls.Add(this.label7);
+            this.tbp_finefacile.Controls.Add(this.lbl_punteggiofinale);
             this.tbp_finefacile.Controls.Add(this.label6);
             this.tbp_finefacile.Location = new System.Drawing.Point(4, 25);
             this.tbp_finefacile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -3941,7 +3985,6 @@ namespace Football_Quiz
             this.pictureBox38.Size = new System.Drawing.Size(80, 76);
             this.pictureBox38.TabIndex = 20;
             this.pictureBox38.TabStop = false;
-            this.pictureBox38.Click += new System.EventHandler(this.pictureBox38_Click);
             // 
             // label11
             // 
@@ -3979,14 +4022,14 @@ namespace Football_Quiz
             this.label8.TabIndex = 2;
             this.label8.Text = "PASSA AL LIVELLO ESPERTO";
             // 
-            // label7
+            // lbl_punteggiofinale
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(409, 226);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(90, 16);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "PUNTEGGIO ";
+            this.lbl_punteggiofinale.AutoSize = true;
+            this.lbl_punteggiofinale.Location = new System.Drawing.Point(409, 226);
+            this.lbl_punteggiofinale.Name = "lbl_punteggiofinale";
+            this.lbl_punteggiofinale.Size = new System.Drawing.Size(90, 16);
+            this.lbl_punteggiofinale.TabIndex = 1;
+            this.lbl_punteggiofinale.Text = "PUNTEGGIO ";
             // 
             // label6
             // 
@@ -4000,7 +4043,7 @@ namespace Football_Quiz
             // tbp_1medio
             // 
             this.tbp_1medio.Controls.Add(this.label22);
-            this.tbp_1medio.Controls.Add(this.label23);
+            this.tbp_1medio.Controls.Add(this.lbl_punteggio1medio);
             this.tbp_1medio.Controls.Add(this.groupBox14);
             this.tbp_1medio.Controls.Add(this.pb_homelivello1medio);
             this.tbp_1medio.Controls.Add(this.pictureBox58);
@@ -4021,31 +4064,31 @@ namespace Football_Quiz
             this.label22.TabIndex = 24;
             this.label22.Text = "Punteggio:";
             // 
-            // label23
+            // lbl_punteggio1medio
             // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(813, 108);
-            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(28, 16);
-            this.label23.TabIndex = 23;
-            this.label23.Text = "100";
+            this.lbl_punteggio1medio.AutoSize = true;
+            this.lbl_punteggio1medio.Location = new System.Drawing.Point(813, 108);
+            this.lbl_punteggio1medio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_punteggio1medio.Name = "lbl_punteggio1medio";
+            this.lbl_punteggio1medio.Size = new System.Drawing.Size(28, 16);
+            this.lbl_punteggio1medio.TabIndex = 23;
+            this.lbl_punteggio1medio.Text = "100";
             // 
             // groupBox14
             // 
-            this.groupBox14.Controls.Add(this.label24);
-            this.groupBox14.Controls.Add(this.label25);
-            this.groupBox14.Controls.Add(this.label26);
+            this.groupBox14.Controls.Add(this.lbl_indiziomedio1_3);
+            this.groupBox14.Controls.Add(this.lbl_indiziomedio1_1);
+            this.groupBox14.Controls.Add(this.lbl_indiziomedio1_2);
             this.groupBox14.Controls.Add(this.label27);
-            this.groupBox14.Controls.Add(this.button1);
-            this.groupBox14.Controls.Add(this.button2);
-            this.groupBox14.Controls.Add(this.button3);
-            this.groupBox14.Controls.Add(this.button4);
+            this.groupBox14.Controls.Add(this.btn_opzione4medio1);
+            this.groupBox14.Controls.Add(this.btn_opzione3medio1);
+            this.groupBox14.Controls.Add(this.btn_opzione2medio1);
+            this.groupBox14.Controls.Add(this.btn_opzione1medio1);
             this.groupBox14.Controls.Add(this.pictureBox45);
-            this.groupBox14.Controls.Add(this.pictureBox50);
-            this.groupBox14.Controls.Add(this.pictureBox51);
-            this.groupBox14.Controls.Add(this.pictureBox52);
-            this.groupBox14.Controls.Add(this.pictureBox56);
+            this.groupBox14.Controls.Add(this.pb_indiziomedio1_2);
+            this.groupBox14.Controls.Add(this.pb_indiziomedio1_1);
+            this.groupBox14.Controls.Add(this.pb_indiziomedio1_3);
+            this.groupBox14.Controls.Add(this.pb_frecciavantimedio1);
             this.groupBox14.Location = new System.Drawing.Point(8, 132);
             this.groupBox14.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox14.Name = "groupBox14";
@@ -4055,38 +4098,38 @@ namespace Football_Quiz
             this.groupBox14.TabStop = false;
             this.groupBox14.Text = "Principiante";
             // 
-            // label24
+            // lbl_indiziomedio1_3
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(227, 677);
-            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(402, 16);
-            this.label24.TabIndex = 12;
-            this.label24.Text = "Questa squadra è quella con più titoli di UEFA Champions League.";
-            this.label24.Visible = false;
+            this.lbl_indiziomedio1_3.AutoSize = true;
+            this.lbl_indiziomedio1_3.Location = new System.Drawing.Point(227, 677);
+            this.lbl_indiziomedio1_3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_indiziomedio1_3.Name = "lbl_indiziomedio1_3";
+            this.lbl_indiziomedio1_3.Size = new System.Drawing.Size(353, 16);
+            this.lbl_indiziomedio1_3.TabIndex = 12;
+            this.lbl_indiziomedio1_3.Text = "Questa squadra è conosciuta anche come “i colchoneros”.";
+            this.lbl_indiziomedio1_3.Visible = false;
             // 
-            // label25
+            // lbl_indiziomedio1_1
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(257, 617);
-            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(338, 16);
-            this.label25.TabIndex = 11;
-            this.label25.Text = "Questa squadra milita nella Liga, campionato spagnolo.";
-            this.label25.Visible = false;
+            this.lbl_indiziomedio1_1.AutoSize = true;
+            this.lbl_indiziomedio1_1.Location = new System.Drawing.Point(257, 617);
+            this.lbl_indiziomedio1_1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_indiziomedio1_1.Name = "lbl_indiziomedio1_1";
+            this.lbl_indiziomedio1_1.Size = new System.Drawing.Size(338, 16);
+            this.lbl_indiziomedio1_1.TabIndex = 11;
+            this.lbl_indiziomedio1_1.Text = "Questa squadra milita nella Liga, campionato spagnolo.";
+            this.lbl_indiziomedio1_1.Visible = false;
             // 
-            // label26
+            // lbl_indiziomedio1_2
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(277, 641);
-            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(291, 16);
-            this.label26.TabIndex = 10;
-            this.label26.Text = "L’allenatore di questa squadra è Carlo Ancelotti.";
-            this.label26.Visible = false;
+            this.lbl_indiziomedio1_2.AutoSize = true;
+            this.lbl_indiziomedio1_2.Location = new System.Drawing.Point(277, 641);
+            this.lbl_indiziomedio1_2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_indiziomedio1_2.Name = "lbl_indiziomedio1_2";
+            this.lbl_indiziomedio1_2.Size = new System.Drawing.Size(299, 16);
+            this.lbl_indiziomedio1_2.TabIndex = 10;
+            this.lbl_indiziomedio1_2.Text = "L’allenatore di questa squadra è Diego Simeone.";
+            this.lbl_indiziomedio1_2.Visible = false;
             // 
             // label27
             // 
@@ -4097,45 +4140,49 @@ namespace Football_Quiz
             this.label27.Size = new System.Drawing.Size(0, 16);
             this.label27.TabIndex = 9;
             // 
-            // button1
+            // btn_opzione4medio1
             // 
-            this.button1.Location = new System.Drawing.Point(479, 511);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(256, 57);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Barcellona";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_opzione4medio1.Location = new System.Drawing.Point(479, 511);
+            this.btn_opzione4medio1.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_opzione4medio1.Name = "btn_opzione4medio1";
+            this.btn_opzione4medio1.Size = new System.Drawing.Size(256, 57);
+            this.btn_opzione4medio1.TabIndex = 8;
+            this.btn_opzione4medio1.Text = "Chelsea";
+            this.btn_opzione4medio1.UseVisualStyleBackColor = true;
+            this.btn_opzione4medio1.Click += new System.EventHandler(this.btn_opzione4medio1_Click);
             // 
-            // button2
+            // btn_opzione3medio1
             // 
-            this.button2.Location = new System.Drawing.Point(145, 511);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(256, 57);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Bayern Monaco";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_opzione3medio1.Location = new System.Drawing.Point(145, 511);
+            this.btn_opzione3medio1.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_opzione3medio1.Name = "btn_opzione3medio1";
+            this.btn_opzione3medio1.Size = new System.Drawing.Size(256, 57);
+            this.btn_opzione3medio1.TabIndex = 7;
+            this.btn_opzione3medio1.Text = "Atletich Bilbao";
+            this.btn_opzione3medio1.UseVisualStyleBackColor = true;
+            this.btn_opzione3medio1.Click += new System.EventHandler(this.btn_opzione3medio1_Click);
             // 
-            // button3
+            // btn_opzione2medio1
             // 
-            this.button3.Location = new System.Drawing.Point(480, 423);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(256, 57);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Real Madrid";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_opzione2medio1.Location = new System.Drawing.Point(480, 423);
+            this.btn_opzione2medio1.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_opzione2medio1.Name = "btn_opzione2medio1";
+            this.btn_opzione2medio1.Size = new System.Drawing.Size(256, 57);
+            this.btn_opzione2medio1.TabIndex = 6;
+            this.btn_opzione2medio1.Text = "Atletico Madrid";
+            this.btn_opzione2medio1.UseVisualStyleBackColor = true;
+            this.btn_opzione2medio1.Click += new System.EventHandler(this.btn_opzione2medio1_Click);
             // 
-            // button4
+            // btn_opzione1medio1
             // 
-            this.button4.Location = new System.Drawing.Point(145, 423);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(256, 57);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Manchester City";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_opzione1medio1.Location = new System.Drawing.Point(145, 423);
+            this.btn_opzione1medio1.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_opzione1medio1.Name = "btn_opzione1medio1";
+            this.btn_opzione1medio1.Size = new System.Drawing.Size(256, 57);
+            this.btn_opzione1medio1.TabIndex = 5;
+            this.btn_opzione1medio1.Text = "Arsenal";
+            this.btn_opzione1medio1.UseVisualStyleBackColor = true;
+            this.btn_opzione1medio1.Click += new System.EventHandler(this.btn_opzione1medio1_Click);
             // 
             // pictureBox45
             // 
@@ -4147,41 +4194,45 @@ namespace Football_Quiz
             this.pictureBox45.TabIndex = 4;
             this.pictureBox45.TabStop = false;
             // 
-            // pictureBox50
+            // pb_indiziomedio1_2
             // 
-            this.pictureBox50.Location = new System.Drawing.Point(808, 430);
-            this.pictureBox50.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox50.Name = "pictureBox50";
-            this.pictureBox50.Size = new System.Drawing.Size(64, 65);
-            this.pictureBox50.TabIndex = 3;
-            this.pictureBox50.TabStop = false;
+            this.pb_indiziomedio1_2.Location = new System.Drawing.Point(808, 430);
+            this.pb_indiziomedio1_2.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_indiziomedio1_2.Name = "pb_indiziomedio1_2";
+            this.pb_indiziomedio1_2.Size = new System.Drawing.Size(64, 65);
+            this.pb_indiziomedio1_2.TabIndex = 3;
+            this.pb_indiziomedio1_2.TabStop = false;
+            this.pb_indiziomedio1_2.Click += new System.EventHandler(this.pb_indiziomedio1_2_Click);
             // 
-            // pictureBox51
+            // pb_indiziomedio1_1
             // 
-            this.pictureBox51.Location = new System.Drawing.Point(808, 357);
-            this.pictureBox51.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox51.Name = "pictureBox51";
-            this.pictureBox51.Size = new System.Drawing.Size(64, 65);
-            this.pictureBox51.TabIndex = 2;
-            this.pictureBox51.TabStop = false;
+            this.pb_indiziomedio1_1.Location = new System.Drawing.Point(808, 357);
+            this.pb_indiziomedio1_1.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_indiziomedio1_1.Name = "pb_indiziomedio1_1";
+            this.pb_indiziomedio1_1.Size = new System.Drawing.Size(64, 65);
+            this.pb_indiziomedio1_1.TabIndex = 2;
+            this.pb_indiziomedio1_1.TabStop = false;
+            this.pb_indiziomedio1_1.Click += new System.EventHandler(this.pb_indiziomedio1_1_Click);
             // 
-            // pictureBox52
+            // pb_indiziomedio1_3
             // 
-            this.pictureBox52.Location = new System.Drawing.Point(808, 502);
-            this.pictureBox52.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox52.Name = "pictureBox52";
-            this.pictureBox52.Size = new System.Drawing.Size(64, 65);
-            this.pictureBox52.TabIndex = 1;
-            this.pictureBox52.TabStop = false;
+            this.pb_indiziomedio1_3.Location = new System.Drawing.Point(808, 502);
+            this.pb_indiziomedio1_3.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_indiziomedio1_3.Name = "pb_indiziomedio1_3";
+            this.pb_indiziomedio1_3.Size = new System.Drawing.Size(64, 65);
+            this.pb_indiziomedio1_3.TabIndex = 1;
+            this.pb_indiziomedio1_3.TabStop = false;
+            this.pb_indiziomedio1_3.Click += new System.EventHandler(this.pb_indiziomedio1_3_Click);
             // 
-            // pictureBox56
+            // pb_frecciavantimedio1
             // 
-            this.pictureBox56.Location = new System.Drawing.Point(792, 617);
-            this.pictureBox56.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox56.Name = "pictureBox56";
-            this.pictureBox56.Size = new System.Drawing.Size(80, 76);
-            this.pictureBox56.TabIndex = 0;
-            this.pictureBox56.TabStop = false;
+            this.pb_frecciavantimedio1.Location = new System.Drawing.Point(792, 617);
+            this.pb_frecciavantimedio1.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_frecciavantimedio1.Name = "pb_frecciavantimedio1";
+            this.pb_frecciavantimedio1.Size = new System.Drawing.Size(80, 76);
+            this.pb_frecciavantimedio1.TabIndex = 0;
+            this.pb_frecciavantimedio1.TabStop = false;
+            this.pb_frecciavantimedio1.Click += new System.EventHandler(this.pb_frecciavantimedio1_Click);
             // 
             // pb_homelivello1medio
             // 
@@ -4191,6 +4242,7 @@ namespace Football_Quiz
             this.pb_homelivello1medio.Size = new System.Drawing.Size(80, 76);
             this.pb_homelivello1medio.TabIndex = 22;
             this.pb_homelivello1medio.TabStop = false;
+            this.pb_homelivello1medio.Click += new System.EventHandler(this.pb_homelivello1medio_Click);
             // 
             // pictureBox58
             // 
@@ -4205,9 +4257,9 @@ namespace Football_Quiz
             // tbp_2medio
             // 
             this.tbp_2medio.Controls.Add(this.label28);
-            this.tbp_2medio.Controls.Add(this.label29);
+            this.tbp_2medio.Controls.Add(this.lbl_punteggio2medio);
             this.tbp_2medio.Controls.Add(this.groupBox15);
-            this.tbp_2medio.Controls.Add(this.pictureBox70);
+            this.tbp_2medio.Controls.Add(this.pb_homemedio2);
             this.tbp_2medio.Controls.Add(this.pictureBox71);
             this.tbp_2medio.Location = new System.Drawing.Point(4, 25);
             this.tbp_2medio.Margin = new System.Windows.Forms.Padding(4);
@@ -4226,31 +4278,31 @@ namespace Football_Quiz
             this.label28.TabIndex = 26;
             this.label28.Text = "Punteggio:";
             // 
-            // label29
+            // lbl_punteggio2medio
             // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(813, 108);
-            this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(28, 16);
-            this.label29.TabIndex = 25;
-            this.label29.Text = "100";
+            this.lbl_punteggio2medio.AutoSize = true;
+            this.lbl_punteggio2medio.Location = new System.Drawing.Point(813, 108);
+            this.lbl_punteggio2medio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_punteggio2medio.Name = "lbl_punteggio2medio";
+            this.lbl_punteggio2medio.Size = new System.Drawing.Size(28, 16);
+            this.lbl_punteggio2medio.TabIndex = 25;
+            this.lbl_punteggio2medio.Text = "100";
             // 
             // groupBox15
             // 
-            this.groupBox15.Controls.Add(this.label30);
-            this.groupBox15.Controls.Add(this.label31);
-            this.groupBox15.Controls.Add(this.label32);
-            this.groupBox15.Controls.Add(this.button5);
-            this.groupBox15.Controls.Add(this.button6);
-            this.groupBox15.Controls.Add(this.button7);
-            this.groupBox15.Controls.Add(this.button8);
+            this.groupBox15.Controls.Add(this.lbl_indiziomedio2_1);
+            this.groupBox15.Controls.Add(this.lbl_indiziomedio2_2);
+            this.groupBox15.Controls.Add(this.lbl_indiziomedio2_3);
+            this.groupBox15.Controls.Add(this.btn_opzione4medio2);
+            this.groupBox15.Controls.Add(this.btn_opzione3medio2);
+            this.groupBox15.Controls.Add(this.btn_opzione2medio2);
+            this.groupBox15.Controls.Add(this.btn_opzione1medio2);
             this.groupBox15.Controls.Add(this.pictureBox57);
-            this.groupBox15.Controls.Add(this.pictureBox62);
-            this.groupBox15.Controls.Add(this.pictureBox63);
-            this.groupBox15.Controls.Add(this.pictureBox64);
-            this.groupBox15.Controls.Add(this.pictureBox68);
-            this.groupBox15.Controls.Add(this.pictureBox69);
+            this.groupBox15.Controls.Add(this.pb_frecciaindietromedio2);
+            this.groupBox15.Controls.Add(this.pb_indiziomedio2_2);
+            this.groupBox15.Controls.Add(this.pb_indiziomedio2_1);
+            this.groupBox15.Controls.Add(this.pb_indiziomedio2_3);
+            this.groupBox15.Controls.Add(this.pb_frecciavantimedio2);
             this.groupBox15.Location = new System.Drawing.Point(8, 132);
             this.groupBox15.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox15.Name = "groupBox15";
@@ -4260,78 +4312,82 @@ namespace Football_Quiz
             this.groupBox15.TabStop = false;
             this.groupBox15.Text = "Principiante";
             // 
-            // label30
+            // lbl_indiziomedio2_1
             // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(273, 617);
-            this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(342, 16);
-            this.label30.TabIndex = 17;
-            this.label30.Text = "Questa squadra milita nella Serie A, campionato italiano.";
-            this.label30.Visible = false;
+            this.lbl_indiziomedio2_1.AutoSize = true;
+            this.lbl_indiziomedio2_1.Location = new System.Drawing.Point(273, 617);
+            this.lbl_indiziomedio2_1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_indiziomedio2_1.Name = "lbl_indiziomedio2_1";
+            this.lbl_indiziomedio2_1.Size = new System.Drawing.Size(372, 16);
+            this.lbl_indiziomedio2_1.TabIndex = 17;
+            this.lbl_indiziomedio2_1.Text = "Questa squadra milita nella Bundesliga, campionato tedesco.";
+            this.lbl_indiziomedio2_1.Visible = false;
             // 
-            // label31
+            // lbl_indiziomedio2_2
             // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(297, 641);
-            this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(280, 16);
-            this.label31.TabIndex = 16;
-            this.label31.Text = "L’allenatore di questa squadra è Stefano Pioli.";
-            this.label31.Visible = false;
+            this.lbl_indiziomedio2_2.AutoSize = true;
+            this.lbl_indiziomedio2_2.Location = new System.Drawing.Point(297, 641);
+            this.lbl_indiziomedio2_2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_indiziomedio2_2.Name = "lbl_indiziomedio2_2";
+            this.lbl_indiziomedio2_2.Size = new System.Drawing.Size(277, 16);
+            this.lbl_indiziomedio2_2.TabIndex = 16;
+            this.lbl_indiziomedio2_2.Text = "L’allenatore di questa squadra è Xabi Alonso.";
+            this.lbl_indiziomedio2_2.Visible = false;
             // 
-            // label32
+            // lbl_indiziomedio2_3
             // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(273, 677);
-            this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(329, 16);
-            this.label32.TabIndex = 15;
-            this.label32.Text = "Questa squadra è conosciuta anche così: “i rossoneri”.";
-            this.label32.Visible = false;
+            this.lbl_indiziomedio2_3.AutoSize = true;
+            this.lbl_indiziomedio2_3.Location = new System.Drawing.Point(273, 677);
+            this.lbl_indiziomedio2_3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_indiziomedio2_3.Name = "lbl_indiziomedio2_3";
+            this.lbl_indiziomedio2_3.Size = new System.Drawing.Size(327, 16);
+            this.lbl_indiziomedio2_3.TabIndex = 15;
+            this.lbl_indiziomedio2_3.Text = "Questa squadra è l’ultima detentrice della Bundesliga.";
+            this.lbl_indiziomedio2_3.Visible = false;
             // 
-            // button5
+            // btn_opzione4medio2
             // 
-            this.button5.Location = new System.Drawing.Point(479, 505);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(256, 57);
-            this.button5.TabIndex = 14;
-            this.button5.Text = "Lazio";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btn_opzione4medio2.Location = new System.Drawing.Point(479, 505);
+            this.btn_opzione4medio2.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_opzione4medio2.Name = "btn_opzione4medio2";
+            this.btn_opzione4medio2.Size = new System.Drawing.Size(256, 57);
+            this.btn_opzione4medio2.TabIndex = 14;
+            this.btn_opzione4medio2.Text = "Lipsia";
+            this.btn_opzione4medio2.UseVisualStyleBackColor = true;
+            this.btn_opzione4medio2.Click += new System.EventHandler(this.btn_opzione4medio2_Click);
             // 
-            // button6
+            // btn_opzione3medio2
             // 
-            this.button6.Location = new System.Drawing.Point(145, 505);
-            this.button6.Margin = new System.Windows.Forms.Padding(4);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(256, 57);
-            this.button6.TabIndex = 13;
-            this.button6.Text = "Atletico Madrid";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btn_opzione3medio2.Location = new System.Drawing.Point(145, 505);
+            this.btn_opzione3medio2.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_opzione3medio2.Name = "btn_opzione3medio2";
+            this.btn_opzione3medio2.Size = new System.Drawing.Size(256, 57);
+            this.btn_opzione3medio2.TabIndex = 13;
+            this.btn_opzione3medio2.Text = "Bayer Leverkusen";
+            this.btn_opzione3medio2.UseVisualStyleBackColor = true;
+            this.btn_opzione3medio2.Click += new System.EventHandler(this.btn_opzione3medio2_Click);
             // 
-            // button7
+            // btn_opzione2medio2
             // 
-            this.button7.Location = new System.Drawing.Point(480, 417);
-            this.button7.Margin = new System.Windows.Forms.Padding(4);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(256, 57);
-            this.button7.TabIndex = 12;
-            this.button7.Text = "Chelsea";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btn_opzione2medio2.Location = new System.Drawing.Point(480, 417);
+            this.btn_opzione2medio2.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_opzione2medio2.Name = "btn_opzione2medio2";
+            this.btn_opzione2medio2.Size = new System.Drawing.Size(256, 57);
+            this.btn_opzione2medio2.TabIndex = 12;
+            this.btn_opzione2medio2.Text = "Lazio";
+            this.btn_opzione2medio2.UseVisualStyleBackColor = true;
+            this.btn_opzione2medio2.Click += new System.EventHandler(this.btn_opzione2medio2_Click);
             // 
-            // button8
+            // btn_opzione1medio2
             // 
-            this.button8.Location = new System.Drawing.Point(145, 417);
-            this.button8.Margin = new System.Windows.Forms.Padding(4);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(256, 57);
-            this.button8.TabIndex = 11;
-            this.button8.Text = "Milan";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btn_opzione1medio2.Location = new System.Drawing.Point(145, 417);
+            this.btn_opzione1medio2.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_opzione1medio2.Name = "btn_opzione1medio2";
+            this.btn_opzione1medio2.Size = new System.Drawing.Size(256, 57);
+            this.btn_opzione1medio2.TabIndex = 11;
+            this.btn_opzione1medio2.Text = "Manchester United";
+            this.btn_opzione1medio2.UseVisualStyleBackColor = true;
+            this.btn_opzione1medio2.Click += new System.EventHandler(this.btn_opzione1medio2_Click);
             // 
             // pictureBox57
             // 
@@ -4343,60 +4399,66 @@ namespace Football_Quiz
             this.pictureBox57.TabIndex = 10;
             this.pictureBox57.TabStop = false;
             // 
-            // pictureBox62
+            // pb_frecciaindietromedio2
             // 
-            this.pictureBox62.Location = new System.Drawing.Point(8, 617);
-            this.pictureBox62.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox62.Name = "pictureBox62";
-            this.pictureBox62.Size = new System.Drawing.Size(80, 95);
-            this.pictureBox62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox62.TabIndex = 4;
-            this.pictureBox62.TabStop = false;
+            this.pb_frecciaindietromedio2.Location = new System.Drawing.Point(8, 617);
+            this.pb_frecciaindietromedio2.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_frecciaindietromedio2.Name = "pb_frecciaindietromedio2";
+            this.pb_frecciaindietromedio2.Size = new System.Drawing.Size(80, 95);
+            this.pb_frecciaindietromedio2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_frecciaindietromedio2.TabIndex = 4;
+            this.pb_frecciaindietromedio2.TabStop = false;
+            this.pb_frecciaindietromedio2.Click += new System.EventHandler(this.pb_frecciaindietromedio2_Click);
             // 
-            // pictureBox63
+            // pb_indiziomedio2_2
             // 
-            this.pictureBox63.Location = new System.Drawing.Point(808, 423);
-            this.pictureBox63.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox63.Name = "pictureBox63";
-            this.pictureBox63.Size = new System.Drawing.Size(64, 65);
-            this.pictureBox63.TabIndex = 3;
-            this.pictureBox63.TabStop = false;
+            this.pb_indiziomedio2_2.Location = new System.Drawing.Point(808, 423);
+            this.pb_indiziomedio2_2.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_indiziomedio2_2.Name = "pb_indiziomedio2_2";
+            this.pb_indiziomedio2_2.Size = new System.Drawing.Size(64, 65);
+            this.pb_indiziomedio2_2.TabIndex = 3;
+            this.pb_indiziomedio2_2.TabStop = false;
+            this.pb_indiziomedio2_2.Click += new System.EventHandler(this.pb_indiziomedio2_2_Click);
             // 
-            // pictureBox64
+            // pb_indiziomedio2_1
             // 
-            this.pictureBox64.Location = new System.Drawing.Point(808, 351);
-            this.pictureBox64.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox64.Name = "pictureBox64";
-            this.pictureBox64.Size = new System.Drawing.Size(64, 65);
-            this.pictureBox64.TabIndex = 2;
-            this.pictureBox64.TabStop = false;
+            this.pb_indiziomedio2_1.Location = new System.Drawing.Point(808, 351);
+            this.pb_indiziomedio2_1.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_indiziomedio2_1.Name = "pb_indiziomedio2_1";
+            this.pb_indiziomedio2_1.Size = new System.Drawing.Size(64, 65);
+            this.pb_indiziomedio2_1.TabIndex = 2;
+            this.pb_indiziomedio2_1.TabStop = false;
+            this.pb_indiziomedio2_1.Click += new System.EventHandler(this.pb_indiziomedio2_1_Click);
             // 
-            // pictureBox68
+            // pb_indiziomedio2_3
             // 
-            this.pictureBox68.Location = new System.Drawing.Point(808, 496);
-            this.pictureBox68.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox68.Name = "pictureBox68";
-            this.pictureBox68.Size = new System.Drawing.Size(64, 65);
-            this.pictureBox68.TabIndex = 1;
-            this.pictureBox68.TabStop = false;
+            this.pb_indiziomedio2_3.Location = new System.Drawing.Point(808, 496);
+            this.pb_indiziomedio2_3.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_indiziomedio2_3.Name = "pb_indiziomedio2_3";
+            this.pb_indiziomedio2_3.Size = new System.Drawing.Size(64, 65);
+            this.pb_indiziomedio2_3.TabIndex = 1;
+            this.pb_indiziomedio2_3.TabStop = false;
+            this.pb_indiziomedio2_3.Click += new System.EventHandler(this.pb_indiziomedio2_3_Click);
             // 
-            // pictureBox69
+            // pb_frecciavantimedio2
             // 
-            this.pictureBox69.Location = new System.Drawing.Point(792, 617);
-            this.pictureBox69.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox69.Name = "pictureBox69";
-            this.pictureBox69.Size = new System.Drawing.Size(80, 76);
-            this.pictureBox69.TabIndex = 0;
-            this.pictureBox69.TabStop = false;
+            this.pb_frecciavantimedio2.Location = new System.Drawing.Point(792, 617);
+            this.pb_frecciavantimedio2.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_frecciavantimedio2.Name = "pb_frecciavantimedio2";
+            this.pb_frecciavantimedio2.Size = new System.Drawing.Size(80, 76);
+            this.pb_frecciavantimedio2.TabIndex = 0;
+            this.pb_frecciavantimedio2.TabStop = false;
+            this.pb_frecciavantimedio2.Click += new System.EventHandler(this.pb_frecciavantimedio2_Click);
             // 
-            // pictureBox70
+            // pb_homemedio2
             // 
-            this.pictureBox70.Location = new System.Drawing.Point(16, 26);
-            this.pictureBox70.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox70.Name = "pictureBox70";
-            this.pictureBox70.Size = new System.Drawing.Size(80, 76);
-            this.pictureBox70.TabIndex = 24;
-            this.pictureBox70.TabStop = false;
+            this.pb_homemedio2.Location = new System.Drawing.Point(16, 26);
+            this.pb_homemedio2.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_homemedio2.Name = "pb_homemedio2";
+            this.pb_homemedio2.Size = new System.Drawing.Size(80, 76);
+            this.pb_homemedio2.TabIndex = 24;
+            this.pb_homemedio2.TabStop = false;
+            this.pb_homemedio2.Click += new System.EventHandler(this.pb_homemedio2_Click);
             // 
             // pictureBox71
             // 
@@ -4411,9 +4473,9 @@ namespace Football_Quiz
             // tbp_3medio
             // 
             this.tbp_3medio.Controls.Add(this.label34);
-            this.tbp_3medio.Controls.Add(this.label35);
+            this.tbp_3medio.Controls.Add(this.lbl_punteggio3medio);
             this.tbp_3medio.Controls.Add(this.groupBox16);
-            this.tbp_3medio.Controls.Add(this.pictureBox79);
+            this.tbp_3medio.Controls.Add(this.pb_homemedio3);
             this.tbp_3medio.Controls.Add(this.pictureBox80);
             this.tbp_3medio.Location = new System.Drawing.Point(4, 25);
             this.tbp_3medio.Margin = new System.Windows.Forms.Padding(4);
@@ -4432,32 +4494,32 @@ namespace Football_Quiz
             this.label34.TabIndex = 24;
             this.label34.Text = "Punteggio:";
             // 
-            // label35
+            // lbl_punteggio3medio
             // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(813, 108);
-            this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(28, 16);
-            this.label35.TabIndex = 23;
-            this.label35.Text = "100";
+            this.lbl_punteggio3medio.AutoSize = true;
+            this.lbl_punteggio3medio.Location = new System.Drawing.Point(813, 108);
+            this.lbl_punteggio3medio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_punteggio3medio.Name = "lbl_punteggio3medio";
+            this.lbl_punteggio3medio.Size = new System.Drawing.Size(28, 16);
+            this.lbl_punteggio3medio.TabIndex = 23;
+            this.lbl_punteggio3medio.Text = "100";
             // 
             // groupBox16
             // 
-            this.groupBox16.Controls.Add(this.pictureBox222);
-            this.groupBox16.Controls.Add(this.label36);
-            this.groupBox16.Controls.Add(this.label37);
-            this.groupBox16.Controls.Add(this.label38);
+            this.groupBox16.Controls.Add(this.pb_frecciaindietromedio3);
+            this.groupBox16.Controls.Add(this.lbl_indiziomedio3_3);
+            this.groupBox16.Controls.Add(this.lbl_indiziomedio3_1);
+            this.groupBox16.Controls.Add(this.lbl_indiziomedio3_2);
             this.groupBox16.Controls.Add(this.label39);
-            this.groupBox16.Controls.Add(this.button9);
-            this.groupBox16.Controls.Add(this.button10);
-            this.groupBox16.Controls.Add(this.button11);
-            this.groupBox16.Controls.Add(this.button12);
+            this.groupBox16.Controls.Add(this.btn_opzione4medio3);
+            this.groupBox16.Controls.Add(this.btn_opzione3medio3);
+            this.groupBox16.Controls.Add(this.btn_opzione2medio3);
+            this.groupBox16.Controls.Add(this.btn_opzione1medio3);
             this.groupBox16.Controls.Add(this.pictureBox73);
-            this.groupBox16.Controls.Add(this.pictureBox74);
-            this.groupBox16.Controls.Add(this.pictureBox75);
-            this.groupBox16.Controls.Add(this.pictureBox76);
-            this.groupBox16.Controls.Add(this.pictureBox77);
+            this.groupBox16.Controls.Add(this.pb_indiziomedio3_2);
+            this.groupBox16.Controls.Add(this.pb_indiziomedio3_1);
+            this.groupBox16.Controls.Add(this.pb_indiziomedio3_3);
+            this.groupBox16.Controls.Add(this.pb_frecciavantimedio3);
             this.groupBox16.Location = new System.Drawing.Point(8, 132);
             this.groupBox16.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox16.Name = "groupBox16";
@@ -4467,48 +4529,48 @@ namespace Football_Quiz
             this.groupBox16.TabStop = false;
             this.groupBox16.Text = "Principiante";
             // 
-            // pictureBox222
+            // pb_frecciaindietromedio3
             // 
-            this.pictureBox222.Location = new System.Drawing.Point(8, 617);
-            this.pictureBox222.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox222.Name = "pictureBox222";
-            this.pictureBox222.Size = new System.Drawing.Size(80, 95);
-            this.pictureBox222.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox222.TabIndex = 25;
-            this.pictureBox222.TabStop = false;
+            this.pb_frecciaindietromedio3.Location = new System.Drawing.Point(8, 617);
+            this.pb_frecciaindietromedio3.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_frecciaindietromedio3.Name = "pb_frecciaindietromedio3";
+            this.pb_frecciaindietromedio3.Size = new System.Drawing.Size(80, 95);
+            this.pb_frecciaindietromedio3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_frecciaindietromedio3.TabIndex = 25;
+            this.pb_frecciaindietromedio3.TabStop = false;
             // 
-            // label36
+            // lbl_indiziomedio3_3
             // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(227, 677);
-            this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(402, 16);
-            this.label36.TabIndex = 12;
-            this.label36.Text = "Questa squadra è quella con più titoli di UEFA Champions League.";
-            this.label36.Visible = false;
+            this.lbl_indiziomedio3_3.AutoSize = true;
+            this.lbl_indiziomedio3_3.Location = new System.Drawing.Point(227, 677);
+            this.lbl_indiziomedio3_3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_indiziomedio3_3.Name = "lbl_indiziomedio3_3";
+            this.lbl_indiziomedio3_3.Size = new System.Drawing.Size(445, 16);
+            this.lbl_indiziomedio3_3.TabIndex = 12;
+            this.lbl_indiziomedio3_3.Text = "Questa squadra è stata la prima a vincere la Conference League nel 2022.";
+            this.lbl_indiziomedio3_3.Visible = false;
             // 
-            // label37
+            // lbl_indiziomedio3_1
             // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(257, 617);
-            this.label37.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(338, 16);
-            this.label37.TabIndex = 11;
-            this.label37.Text = "Questa squadra milita nella Liga, campionato spagnolo.";
-            this.label37.Visible = false;
+            this.lbl_indiziomedio3_1.AutoSize = true;
+            this.lbl_indiziomedio3_1.Location = new System.Drawing.Point(257, 617);
+            this.lbl_indiziomedio3_1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_indiziomedio3_1.Name = "lbl_indiziomedio3_1";
+            this.lbl_indiziomedio3_1.Size = new System.Drawing.Size(342, 16);
+            this.lbl_indiziomedio3_1.TabIndex = 11;
+            this.lbl_indiziomedio3_1.Text = "Questa squadra milita nella Serie A, campionato italiano.";
+            this.lbl_indiziomedio3_1.Visible = false;
             // 
-            // label38
+            // lbl_indiziomedio3_2
             // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(277, 641);
-            this.label38.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(291, 16);
-            this.label38.TabIndex = 10;
-            this.label38.Text = "L’allenatore di questa squadra è Carlo Ancelotti.";
-            this.label38.Visible = false;
+            this.lbl_indiziomedio3_2.AutoSize = true;
+            this.lbl_indiziomedio3_2.Location = new System.Drawing.Point(277, 641);
+            this.lbl_indiziomedio3_2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_indiziomedio3_2.Name = "lbl_indiziomedio3_2";
+            this.lbl_indiziomedio3_2.Size = new System.Drawing.Size(311, 16);
+            this.lbl_indiziomedio3_2.TabIndex = 10;
+            this.lbl_indiziomedio3_2.Text = "L’allenatore di questa squadra è Daniele De Rossi.";
+            this.lbl_indiziomedio3_2.Visible = false;
             // 
             // label39
             // 
@@ -4519,45 +4581,45 @@ namespace Football_Quiz
             this.label39.Size = new System.Drawing.Size(0, 16);
             this.label39.TabIndex = 9;
             // 
-            // button9
+            // btn_opzione4medio3
             // 
-            this.button9.Location = new System.Drawing.Point(479, 511);
-            this.button9.Margin = new System.Windows.Forms.Padding(4);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(256, 57);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "Barcellona";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btn_opzione4medio3.Location = new System.Drawing.Point(479, 511);
+            this.btn_opzione4medio3.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_opzione4medio3.Name = "btn_opzione4medio3";
+            this.btn_opzione4medio3.Size = new System.Drawing.Size(256, 57);
+            this.btn_opzione4medio3.TabIndex = 8;
+            this.btn_opzione4medio3.Text = "West-Ham";
+            this.btn_opzione4medio3.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // btn_opzione3medio3
             // 
-            this.button10.Location = new System.Drawing.Point(145, 511);
-            this.button10.Margin = new System.Windows.Forms.Padding(4);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(256, 57);
-            this.button10.TabIndex = 7;
-            this.button10.Text = "Bayern Monaco";
-            this.button10.UseVisualStyleBackColor = true;
+            this.btn_opzione3medio3.Location = new System.Drawing.Point(145, 511);
+            this.btn_opzione3medio3.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_opzione3medio3.Name = "btn_opzione3medio3";
+            this.btn_opzione3medio3.Size = new System.Drawing.Size(256, 57);
+            this.btn_opzione3medio3.TabIndex = 7;
+            this.btn_opzione3medio3.Text = "Benfica";
+            this.btn_opzione3medio3.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // btn_opzione2medio3
             // 
-            this.button11.Location = new System.Drawing.Point(480, 423);
-            this.button11.Margin = new System.Windows.Forms.Padding(4);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(256, 57);
-            this.button11.TabIndex = 6;
-            this.button11.Text = "Real Madrid";
-            this.button11.UseVisualStyleBackColor = true;
+            this.btn_opzione2medio3.Location = new System.Drawing.Point(480, 423);
+            this.btn_opzione2medio3.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_opzione2medio3.Name = "btn_opzione2medio3";
+            this.btn_opzione2medio3.Size = new System.Drawing.Size(256, 57);
+            this.btn_opzione2medio3.TabIndex = 6;
+            this.btn_opzione2medio3.Text = "Fiorentina";
+            this.btn_opzione2medio3.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // btn_opzione1medio3
             // 
-            this.button12.Location = new System.Drawing.Point(145, 423);
-            this.button12.Margin = new System.Windows.Forms.Padding(4);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(256, 57);
-            this.button12.TabIndex = 5;
-            this.button12.Text = "Manchester City";
-            this.button12.UseVisualStyleBackColor = true;
+            this.btn_opzione1medio3.Location = new System.Drawing.Point(145, 423);
+            this.btn_opzione1medio3.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_opzione1medio3.Name = "btn_opzione1medio3";
+            this.btn_opzione1medio3.Size = new System.Drawing.Size(256, 57);
+            this.btn_opzione1medio3.TabIndex = 5;
+            this.btn_opzione1medio3.Text = "Roma";
+            this.btn_opzione1medio3.UseVisualStyleBackColor = true;
             // 
             // pictureBox73
             // 
@@ -4569,50 +4631,51 @@ namespace Football_Quiz
             this.pictureBox73.TabIndex = 4;
             this.pictureBox73.TabStop = false;
             // 
-            // pictureBox74
+            // pb_indiziomedio3_2
             // 
-            this.pictureBox74.Location = new System.Drawing.Point(808, 430);
-            this.pictureBox74.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox74.Name = "pictureBox74";
-            this.pictureBox74.Size = new System.Drawing.Size(64, 65);
-            this.pictureBox74.TabIndex = 3;
-            this.pictureBox74.TabStop = false;
+            this.pb_indiziomedio3_2.Location = new System.Drawing.Point(808, 430);
+            this.pb_indiziomedio3_2.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_indiziomedio3_2.Name = "pb_indiziomedio3_2";
+            this.pb_indiziomedio3_2.Size = new System.Drawing.Size(64, 65);
+            this.pb_indiziomedio3_2.TabIndex = 3;
+            this.pb_indiziomedio3_2.TabStop = false;
             // 
-            // pictureBox75
+            // pb_indiziomedio3_1
             // 
-            this.pictureBox75.Location = new System.Drawing.Point(808, 357);
-            this.pictureBox75.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox75.Name = "pictureBox75";
-            this.pictureBox75.Size = new System.Drawing.Size(64, 65);
-            this.pictureBox75.TabIndex = 2;
-            this.pictureBox75.TabStop = false;
+            this.pb_indiziomedio3_1.Location = new System.Drawing.Point(808, 357);
+            this.pb_indiziomedio3_1.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_indiziomedio3_1.Name = "pb_indiziomedio3_1";
+            this.pb_indiziomedio3_1.Size = new System.Drawing.Size(64, 65);
+            this.pb_indiziomedio3_1.TabIndex = 2;
+            this.pb_indiziomedio3_1.TabStop = false;
             // 
-            // pictureBox76
+            // pb_indiziomedio3_3
             // 
-            this.pictureBox76.Location = new System.Drawing.Point(808, 502);
-            this.pictureBox76.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox76.Name = "pictureBox76";
-            this.pictureBox76.Size = new System.Drawing.Size(64, 65);
-            this.pictureBox76.TabIndex = 1;
-            this.pictureBox76.TabStop = false;
+            this.pb_indiziomedio3_3.Location = new System.Drawing.Point(808, 502);
+            this.pb_indiziomedio3_3.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_indiziomedio3_3.Name = "pb_indiziomedio3_3";
+            this.pb_indiziomedio3_3.Size = new System.Drawing.Size(64, 65);
+            this.pb_indiziomedio3_3.TabIndex = 1;
+            this.pb_indiziomedio3_3.TabStop = false;
             // 
-            // pictureBox77
+            // pb_frecciavantimedio3
             // 
-            this.pictureBox77.Location = new System.Drawing.Point(792, 617);
-            this.pictureBox77.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox77.Name = "pictureBox77";
-            this.pictureBox77.Size = new System.Drawing.Size(80, 76);
-            this.pictureBox77.TabIndex = 0;
-            this.pictureBox77.TabStop = false;
+            this.pb_frecciavantimedio3.Location = new System.Drawing.Point(792, 617);
+            this.pb_frecciavantimedio3.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_frecciavantimedio3.Name = "pb_frecciavantimedio3";
+            this.pb_frecciavantimedio3.Size = new System.Drawing.Size(80, 76);
+            this.pb_frecciavantimedio3.TabIndex = 0;
+            this.pb_frecciavantimedio3.TabStop = false;
             // 
-            // pictureBox79
+            // pb_homemedio3
             // 
-            this.pictureBox79.Location = new System.Drawing.Point(16, 26);
-            this.pictureBox79.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox79.Name = "pictureBox79";
-            this.pictureBox79.Size = new System.Drawing.Size(80, 76);
-            this.pictureBox79.TabIndex = 22;
-            this.pictureBox79.TabStop = false;
+            this.pb_homemedio3.Location = new System.Drawing.Point(16, 26);
+            this.pb_homemedio3.Margin = new System.Windows.Forms.Padding(4);
+            this.pb_homemedio3.Name = "pb_homemedio3";
+            this.pb_homemedio3.Size = new System.Drawing.Size(80, 76);
+            this.pb_homemedio3.TabIndex = 22;
+            this.pb_homemedio3.TabStop = false;
+            this.pb_homemedio3.Click += new System.EventHandler(this.pb_homemedio3_Click);
             // 
             // pictureBox80
             // 
@@ -8515,6 +8578,7 @@ namespace Football_Quiz
             // 
             // pb_back
             // 
+            this.pb_back.BackgroundImage = global::Football_Quiz.Properties.Resources.Screenshot__21_;
             this.pb_back.Location = new System.Drawing.Point(105, 830);
             this.pb_back.Margin = new System.Windows.Forms.Padding(4);
             this.pb_back.Name = "pb_back";
@@ -8525,6 +8589,7 @@ namespace Football_Quiz
             // 
             // pb_nuovogiocatore
             // 
+            this.pb_nuovogiocatore.BackgroundImage = global::Football_Quiz.Properties.Resources.Screenshot__20_;
             this.pb_nuovogiocatore.Location = new System.Drawing.Point(116, 688);
             this.pb_nuovogiocatore.Margin = new System.Windows.Forms.Padding(4);
             this.pb_nuovogiocatore.Name = "pb_nuovogiocatore";
@@ -8535,6 +8600,7 @@ namespace Football_Quiz
             // 
             // pb_gioca
             // 
+            this.pb_gioca.BackgroundImage = global::Football_Quiz.Properties.Resources.Screenshot__18_;
             this.pb_gioca.Location = new System.Drawing.Point(68, 379);
             this.pb_gioca.Margin = new System.Windows.Forms.Padding(4);
             this.pb_gioca.Name = "pb_gioca";
@@ -8545,6 +8611,7 @@ namespace Football_Quiz
             // 
             // pb_info
             // 
+            this.pb_info.BackgroundImage = global::Football_Quiz.Properties.Resources.Screenshot__17_11;
             this.pb_info.Location = new System.Drawing.Point(19, 0);
             this.pb_info.Margin = new System.Windows.Forms.Padding(4);
             this.pb_info.Name = "pb_info";
@@ -8582,6 +8649,7 @@ namespace Football_Quiz
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackgroundImage = global::Football_Quiz.Properties.Resources.Screenshot__16_;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
@@ -8601,6 +8669,7 @@ namespace Football_Quiz
             // 
             // pb_exit
             // 
+            this.pb_exit.BackgroundImage = global::Football_Quiz.Properties.Resources.sfondo_exit;
             this.pb_exit.Location = new System.Drawing.Point(1097, 15);
             this.pb_exit.Margin = new System.Windows.Forms.Padding(4);
             this.pb_exit.Name = "pb_exit";
@@ -8611,6 +8680,7 @@ namespace Football_Quiz
             // 
             // pb_magliette
             // 
+            this.pb_magliette.BackgroundImage = global::Football_Quiz.Properties.Resources.play_2;
             this.pb_magliette.Location = new System.Drawing.Point(1009, 700);
             this.pb_magliette.Margin = new System.Windows.Forms.Padding(4);
             this.pb_magliette.Name = "pb_magliette";
@@ -8621,6 +8691,7 @@ namespace Football_Quiz
             // 
             // pb_squadre
             // 
+            this.pb_squadre.BackgroundImage = global::Football_Quiz.Properties.Resources.play_1;
             this.pb_squadre.Location = new System.Drawing.Point(209, 688);
             this.pb_squadre.Margin = new System.Windows.Forms.Padding(4);
             this.pb_squadre.Name = "pb_squadre";
@@ -8655,6 +8726,7 @@ namespace Football_Quiz
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel_squadre.ResumeLayout(false);
             this.tbc_squadre.ResumeLayout(false);
             this.tbp_giocatore.ResumeLayout(false);
@@ -8835,10 +8907,10 @@ namespace Football_Quiz
             this.groupBox14.ResumeLayout(false);
             this.groupBox14.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox50)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox51)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox52)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox56)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio1_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio1_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio1_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_frecciavantimedio1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_homelivello1medio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox58)).EndInit();
             this.tbp_2medio.ResumeLayout(false);
@@ -8846,24 +8918,24 @@ namespace Football_Quiz
             this.groupBox15.ResumeLayout(false);
             this.groupBox15.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox57)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox69)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox70)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_frecciaindietromedio2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio2_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio2_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio2_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_frecciavantimedio2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_homemedio2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox71)).EndInit();
             this.tbp_3medio.ResumeLayout(false);
             this.tbp_3medio.PerformLayout();
             this.groupBox16.ResumeLayout(false);
             this.groupBox16.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox222)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_frecciaindietromedio3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox73)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox74)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox75)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox76)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox77)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox79)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio3_2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio3_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_indiziomedio3_3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_frecciavantimedio3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_homemedio3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox80)).EndInit();
             this.tbp_4medio.ResumeLayout(false);
             this.tbp_4medio.PerformLayout();
@@ -9347,7 +9419,7 @@ namespace Football_Quiz
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lbl_punteggiofinale;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
@@ -9376,40 +9448,40 @@ namespace Football_Quiz
         private System.Windows.Forms.TabPage tbp_10medio;
         private System.Windows.Forms.TabPage tbp_finemedio;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label lbl_punteggio1medio;
         private System.Windows.Forms.GroupBox groupBox14;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label lbl_indiziomedio1_3;
+        private System.Windows.Forms.Label lbl_indiziomedio1_1;
+        private System.Windows.Forms.Label lbl_indiziomedio1_2;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btn_opzione4medio1;
+        private System.Windows.Forms.Button btn_opzione3medio1;
+        private System.Windows.Forms.Button btn_opzione2medio1;
+        private System.Windows.Forms.Button btn_opzione1medio1;
         private System.Windows.Forms.PictureBox pictureBox45;
-        private System.Windows.Forms.PictureBox pictureBox50;
-        private System.Windows.Forms.PictureBox pictureBox51;
-        private System.Windows.Forms.PictureBox pictureBox52;
-        private System.Windows.Forms.PictureBox pictureBox56;
+        private System.Windows.Forms.PictureBox pb_indiziomedio1_2;
+        private System.Windows.Forms.PictureBox pb_indiziomedio1_1;
+        private System.Windows.Forms.PictureBox pb_indiziomedio1_3;
+        private System.Windows.Forms.PictureBox pb_frecciavantimedio1;
         private System.Windows.Forms.PictureBox pb_homelivello1medio;
         private System.Windows.Forms.PictureBox pictureBox58;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label lbl_punteggio3medio;
         private System.Windows.Forms.GroupBox groupBox16;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label lbl_indiziomedio3_3;
+        private System.Windows.Forms.Label lbl_indiziomedio3_1;
+        private System.Windows.Forms.Label lbl_indiziomedio3_2;
         private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button btn_opzione4medio3;
+        private System.Windows.Forms.Button btn_opzione3medio3;
+        private System.Windows.Forms.Button btn_opzione2medio3;
+        private System.Windows.Forms.Button btn_opzione1medio3;
         private System.Windows.Forms.PictureBox pictureBox73;
-        private System.Windows.Forms.PictureBox pictureBox74;
-        private System.Windows.Forms.PictureBox pictureBox75;
-        private System.Windows.Forms.PictureBox pictureBox76;
-        private System.Windows.Forms.PictureBox pictureBox77;
-        private System.Windows.Forms.PictureBox pictureBox79;
+        private System.Windows.Forms.PictureBox pb_indiziomedio3_2;
+        private System.Windows.Forms.PictureBox pb_indiziomedio3_1;
+        private System.Windows.Forms.PictureBox pb_indiziomedio3_3;
+        private System.Windows.Forms.PictureBox pb_frecciavantimedio3;
+        private System.Windows.Forms.PictureBox pb_homemedio3;
         private System.Windows.Forms.PictureBox pictureBox80;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label41;
@@ -9749,24 +9821,24 @@ namespace Football_Quiz
         private System.Windows.Forms.Label label92;
         private System.Windows.Forms.Label label93;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label lbl_punteggio2medio;
         private System.Windows.Forms.GroupBox groupBox15;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Label lbl_indiziomedio2_1;
+        private System.Windows.Forms.Label lbl_indiziomedio2_2;
+        private System.Windows.Forms.Label lbl_indiziomedio2_3;
+        private System.Windows.Forms.Button btn_opzione4medio2;
+        private System.Windows.Forms.Button btn_opzione3medio2;
+        private System.Windows.Forms.Button btn_opzione2medio2;
+        private System.Windows.Forms.Button btn_opzione1medio2;
         private System.Windows.Forms.PictureBox pictureBox57;
-        private System.Windows.Forms.PictureBox pictureBox62;
-        private System.Windows.Forms.PictureBox pictureBox63;
-        private System.Windows.Forms.PictureBox pictureBox64;
-        private System.Windows.Forms.PictureBox pictureBox68;
-        private System.Windows.Forms.PictureBox pictureBox69;
-        private System.Windows.Forms.PictureBox pictureBox70;
+        private System.Windows.Forms.PictureBox pb_frecciaindietromedio2;
+        private System.Windows.Forms.PictureBox pb_indiziomedio2_2;
+        private System.Windows.Forms.PictureBox pb_indiziomedio2_1;
+        private System.Windows.Forms.PictureBox pb_indiziomedio2_3;
+        private System.Windows.Forms.PictureBox pb_frecciavantimedio2;
+        private System.Windows.Forms.PictureBox pb_homemedio2;
         private System.Windows.Forms.PictureBox pictureBox71;
-        private System.Windows.Forms.PictureBox pictureBox222;
+        private System.Windows.Forms.PictureBox pb_frecciaindietromedio3;
         private System.Windows.Forms.PictureBox pictureBox223;
         private System.Windows.Forms.PictureBox pictureBox224;
         private System.Windows.Forms.PictureBox pictureBox225;

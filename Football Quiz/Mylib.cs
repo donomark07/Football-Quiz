@@ -1,19 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Football_Quiz
+namespace Football_Quiz.funzioni
 {
     public struct giocatori
     {
         public string giocatore;
         public int punteggio;
-        public int punteggiomax;
+        
     }
+
+
     public partial class Mylib
     {
+
+        
+            
+        
 
 
         public static int cercainserisci(giocatori[] ele, int n, string dato)
@@ -48,6 +55,42 @@ namespace Football_Quiz
                 x++;
             }
             return c;
+        }
+
+        public static void salva(giocatori[] ele, int n)
+        {
+            StreamWriter mioFile;
+
+
+            mioFile = new StreamWriter("giocatore.txt");
+            int x = 0;
+            while (x < n)
+            {
+                giocatori tmpGiocatore = ele[x];
+                mioFile.WriteLine(tmpGiocatore.giocatore);
+                mioFile.WriteLine(tmpGiocatore.punteggio);
+                
+                x++;
+            }
+
+            mioFile.Close();
+        }
+
+        public static void leggi(giocatori[] ele, ref int n)
+        {
+            StreamReader miofile;
+            miofile = new StreamReader("giocatore.txt");
+            while (n < 10000 && miofile.EndOfStream == false)
+            {
+                giocatori nuovoGiocatore = default;
+                nuovoGiocatore.giocatore = miofile.ReadLine();
+                nuovoGiocatore.punteggio = Convert.ToInt32(miofile.ReadLine());
+               
+                ele[n] = nuovoGiocatore;
+                n++;
+            }
+            miofile.Close();
+
         }
     }
 
