@@ -193,6 +193,16 @@ namespace Football_Quiz.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap home_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("home-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap inter {
             get {
                 object obj = ResourceManager.GetObject("inter", resourceCulture);
@@ -356,6 +366,16 @@ namespace Football_Quiz.Properties {
         internal static System.Drawing.Bitmap manchester_city {
             get {
                 object obj = ResourceManager.GetObject("manchester city", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap manchester_city1 {
+            get {
+                object obj = ResourceManager.GetObject("manchester city1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -583,6 +603,16 @@ namespace Football_Quiz.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Screenshot__32__removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot__32_-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap scritta_livello_1 {
             get {
                 object obj = ResourceManager.GetObject("scritta livello 1", resourceCulture);
@@ -626,6 +656,26 @@ namespace Football_Quiz.Properties {
         internal static System.Drawing.Bitmap scritta_livello_2_removebg_preview__1_ {
             get {
                 object obj = ResourceManager.GetObject("scritta_livello_2-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scritta_livello_2_removebg_preview__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("scritta_livello_2-removebg-preview (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scritta_livello_21 {
+            get {
+                object obj = ResourceManager.GetObject("scritta livello 21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

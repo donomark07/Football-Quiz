@@ -69,7 +69,7 @@ namespace Football_Quiz.funzioni
                 giocatori tmpGiocatore = ele[x];
                 mioFile.WriteLine(tmpGiocatore.giocatore);
                 mioFile.WriteLine(tmpGiocatore.punteggio);
-                
+
                 x++;
             }
 
@@ -85,7 +85,7 @@ namespace Football_Quiz.funzioni
                 giocatori nuovoGiocatore = default;
                 nuovoGiocatore.giocatore = miofile.ReadLine();
                 nuovoGiocatore.punteggio = Convert.ToInt32(miofile.ReadLine());
-               
+
                 ele[n] = nuovoGiocatore;
                 n++;
             }
