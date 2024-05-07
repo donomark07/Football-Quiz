@@ -309,5 +309,83 @@
   <ItemGroup>
     <None Include="Resources\formazioni progetto info\manchester city.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\psg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\bayern monaco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\liverpool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\juventus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\inter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\milan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\atletico madrid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\bayer leverkusen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\roma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\manchester united.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\arsenal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\napoli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\marsiglia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\siviglia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\chelsea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\benfica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\al-hilal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\inter miami.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\al-nassr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\atalanta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\lazio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\west ham.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\tottenham.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\porto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\girona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formazioni progetto info\sporting lisbona.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

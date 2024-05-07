@@ -57,41 +57,41 @@ namespace Football_Quiz.funzioni
             return c;
         }
 
-        public static void salva(giocatori[] ele, int n)
-        {
-            StreamWriter mioFile;
+        //public static void salva(giocatori[] ele, int n)
+        //{
+        //    StreamWriter mioFile;
 
 
-            mioFile = new StreamWriter("giocatore.txt");
-            int x = 0;
-            while (x < n)
-            {
-                giocatori tmpGiocatore = ele[x];
-                mioFile.WriteLine(tmpGiocatore.giocatore);
-                mioFile.WriteLine(tmpGiocatore.punteggio);
+        //    mioFile = new StreamWriter("giocatore.txt");
+        //    int x = 0;
+        //    while (x < n)
+        //    {
+        //        giocatori tmpGiocatore = ele[x];
+        //        mioFile.WriteLine(tmpGiocatore.giocatore);
+        //        mioFile.WriteLine(tmpGiocatore.punteggio);
 
-                x++;
-            }
+        //        x++;
+        //    }
 
-            mioFile.Close();
-        }
+        //    mioFile.Close();
+        //}
 
-        public static void leggi(giocatori[] ele, ref int n)
-        {
-            StreamReader miofile;
-            miofile = new StreamReader("giocatore.txt");
-            while (n < 10000 && miofile.EndOfStream == false)
-            {
-                giocatori nuovoGiocatore = default;
-                nuovoGiocatore.giocatore = miofile.ReadLine();
-                nuovoGiocatore.punteggio = Convert.ToInt32(miofile.ReadLine());
+        //public static void leggi(giocatori[] ele, ref int n)
+        //{
+        //    StreamReader miofile;
+        //    miofile = new StreamReader("giocatore.txt");
+        //    while (n < 10000 && miofile.EndOfStream == false)
+        //    {
+        //        giocatori nuovoGiocatore = default;
+        //        nuovoGiocatore.giocatore = miofile.ReadLine();
+        //        nuovoGiocatore.punteggio = Convert.ToInt32(miofile.ReadLine());
 
-                ele[n] = nuovoGiocatore;
-                n++;
-            }
-            miofile.Close();
+        //        ele[n] = nuovoGiocatore;
+        //        n++;
+        //    }
+        //    miofile.Close();
 
-        }
+        //}
     }
 
 }

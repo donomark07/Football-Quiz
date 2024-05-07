@@ -118,229 +118,463 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LIVELLO_3-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIVELLO_3-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="inter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sfondo exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sfondo exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="borussia dortmund" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\borussia dortmund.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="scritta_livello_8-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scritta_livello_8-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="coppa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\coppa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="scritta_livello_9-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scritta_livello_9-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="scritta_livello_3-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scritta_livello_3-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LIVELLO_2-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIVELLO_2-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="liverpool" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\liverpool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Screenshot__32_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot__32_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="coppa-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\coppa-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sfondo completo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sfondo completo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bayern monaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bayern monaco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Screenshot (17)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="psg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\psg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pallone argento1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\livelli\pallone argento.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="scritta livello 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scritta livello 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="real madrid" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\real madrid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="scritta_livello_10-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scritta_livello_10-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Screenshot (32)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot (32).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Screenshot (16)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Screenshot__32_-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot__32_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="freccia_avanti-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\freccia_avanti-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="scritta_livello_6-removebg-preview (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scritta_livello_6-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LIVELLO_8-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIVELLO_8-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pallone argento5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pallone argento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="milan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\milan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="scritta_livello_2-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scritta_livello_2-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sfondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sfondo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sfondo con scritta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sfondo con scritta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="scritta_livello_5-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scritta_livello_5-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LIVELLO_1-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIVELLO_1-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="scritta livello 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scritta livello 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="coppa-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\coppa-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="home-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lampadina_indizi-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lampadina_indizi-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="podio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\podio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LIVELLO_6-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIVELLO_6-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LIVELLO_10-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIVELLO_10-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="play 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\play 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="play 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\play 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cambia giocatore1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cambia giocatore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cambia giocatore" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cambia giocatore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Screenshot (21)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot (21).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="applausi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\applausi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="podio1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\podio1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="scritta_livello_1-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scritta_livello_1-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pallone argento4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pallone argento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Screenshot (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="freccia_indietro-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\freccia_indietro-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="istockphoto-1200181982-612x612-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\istockphoto-1200181982-612x612-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LIVELLO_7-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIVELLO_7-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sfondo con giochi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sfondo con giochi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pallone argento3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pallone argento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="freccia_avanti-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\freccia_avanti-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="scritta_livello_7-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scritta_livello_7-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="istockphoto-1200181982-612x612-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\istockphoto-1200181982-612x612-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="scritta livello 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scritta livello 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pallone argento" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\livelli\pallone argento.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LIVELLO_5-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIVELLO_5-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Screenshot (18)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot (18).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LIVELLO_9-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIVELLO_9-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="freccia_avanti-removebg-preview11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="freccia_avanti-removebg-preview14" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\freccia_avanti-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="manchester city" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\manchester city.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="borussia dortmund1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\borussia dortmund.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="inter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\inter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="freccia_indietro-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_indietro-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Screenshot (17)11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot (17)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="roma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\roma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="scritta_livello_4-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scritta_livello_4-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="podio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\podio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="juventus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\juventus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="chelsea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\chelsea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Screenshot (17)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot (17)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="home-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="home-removebg-preview10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="barcellona" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\barcellona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="scritta_livello_2-removebg-preview (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scritta_livello_2-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LIVELLO_4-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIVELLO_4-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="scritta_livello_6-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\scritta_livello_6-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="lampadina_indizi-removebg-preview9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lampadina_indizi-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_9-removebg-preview (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_9-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="play 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\play 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="porto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\porto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_indietro-removebg-preview6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_indietro-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot (18)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot (18).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\psg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LIVELLO_7-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIVELLO_7-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_2-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_2-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="al-hilal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\al-hilal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="manchester united" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\manchester united.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lampadina_indizi-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lampadina_indizi-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_avanti-removebg-preview18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_avanti-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="applausi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\applausi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta livello 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta livello 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_5-removebg-preview (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_5-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sfondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sfondo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lampadina_indizi-removebg-preview4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lampadina_indizi-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_2-removebg-preview (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_2-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home-removebg-preview7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_indietro-removebg-preview5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_indietro-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="manchester city" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\manchester city.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="milan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\milan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lazio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\lazio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LIVELLO_2-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIVELLO_2-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tottenham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\tottenham.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_8-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_8-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LIVELLO_4-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIVELLO_4-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="liverpool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\liverpool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="juventus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\juventus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot (21)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot (21).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_8-removebg-preview (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_8-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barcellona1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barcellona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pallone argento1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\livelli\pallone argento.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inter miami" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\inter miami.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LIVELLO_9-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIVELLO_9-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_indietro-removebg-preview9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_indietro-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_1-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_1-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="al-nassr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\al-nassr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home-removebg-preview3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sfondo con scritta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sfondo con scritta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_avanti-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_avanti-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pallone argento5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pallone argento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="benfica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\benfica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot (16)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot (16).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1200181982-612x612-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1200181982-612x612-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marsiglia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\marsiglia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LIVELLO_6-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIVELLO_6-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot (32)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot (32).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LIVELLO_3-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIVELLO_3-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot__32_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot__32_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="play 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\play 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LIVELLO_8-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIVELLO_8-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_avanti-removebg-preview15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_avanti-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_4-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_4-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home-removebg-preview9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pallone argento3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pallone argento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_10-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_10-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sfondo exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sfondo exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_9-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_9-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coppa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coppa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LIVELLO_5-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIVELLO_5-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="napoli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\napoli.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lampadina_indizi-removebg-preview7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lampadina_indizi-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bayern monaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bayern monaco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta livello 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta livello 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_indietro-removebg-preview2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_indietro-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home-removebg-preview5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home-removebg-preview2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="siviglia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\siviglia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="juventus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\juventus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atletico madrid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\atletico madrid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="west ham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\west ham.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot (17)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot (17)11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot (17)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atalanta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\atalanta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_avanti-removebg-preview16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_avanti-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_indietro-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_indietro-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_6-removebg-preview (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_6-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LIVELLO_10-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIVELLO_10-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pallone argento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\livelli\pallone argento.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Screenshot (20)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot (20).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="scritta_livello_3-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_3-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1200181982-612x612-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1200181982-612x612-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lampadina_indizi-removebg-preview2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lampadina_indizi-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lampadina_indizi-removebg-preview3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lampadina_indizi-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home-removebg-preview8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lampadina_indizi-removebg-preview8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lampadina_indizi-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot (14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot (14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot__32_-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot__32_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lampadina_indizi-removebg-preview5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lampadina_indizi-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_avanti-removebg-preview19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_avanti-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_avanti-removebg-preview11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_avanti-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coppa-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coppa-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="milan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\milan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_5-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_5-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_1-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_1-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home-removebg-preview4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home-removebg-preview6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="podio1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\podio1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_7-removebg-preview (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_7-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_avanti-removebg-preview12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_avanti-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_avanti-removebg-preview17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_avanti-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_3-removebg-preview (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_3-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="applausi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\applausi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_avanti-removebg-preview110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_avanti-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta livello 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta livello 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_indietro-removebg-preview8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_indietro-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_avanti-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_avanti-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_10-removebg-preview (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_10-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_2-removebg-preview (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_2-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sfondo completo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sfondo completo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot (17)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot (17)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="real madrid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\real madrid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bayer leverkusen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\bayer leverkusen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="manchester city1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\formazioni progetto info\manchester city.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_indietro-removebg-preview3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_indietro-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lampadina_indizi-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lampadina_indizi-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_7-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_7-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LIVELLO_1-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIVELLO_1-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lampadina_indizi-removebg-preview10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lampadina_indizi-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arsenal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\arsenal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\psg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="liverpool1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\liverpool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="borussia dortmund" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\borussia dortmund.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bayern monaco1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\bayern monaco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_indietro-removebg-preview4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_indietro-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_avanti-removebg-preview13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_avanti-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coppa-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coppa-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inter1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\inter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sfondo con giochi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sfondo con giochi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pallone argento4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pallone argento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lampadina_indizi-removebg-preview6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lampadina_indizi-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barcellona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barcellona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freccia_indietro-removebg-preview7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freccia_indietro-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_6-removebg-preview (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_6-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="girona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\girona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_3-removebg-preview (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_3-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scritta_livello_4-removebg-preview (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scritta_livello_4-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sporting lisbona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formazioni progetto info\sporting lisbona.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

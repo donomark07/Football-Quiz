@@ -1090,7 +1090,7 @@ namespace Football_Quiz
             num++;
             
 
-            Mylib.salva(elegiocatori, num);
+            //Mylib.salva(elegiocatori, num);
 
             lbl_punteggiofinale.Text = $"{punteggiototalefacile}";
 
@@ -1128,7 +1128,7 @@ namespace Football_Quiz
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Mylib.leggi(elegiocatori, ref num);
+            //Mylib.leggi(elegiocatori, ref num);
         }
 
         private void pb_indiziofacile4_1_Click(object sender, EventArgs e)
@@ -1330,5 +1330,7 @@ namespace Football_Quiz
             tbc_squadre.Visible = true;
             tbc_squadre.SelectTab(2);
         }
+
+        
     }
 }
