@@ -1331,6 +1331,1613 @@ namespace Football_Quiz
             tbc_squadre.SelectTab(2);
         }
 
-        
+        private void pb_tornahomefacile_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(1);
+        }
+
+        private void pb_cambiagiocatore_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(0);
+        }
+
+        private void pb_passaesperto_facile_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(2);
+        }
+
+        private void pb_passacampione_facile_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(3);
+        }
+
+        private void btn_opzione3medio3_Click(object sender, EventArgs e)
+        {
+            btn_opzione3medio3.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio3medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione2medio3_Click(object sender, EventArgs e)
+        {
+            btn_opzione2medio3.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio3medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4medio3_Click(object sender, EventArgs e)
+        {
+            btn_opzione4medio3.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio3medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione1medio3_Click(object sender, EventArgs e)
+        {
+            btn_opzione1medio3.BackColor = Color.Green;
+
+            punteggiolivellomedio3 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(17);
+        }
+
+        private void pb_indiziomedio3_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio3_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio3medio.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziomedio3_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio3_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio3medio.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziomedio3_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio3_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio3medio.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_frecciaindietromedio3_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(15);
+        }
+
+        private void pb_frecciavantimedio3_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(17);
+        }
+
+        private void pb_homelivello4medio_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(2);
+        }
+
+        private void pb_frecciaindietromedio4_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(16);
+        }
+
+        private void pb_frecciavantimedio4_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(18);
+        }
+
+        private void pb_homemedio5_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(2);
+        }
+
+        private void pb_frecciaindietromedio5_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(17);
+        }
+
+        private void pb_frecciavantimedio5_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(19);
+        }
+
+        private void pb_homemedio6_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(2);
+        }
+
+        private void pb_frecciaindietromedio6_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(18);
+        }
+
+        private void pb_frecciavantimedio6_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(20);
+        }
+
+        private void pb_homemedio7_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(2);
+        }
+
+        private void pb_frecciaindietromedio7_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(19);
+        }
+
+        private void pb_frecciavantimedio7_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(21);
+        }
+
+        private void pb_homemedio8_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(2);
+        }
+
+        private void pb_frecciaindietromedio8_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(20);
+        }
+
+        private void pb_frecciavantimedio8_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(22);
+        }
+
+        private void pb_homemedio9_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(2);
+        }
+
+        private void pb_frecciaindietromedio9_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(21);
+        }
+
+        private void pb_frecciavantimedio9_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(23);
+        }
+
+        private void pb_homemedio10_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(2);
+        }
+
+        private void pb_frecciaindietromedio10_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(22);
+        }
+
+        private void btn_opzione2medio4_Click(object sender, EventArgs e)
+        {
+            btn_opzione2medio4.BackColor = Color.Green;
+
+            punteggiolivellomedio4 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(18);
+        }
+
+        private void btn_opzione1medio4_Click(object sender, EventArgs e)
+        {
+            btn_opzione1medio4.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio4medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione3medio4_Click(object sender, EventArgs e)
+        {
+            btn_opzione3medio4.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio4medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4medio4_Click(object sender, EventArgs e)
+        {
+            btn_opzione4medio4.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio4medio.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziomedio4_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio4_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio4medio.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziomedio4_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio4_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio4medio.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziomedio4_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio4_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio4medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione2medio5_Click(object sender, EventArgs e)
+        {
+            btn_opzione2medio5.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio5medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4medio5_Click(object sender, EventArgs e)
+        {
+            btn_opzione4medio5.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio5medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione3medio5_Click(object sender, EventArgs e)
+        {
+            btn_opzione3medio5.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio5medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione1medio5_Click(object sender, EventArgs e)
+        {
+            btn_opzione1medio5.BackColor = Color.Green;
+
+            punteggiolivellomedio5 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(19);
+        }
+
+        private void pb_indiziomedio5_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio5_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio5medio.Text = $"{punteggioLivello}";
+
+        }
+
+        private void pb_indiziomedio5_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio5_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio5medio.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziomedio5_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio5_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio5medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione2medio6_Click(object sender, EventArgs e)
+        {
+            btn_opzione2medio6.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio6medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4medio6_Click(object sender, EventArgs e)
+        {
+            btn_opzione4medio6.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio6medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione3medio6_Click(object sender, EventArgs e)
+        {
+            btn_opzione3medio6.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio6medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione1medio6_Click(object sender, EventArgs e)
+        {
+            btn_opzione1medio6.BackColor = Color.Green;
+
+            punteggiolivellomedio6 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(20);
+        }
+
+        private void pb_indiziomedio6_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio6_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio6medio.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziomedio6_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio6_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio6medio.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziomedio6_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio6_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio6medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione1medio7_Click(object sender, EventArgs e)
+        {
+            btn_opzione1medio7.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio7medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione3medio7_Click(object sender, EventArgs e)
+        {
+            btn_opzione3medio7.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio7medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4medio7_Click(object sender, EventArgs e)
+        {
+            btn_opzione4medio7.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio7medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione2medio7_Click(object sender, EventArgs e)
+        {
+            btn_opzione2medio7.BackColor = Color.Green;
+
+            punteggiolivellomedio7 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(21);
+
+
+        }
+
+        private void pb_indiziomedio7_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio7_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio7medio.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziomedio7_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio7_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio7medio.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziomedio7_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio7_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio7medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione1medio8_Click(object sender, EventArgs e)
+        {
+            btn_opzione1medio8.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio8medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione2medio8_Click(object sender, EventArgs e)
+        {
+            btn_opzione2medio8.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio8medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4medio8_Click(object sender, EventArgs e)
+        {
+            btn_opzione4medio8.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio8medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione3medio8_Click(object sender, EventArgs e)
+        {
+            btn_opzione3medio8.BackColor = Color.Green;
+
+            punteggiolivellomedio8 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(22);
+
+
+        }
+
+        private void pb_indiziomedio8_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio8_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio8medio.Text = $"{punteggioLivello}";
+
+
+        }
+
+        private void pb_indiziomedio8_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio8_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio8medio.Text = $"{punteggioLivello}";
+
+        }
+
+        private void pb_indiziomedio8_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio8_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio8medio.Text = $"{punteggioLivello}";
+
+        }
+
+        private void btn_opzione1medio9_Click(object sender, EventArgs e)
+        {
+            btn_opzione1medio9.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio9medio.Text = $"{punteggioLivello}";
+
+        }
+
+        private void btn_opzione2medio9_Click(object sender, EventArgs e)
+        {
+            btn_opzione2medio9.BackColor= Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio9medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4medio9_Click(object sender, EventArgs e)
+        {
+            btn_opzione4medio9.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio9medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione3medio9_Click(object sender, EventArgs e)
+        {
+            btn_opzione3medio9.BackColor = Color.Green;
+
+            punteggiolivellomedio9 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(23);
+
+
+        }
+
+        private void pb_indiziomedio9_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio9_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio9medio.Text = $"{punteggioLivello}";
+
+        }
+
+        private void pb_indiziomedio9_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio9_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio9medio.Text = $"{punteggioLivello}";
+
+        }
+
+        private void pb_indiziomedio9_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio9_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio9medio.Text = $"{punteggioLivello}";
+
+        }
+
+        private void btn_opzione1medio10_Click(object sender, EventArgs e)
+        {
+            btn_opzione1medio10.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio10medio.Text = $"{punteggioLivello}";
+
+        }
+
+        private void btn_opzione3medio10_Click(object sender, EventArgs e)
+        {
+            btn_opzione3medio10.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio10medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4medio10_Click(object sender, EventArgs e)
+        {
+            btn_opzione4medio10.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio10medio.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione2medio10_Click(object sender, EventArgs e)
+        {
+            btn_opzione2medio10.BackColor = Color.Green;
+
+            punteggiolivellomedio10 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(24);
+
+            punteggiototalemedio = punteggiolivellomedio1 + punteggiolivellomedio2 + punteggiolivellomedio3 + punteggiolivellomedio4 + punteggiolivellomedio5
+                + punteggiolivellomedio6 + punteggiolivellomedio7 + punteggiolivellomedio8 + punteggiolivellomedio9 + punteggiolivellomedio10;
+
+            giocatori nuovogiocatore = default;
+
+            nuovogiocatore.giocatore = cbo_giocatore.Text;
+            nuovogiocatore.punteggio = punteggiototalemedio;
+            elegiocatori[num] = nuovogiocatore;
+            num++;
+
+
+            //Mylib.salva(elegiocatori, num);
+
+            lbl_punteggiomediofinale.Text = $"{punteggiototalemedio}";
+
+
+
+        }
+
+        private void pb_indiziomedio10_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio10_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio10medio.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziomedio10_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio10_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio10medio.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziomedio10_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziomedio10_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio10medio.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_tornahomemedio_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(2);
+        }
+
+        private void pb_cambiagiocatoremedio_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(0);
+        }
+
+        private void pb_passaprincipiante_esperto_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(1);
+        }
+
+        private void pb_passacampione_esperto_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(3);
+        }
+
+        private void pb_homedifficile1_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(3);
+        }
+
+        private void pb_frecciavantidifficile1_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(27);
+        }
+
+        private void pb_homedifficile2_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(3);
+        }
+
+        private void pb_frecciaindietrodifficile2_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(26);
+        }
+
+        private void pb_frecciavantidifficile2_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(28);
+        }
+
+        private void pb_homedifficile3_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(3);
+        }
+
+        private void pb_frecciaindietrodifficile3_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(27);
+        }
+
+        private void pb_frecciavantidifficile3_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(29);
+        }
+
+        private void pb_homedifficile4_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(3);
+        }
+
+        private void pb_frecciaindietrodifficile4_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(28);
+        }
+
+        private void pb_frecciavantidifficile4_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(30);
+        }
+
+        private void pb_homedifficile5_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(3);
+        }
+
+        private void pb_frecciaindietrodifficile5_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(29);
+        }
+
+        private void pb_frecciavantidifficile5_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(31);
+        }
+
+        private void pb_homedifficile6_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(3);
+        }
+
+        private void pb_frecciaindietrodifficile6_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(30);
+        }
+
+        private void pb_frecciavantidifficile6_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(32);
+        }
+
+        private void pb_homedifficile7_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(3);
+        }
+
+        private void pb_frecciaindietrodifficile7_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(31);
+        }
+
+        private void pb_frecciavantidifficile7_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(33);
+        }
+
+        private void pb_homedifficile8_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(3);
+        }
+
+        private void pb_frecciaindietrodifficile8_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(32);
+        }
+
+        private void pb_frecciavantidifficile8_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(34);
+        }
+
+        private void pb_homedifficile9_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(3);
+        }
+
+        private void pb_frecciaindietrodifficile9_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(33);
+        }
+
+        private void pb_frecciavantidifficile9_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(35);
+        }
+
+        private void pb_homedifficile10_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(3);
+        }
+
+        private void pb_frecciaindietrodifficile10_Click(object sender, EventArgs e)
+        {
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(34);
+        }
+
+        private void btn_opzione2difficile1_Click(object sender, EventArgs e)
+        {
+            btn_opzione2difficile1.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio1difficile.Text = $"{punteggioLivello}";
+
+        }
+
+        private void btn_opzione3difficile1_Click(object sender, EventArgs e)
+        {
+            btn_opzione3difficile1.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio1difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4difficile1_Click(object sender, EventArgs e)
+        {
+            btn_opzione4difficile1.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio1difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione1difficile1_Click(object sender, EventArgs e)
+        {
+            btn_opzione1difficile1.BackColor = Color.Green;
+
+            punteggiodifficile1 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(27);
+        }
+
+        private void pb_indiziodifficile1_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile1_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio1difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile1_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile1_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio1difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile1_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile1_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio1difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4difficile2_Click(object sender, EventArgs e)
+        {
+            btn_opzione4difficile2.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio2difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione3difficile2_Click(object sender, EventArgs e)
+        {
+            btn_opzione3difficile2.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio2difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione1difficile2_Click(object sender, EventArgs e)
+        {
+            btn_opzione1difficile2.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio2difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione2difficile2_Click(object sender, EventArgs e)
+        {
+            btn_opzione2difficile2.BackColor = Color.Green;
+
+            punteggiodifficile2 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(28);
+
+        }
+
+        private void pb_indiziodifficile2_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile2_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio2difficile.Text = $"{punteggioLivello}";
+
+
+        }
+
+        private void pb_indiziodifficile2_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile2_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio2difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile2_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile2_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio2difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione1difficile3_Click(object sender, EventArgs e)
+        {
+            btn_opzione1difficile3.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio3difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione3difficile3_Click(object sender, EventArgs e)
+        {
+            btn_opzione3difficile3.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio3difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione2difficile3_Click(object sender, EventArgs e)
+        {
+            btn_opzione2difficile3.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio3difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4difficile3_Click(object sender, EventArgs e)
+        {
+            btn_opzione4difficile3.BackColor = Color.Green;
+
+            punteggiodifficile3 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(29);
+
+
+        }
+
+        private void pb_indiziodifficile3_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile3_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio3difficile.Text = $"{punteggioLivello}";
+
+
+        }
+
+        private void pb_indiziodifficile3_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile3_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio3difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile3_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile3_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio3difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione2difficile4_Click(object sender, EventArgs e)
+        {
+            btn_opzione2difficile4.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio4difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4difficile4_Click(object sender, EventArgs e)
+        {
+            btn_opzione4difficile4.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio4difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione3difficile4_Click(object sender, EventArgs e)
+        {
+            btn_opzione3difficile4.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio4difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione1difficile4_Click(object sender, EventArgs e)
+        {
+            btn_opzione1difficile4.BackColor = Color.Green;
+
+            punteggiodifficile4 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(30);
+        }
+
+        private void pb_indiziodifficile4_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile4_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio4difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile4_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile4_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio4difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile4_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile4_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio4difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione1difficile5_Click(object sender, EventArgs e)
+        {
+            btn_opzione1difficile5.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio5difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione2difficile5_Click(object sender, EventArgs e)
+        {
+            btn_opzione2difficile5.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio5difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione3difficile5_Click(object sender, EventArgs e)
+        {
+            btn_opzione3difficile5.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio5difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4difficile5_Click(object sender, EventArgs e)
+        {
+            btn_opzione4difficile5.BackColor = Color.Green;
+
+            punteggiodifficile5 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(31);
+
+
+        }
+
+        private void pb_indiziodifficile5_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile5_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio5difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile5_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile5_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio5difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile5_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile5_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio5difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione1difficile6_Click(object sender, EventArgs e)
+        {
+            btn_opzione1difficile6.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio6difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione3difficile6_Click(object sender, EventArgs e)
+        {
+            btn_opzione3difficile6.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio6difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4difficile6_Click(object sender, EventArgs e)
+        {
+            btn_opzione4difficile6.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio6difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione2difficile6_Click(object sender, EventArgs e)
+        {
+            btn_opzione2difficile6.BackColor = Color.Green;
+
+            punteggiodifficile6 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(32);
+
+
+        }
+
+        private void pb_indiziodifficile6_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile6_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio6difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile6_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile6_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio6difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile6_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile6_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio6difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione2difficile7_Click(object sender, EventArgs e)
+        {
+            btn_opzione2difficile7.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio7difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione3difficile7_Click(object sender, EventArgs e)
+        {
+            btn_opzione3difficile7.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio7difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4difficile7_Click(object sender, EventArgs e)
+        {
+            btn_opzione4difficile7.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio7difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione1difficile7_Click(object sender, EventArgs e)
+        {
+            btn_opzione1difficile7.BackColor = Color.Green;
+
+            punteggiodifficile7 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(33);
+
+
+        }
+
+        private void pb_indiziodifficile7_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile7_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio7difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile7_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile7_2.Visible = true;
+
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio7difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile7_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile7_3.Visible = true;
+
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio7difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione1difficile8_Click(object sender, EventArgs e)
+        {
+            btn_opzione1difficile8.BackColor = Color.Red;
+
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio8difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione2difficile8_Click(object sender, EventArgs e)
+        {
+            btn_opzione2difficile8.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio8difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione3difficile8_Click(object sender, EventArgs e)
+        {
+            btn_opzione3difficile8.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio8difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4difficile8_Click(object sender, EventArgs e)
+        {
+            btn_opzione4difficile8.BackColor = Color.Green;
+
+            punteggiodifficile8 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(34);
+
+
+
+        }
+
+        private void pb_indiziodifficile8_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile8_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio8difficile.Text = $"{punteggioLivello}";
+
+
+        }
+
+        private void pb_indiziodifficile8_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile8_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio8difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile8_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile8_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio8difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione1difficile9_Click(object sender, EventArgs e)
+        {
+            btn_opzione1difficile9.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio9difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione2difficile9_Click(object sender, EventArgs e)
+        {
+            btn_opzione2difficile9.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio9difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4difficile9_Click(object sender, EventArgs e)
+        {
+            btn_opzione4difficile9.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio9difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione3difficile9_Click(object sender, EventArgs e)
+        {
+            btn_opzione3difficile9.BackColor = Color.Green;
+
+            punteggiodifficile9 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(35);
+        }
+
+        private void pb_indiziodifficile9_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile9_1.Visible = true;
+
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio9difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile9_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile9_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio9difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile9_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile9_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio9difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione2difficile10_Click(object sender, EventArgs e)
+        {
+            btn_opzione2difficile10.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio10difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione3difficile10_Click(object sender, EventArgs e)
+        {
+            btn_opzione3difficile10.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio10difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione4difficile10_Click(object sender, EventArgs e)
+        {
+            btn_opzione4difficile10.BackColor = Color.Red;
+
+            punteggioLivello = punteggioLivello - 20;
+
+            lbl_punteggio10difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void btn_opzione1difficile10_Click(object sender, EventArgs e)
+        {
+            btn_opzione1difficile10.BackColor = Color.Green;
+
+            punteggiodifficile10 = punteggioLivello;
+
+            punteggioLivello = 100;
+
+            tbc_squadre.Visible = true;
+            tbc_squadre.SelectTab(36);
+
+            punteggiodifficiletotale = punteggiodifficile1 + punteggiodifficile2 + punteggiodifficile3 + punteggiodifficile4 + punteggiodifficile5
+                + punteggiodifficile6 + punteggiodifficile7 + punteggiodifficile8 + punteggiodifficile9 + punteggiodifficile10;
+
+            giocatori nuovogiocatore = default;
+
+            nuovogiocatore.giocatore = cbo_giocatore.Text;
+            nuovogiocatore.punteggio = punteggiototalemedio;
+            elegiocatori[num] = nuovogiocatore;
+            num++;
+
+
+            //Mylib.salva(elegiocatori, num);
+
+            lbl_punteggiofinaledifficile.Text = $"{punteggiodifficiletotale}";
+
+        }
+
+        private void pb_indiziodifficile10_1_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile10_1.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio10difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile10_2_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile10_2.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio10difficile.Text = $"{punteggioLivello}";
+        }
+
+        private void pb_indiziodifficile10_3_Click(object sender, EventArgs e)
+        {
+            lbl_indiziodifficile10_3.Visible = true;
+
+            punteggioLivello = punteggioLivello - 10;
+
+            lbl_punteggio10difficile.Text = $"{punteggioLivello}";
+        }
     }
 }
